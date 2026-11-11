@@ -50,7 +50,7 @@
         }
       },
       "consultancy": {
-        "title": "Comhairleoireacht Theicniúil",
+        "title": "Comhairleoireacht Theicniúil / Dearadh Corás",
         "description": "Súil shoiléir, mhacánta ar d'aip, ar do chód agus ar do sheachadadh.",
         "role": "Comhairleoir neamhspleách",
         "stack": {
@@ -71,7 +71,7 @@
         }
       },
       "embedded": {
-        "title": "Leabaithe / Páirtaimseartha",
+        "title": "Leabaithe / Cianda / Inmheánach",
         "description": "Saineolas agus ceannaireacht theicniúil phraiticiúil, istigh i d'fhoireann.",
         "year": "2019 — inniu",
         "role": "Ceannaire Teicniúil Páirtaimseartha",

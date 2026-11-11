@@ -44,6 +44,7 @@ export async function getTechSkills() {
         "Cloudflare",
         "Docker",
         "CI/CD",
+        "LLMs",
         t("items.agentic"),
       ],
     },
@@ -213,7 +214,7 @@ export async function Resume() {
                 <h3 className="mb-4 border-b-2 border-black pb-2 text-sm tracking-widest uppercase">
                   {group.heading}
                 </h3>
-                <ul className="space-y-2">
+                <ul className="tick-list space-y-2">
                   {group.items.map((item) => (
                     <li key={item}>{item}</li>
                   ))}

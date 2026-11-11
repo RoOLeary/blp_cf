@@ -50,7 +50,7 @@
         }
       },
       "consultancy": {
-        "title": "Technische consultancy",
+        "title": "Technisch advies / Systeemontwerp",
         "description": "Een heldere, eerlijke blik op je app, codebase en oplevering.",
         "role": "Onafhankelijk consultant",
         "stack": {
@@ -71,7 +71,7 @@
         }
       },
       "embedded": {
-        "title": "Embedded / Fractional",
+        "title": "Embedded / Remote / In-house",
         "description": "Praktische technische expertise en leiderschap, binnen je team.",
         "year": "2019 — heden",
         "role": "Fractional Tech Lead",

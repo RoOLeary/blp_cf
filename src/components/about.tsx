@@ -58,7 +58,7 @@ export async function About() {
                   <h3 className="mb-2 text-sm tracking-widest uppercase">
                     {list.heading}
                   </h3>
-                  <ul className="space-y-2">
+                  <ul className="tick-list space-y-2">
                     {list.items.map((item) => (
                       <li key={item}>{item}</li>
                     ))}

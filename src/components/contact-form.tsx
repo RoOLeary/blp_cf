@@ -83,7 +83,7 @@ export function ContactForm() {
           name="acceptTerms"
           type="checkbox"
           required
-          className="mt-0.5 size-5 shrink-0 cursor-pointer appearance-none border-2 border-white bg-transparent transition-colors checked:border-black checked:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+          className="check-red mt-0.5 size-5 shrink-0 cursor-pointer appearance-none border-2 border-white bg-transparent transition-colors checked:border-black checked:bg-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
         />
         <label htmlFor="acceptTerms" className="cursor-pointer text-sm">
           {t.rich("form.consent", {

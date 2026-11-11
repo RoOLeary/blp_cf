@@ -50,7 +50,7 @@
         }
       },
       "consultancy": {
-        "title": "Technical Consultancy",
+        "title": "Technical Consulting / System Design",
         "description": "A clear, honest look at your app, codebase and delivery.",
         "role": "Independent Consultant",
         "stack": {
@@ -71,7 +71,7 @@
         }
       },
       "embedded": {
-        "title": "Embedded / Fractional",
+        "title": "Embedded / Remote / In-House",
         "description": "Hands-on technical expertise and leadership, inside your team.",
         "year": "2019 — Present",
         "role": "Fractional Tech Lead",

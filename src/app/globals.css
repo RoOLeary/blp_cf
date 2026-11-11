@@ -71,6 +71,30 @@ body {
   }
 }
 
+:root {
+  --tick-red: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23dc2626' stroke-width='3' stroke-linecap='square'%3E%3Cpath d='M3 8.5l3.5 3.5L13 4.5'/%3E%3C/svg%3E");
+}
+
+.check-red:checked {
+  background-image: var(--tick-red);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+
+.tick-list > li {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tick-list > li::before {
+  content: "";
+  flex-shrink: 0;
+  width: 0.875em;
+  height: 1lh;
+  background: var(--tick-red) center / contain no-repeat;
+}
+
 
 #sail-group {
   transform-origin: 32.5px 24.5px;

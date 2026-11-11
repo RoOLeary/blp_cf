@@ -1,26 +1,147 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-display: var(--font-outfit), var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-outfit), var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+}
+
+@theme {
+  --animate-blink: blink 1.1s steps(1) infinite;
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #000000;
+  font-family: var(--font-sans);
+}
+
+
+/* Shimmer */
+.shiney-wrapper {
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  line-height: 1.6;
+}
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::before {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  content: "";
+  display: block;
+  height: 100%;
+  left: -75%;
+  position: absolute;
+  top: 0;
+  transform: skewX(-25deg);
+  width: 50%;
+  z-index: 2;
+}
+
+.shimmer:hover::before,
+.shimmer:focus::before {
+  animation: shimmer 0.85s;
+}
+
+@keyframes shimmer {
+  100% {
+    left: 125%;
+  }
+}
+
+
+#sail-group {
+  transform-origin: 32.5px 24.5px;
+  transition: all 1.5s ease-in-out;
+}
+
+:is(:hover, :focus-visible) > #windmillIcon #sail-group {
+  color: var(--color-red-600);
+  transform: rotate(360deg);
+  transition: all 1.5s ease-in-out;
+}
+
+svg #sail-group > rect,
+svg #sail-group > line {
+  fill: none;
+}
+
+:is(:hover, :focus-visible) > #windmillIcon #sail-group > rect,
+:is(:hover, :focus-visible) > #windmillIcon #sail-group > line {
+  fill: currentColor;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+.main-circle {
+  background-color: #0c272e;
+  border-radius: 50%;
+  height: 300px;
+  margin: 15px auto;
+  position: relative;
+  width: 300px;
+}
+
+.main-circle > svg {
+  animation: rotate 5s infinite linear;
+  height: 362px;
+  left: -31px;
+  position: absolute;
+  top: -31px;
+  width: 362px;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.windmill{
+  position: absolute;
+  bottom: 2%;
+  right: 3%;
+}
+
+    
+
+#windmillIcon{
+  height: 40px; 
+  width: 35px; 
+}
+  
+@media screen and (max-width: 670px){
+  #windmillIcon{
+    margin: 0 auto;
+    right: 0!important; 
+  }
 }

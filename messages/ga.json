@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Busy Little Pixels | Comhairleoireacht, Forbairt, Fás",
+      "description": "Busy Little Pixels. Dearadh agus forbairt aipeanna soghluaiste don todhchaí."
+    },
+    "hireMe": {
+      "title": "Fostaigh Mé",
+      "description": "Taithí, scil agus beachtas. Ar fáil do thionscadail chomhairleoireachta, deartha agus forbartha."
+    },
+    "privacy": {
+      "title": "Polasaí Príobháideachta",
+      "description": "Conas a bhailíonn, a úsáideann agus a chosnaíonn Busy Little Pixels do shonraí."
+    }
+  },
+  "nav": {
+    "work": "Obair / Seirbhísí",
+    "about": "Fúm",
+    "contact": "Teagmháil",
+    "hireMe": "Fostaigh Mé",
+    "language": "Teanga",
+    "openMenu": "Oscail an roghchlár",
+    "closeMenu": "Dún an roghchlár",
+    "siteNavigation": "Nascleanúint an tsuímh",
+    "elsewhere": "In áiteanna eile"
+  },
+  "hero": {
+    "tagline": "Réitigh nuálacha á gcruthú le paisean, le beachtas...agus le blas beag (gnóthach) draíochta.",
+    "hireMe": "Fostaigh mé",
+    "whatIDo": "Cad a dhéanaim"
+  },
+  "work": {
+    "heading": "Obair & Seirbhísí",
+    "moreInfo": "Tuilleadh eolais +",
+    "projects": {
+      "cogar": {
+        "title": "Cogar",
+        "description": "Na meáin shóisialta. Trí Ghaeilge.",
+        "role": "Coincheap, dearadh, forbairt, bainistíocht",
+        "summary": {
+          "p1": "Forléargas gairid ar an tionscadal: an fhadhb, cé dó a raibh sé, agus cén chuma a bhí ar rath.",
+          "p2": "Dara halt faoin gcur chuige, faoi na príomhchinntí agus faoin toradh. Cuir an scéal fíor in áit an téacs sealadach seo."
+        },
+        "images": {
+          "logo": "Lógó Cogar",
+          "feed": "Cogar — fotha",
+          "profile": "Cogar — próifíl",
+          "compose": "Cogar — scríobh",
+          "onboarding": "Cogar — tosú amach"
+        }
+      },
+      "consultancy": {
+        "title": "Comhairleoireacht Theicniúil",
+        "description": "Súil shoiléir, mhacánta ar d'aip, ar do chód agus ar do sheachadadh.",
+        "role": "Comhairleoir neamhspleách",
+        "stack": {
+          "architecture": "Ailtireacht",
+          "performance": "Feidhmíocht",
+          "ci": "CI/CD & EAS",
+          "security": "Slándáil",
+          "roadmap": "Treochlár"
+        },
+        "summary": {
+          "p1": "Tasc gearr le scóip sheasta d'fhoirne atá i bhfostú: eisiúintí malla, cód leochaileach, nó táirge atá imithe thar a chéad leagan. Téim isteach sa chód, sa phíblíne agus i modh oibre na foirne, ní hamháin sna sleamhnáin.",
+          "p2": "Faigheann tú tuarascáil i dteanga shimplí, treochlár tosaíochta ar cad ba cheart a réiteach ar dtús, agus, nuair is ciallmhar é, na chéad réitigh curtha i bhfeidhm agam féin sula dtugaim an obair ar ais duit."
+        },
+        "images": {
+          "audit": "Iniúchadh Teicniúil — forléargas ar na torthaí",
+          "decision": "Cinneadh Teicniúil — treochlár tosaíochta",
+          "action": "Gníomh Teicniúil — roimh agus ina dhiaidh"
+        }
+      },
+      "embedded": {
+        "title": "Leabaithe / Páirtaimseartha",
+        "description": "Saineolas agus ceannaireacht theicniúil phraiticiúil, istigh i d'fhoireann.",
+        "year": "2019 — inniu",
+        "role": "Ceannaire Teicniúil Páirtaimseartha",
+        "summary": {
+          "p1": "Do chliaint a bhfuil treoir theicniúil shinsearach uathu gan ceannaire lánaimseartha a fhostú. Glacaim páirt i do chruinnithe laethúla, déanaim athbhreithniú ar chód agus scríobhaim é, agus glacaim freagracht as na cinntí a choinníonn táirge ag bogadh: ailtireacht, uirlisí, eisiúintí.",
+          "p2": "Is é an aidhm rudaí a fhágáil níos fearr ná mar a fuair mé iad: foireann a sheolann le muinín, cód atá níos éasca le hathrú, agus cosán soiléir don té a thiocfaidh i mo dhiaidh."
+        },
+        "images": {
+          "pipeline": "Ceannaire Leabaithe — píblíne eisiúna",
+          "architecture": "Ceannaire Leabaithe — ailtireacht",
+          "workflow": "Ceannaire Leabaithe — sreabhadh oibre na foirne",
+          "product": "Ceannaire Leabaithe — táirge seolta"
+        }
+      }
+    }
+  },
+  "projectSheet": {
+    "counter": "Tionscadal {current} / {total}",
+    "close": "Dún an tionscadal",
+    "year": "Bliain",
+    "role": "Ról",
+    "stack": "Teicneolaíochtaí",
+    "next": "An chéad tionscadal eile"
+  },
+  "carousel": {
+    "label": "Íomhánna an tionscadail",
+    "slide": "{current} as {total}",
+    "show": "Taispeáin íomhá {number}",
+    "previous": "An íomhá roimhe seo",
+    "next": "An chéad íomhá eile"
+  },
+  "about": {
+    "heading": "Fúm",
+    "photoAlt": "Rónán Ó Laoire",
+    "p1": "Is é an forbróir Éireannach <link>Rónán Ó Laoire</link> atá taobh thiar de <brand>BusyLittlePixels</brand>. Tá blianta de thaithí phraiticiúil aige ag tógáil táirgí digiteacha nua-aimseartha do ghnólachtaí atá ag iarraidh dul chun cinn.",
+    "p2": "Is é forbairt gréasáin agus soghluaiste den chéad ghlúin eile sainréimse BLP/Rónáin, ag soláthar réitigh shaincheaptha, inscálaithe atá cruthaithe i dtáirgeadh. Le ceannaireacht theicniúil straitéiseach agus saineolas domhain innealtóireachta, tugann Rónán dearcadh ceannaire teicniúil páirtaimseartha agus scileanna praiticiúla forbróra a chuireann rudaí i gcrích.",
+    "p3": "Gan obair a chaitheamh chuig daoine eile, gan comhairle theoiriciúil. Smaointeoireacht shoiléir, cinntí teicniúla stuama agus réitigh ardchaighdeáin mar thaca leo."
+  },
+  "skills": {
+    "mobile": "Soghluaiste",
+    "web": "Gréasán",
+    "platform": "Ardán",
+    "practice": "Cleachtas",
+    "items": {
+      "agentic": "Forbairt ghníomhaireach",
+      "consultancy": "Comhairleoireacht theicniúil",
+      "strategy": "Straitéis táirge",
+      "ux": "Dearadh UX agus comhéadain",
+      "leadership": "Ceannaireacht theicniúil",
+      "growth": "Fás agus anailísíocht"
+    }
+  },
+  "contact": {
+    "heading": "Teagmháil",
+    "lead": "Suim agat oibriú le chéile? Labhraímis faoi do thionscadal.",
+    "email": "Ríomhphost",
+    "phone": "Fón",
+    "location": "Suíomh",
+    "locationValue": "Amstardam, an Ísiltír",
+    "form": {
+      "name": "Ainm",
+      "namePlaceholder": "D'ainm",
+      "email": "Ríomhphost",
+      "emailPlaceholder": "Do ríomhphost",
+      "message": "Teachtaireacht",
+      "messagePlaceholder": "Do theachtaireacht",
+      "consent": "Aontaím go stórálfaidh agus go bpróiseálfaidh Busy Little Pixels mo shonraí chun freagra a thabhairt ar m'fhiosrúchán, mar a mhínítear sa <link>bpolasaí príobháideachta</link>.",
+      "submit": "Seol teachtaireacht",
+      "sending": "Á seoladh…",
+      "successTitle": "Teachtaireacht seolta",
+      "successBody": "Go raibh maith agat as teagmháil a dhéanamh. Gheobhaidh tú freagra uaim chomh luath agus is féidir."
+    },
+    "errors": {
+      "nameRequired": "Tá ainm ag teastáil",
+      "emailInvalid": "Tá seoladh ríomhphoist bailí ag teastáil",
+      "messageTooShort": "Caithfidh 10 gcarachtar ar a laghad a bheith sa teachtaireacht",
+      "consentRequired": "Caithfidh tú glacadh leis an bpolasaí príobháideachta",
+      "generic": "Níorbh fhéidir an teachtaireacht a sheoladh. Bain triail eile as ar ball."
+    }
+  },
+  "footer": {
+    "copyright": "© {year} busylittlepixels. Gach ceart ar cosaint. Déanta le <heart>♥</heart> agus cláraithe in Amstardam, an Ísiltír. KVK: {kvk}",
+    "love": "grá"
+  },
+  "cookies": {
+    "message": "Úsáideann an suíomh gréasáin seo fianáin chun d'eispéireas a fheabhsú. Trí úsáid a bhaint as ár suíomh, toilíonn tú le húsáid fianán. Is féidir tuilleadh a léamh inár <link>bpolasaí príobháideachta</link>.",
+    "accept": "Glac le gach ceann",
+    "decline": "Diúltaigh"
+  },
+  "common": {
+    "scrollToTop": "Ar ais go barr",
+    "downloadPdf": "Íoslódáil PDF",
+    "getInTouch": "Déan teagmháil"
+  },
+  "hireMe": {
+    "titleLine1": "Fostaigh",
+    "titleLine2": "Mé",
+    "lead": "Cabhraím le foirne dul ó smaoineamh go seoladh, agus leanúint ag fás ina dhiaidh sin.",
+    "photoAlt": "Rónán Ó Laoire",
+    "facts": {
+      "basedIn": "Lonnaithe in",
+      "basedInValue": "Amstardam, NL",
+      "availability": "Infhaighteacht",
+      "availabilityValue": "Ar fáil do thionscadail",
+      "engagement": "Socrú oibre",
+      "engagementValue": "Tionscadal, páirtaimseartha nó lánaimseartha",
+      "timezone": "Crios ama"
+    },
+    "intro": {
+      "p1": "Dia duit, is mise Rónán — forbróir bogearraí agus ceannaire teicniúil le breis is 16 bliana de thaithí sa tionscal. Trí Busy Little Pixels, cuirim saineolas innealtóireachta praiticiúil agus ceannaireacht theicniúil ar fáil, a múnlaíodh trí obair le heagraíochtaí ar nós Web Summit, Picnic Technologies agus The Next Web.",
+      "p2": "Tá paisean agam do theicneolaíocht fhiúntach a thógáil, ag cur smaointeoireacht straitéiseach agus cur i bhfeidhm praiticiúil le chéile chun smaointe uaillmhianacha a iompú ina dtáirgí digiteacha láidre, inscálaithe. Is mise freisin a chruthaigh Cogar, tionscadal a thugann le chéile dhá phaisean atá agam ar feadh mo shaoil — an teicneolaíocht agus an Ghaeilge — agus a chuireann le hathbheochan na Gaeilge mar theanga bheo, bhríomhar do chách.",
+      "origin": "Ó Bhaile Átha Cliath ó dhúchas, lonnaithe in Amstardam anois.",
+      "languagesLabel": "Teangacha:",
+      "languagesValue": "Gaeilge agus Béarla."
+    },
+    "experience": {
+      "heading": "Taithí",
+      "present": "inniu",
+      "jobs": {
+        "cogar": {
+          "role": "Bunaitheoir & Forbróir",
+          "description": "Comhairleoireacht a sholáthraíonn dearadh agus forbairt aipeanna soghluaiste don todhchaí, ó straitéis táirge go seoladh agus fás.",
+          "highlights": {
+            "h1": "Aipeanna dúchasacha agus trasardáin seolta do ghnólachtaí nuathionscanta agus do bhrandaí seanbhunaithe",
+            "h2": "Ceardlanna fionnachtana, ailtireacht theicniúil agus pleanáil seachadta á stiúradh",
+            "h3": "Foirne beaga, sinsearacha, dírithe ar tháirgí tógtha agus faoi mheantóireacht"
+          }
+        },
+        "blp": {
+          "role": "Bunaitheoir",
+          "description": "Bunaitheoir/Forbróir ag BusyLittlePixels — comhlacht teicneolaíochta a bhfuil a shúil ar an todhchaí, a dhíríonn ar fhorbairt ardán agus bogearraí den chéad ghlúin eile. Cuirimid saineolas domhain teicniúil agus smaointeoireacht nuálach le chéile chun réitigh cheannródaíocha a sheachadadh a spreagann fás gnó. Cuimsíonn ár seirbhísí straitéis táirge agus forbairt lánchruachta, feidhmchláir shoghluaiste agus dearadh ailtireachta inscálaithe.",
+          "highlights": {
+            "h1": "Aipeanna dúchasacha agus trasardáin seolta do ghnólachtaí nuathionscanta agus do bhrandaí seanbhunaithe",
+            "h2": "Ceardlanna fionnachtana, ailtireacht theicniúil agus pleanáil seachadta á stiúradh",
+            "h3": "Foirne beaga, sinsearacha, dírithe ar tháirgí tógtha agus faoi mheantóireacht"
+          }
+        },
+        "picnic": {
+          "role": "Ceannaire Teicniúil (Foireann Gréasáin)",
+          "description": "Stiúradh foireann forbartha gréasáin, ag treorú treo teicniúil, réiteach fadhbanna agus seachadadh. Tógadh comhtháthuithe saincheaptha, forbraíodh agus cothaíodh bonneagar gréasáin, agus nascadh seirbhísí gréasáin le hardán soghluaiste Picnic.",
+          "highlights": {
+            "h1": "Ceannaireacht foirne, treo teicniúil, réiteach fadhbanna agus seachadadh",
+            "h2": "Ceardlanna fionnachtana, ailtireacht theicniúil agus pleanáil seachadta á stiúradh",
+            "h3": "Foirne trasfheidhmiúla, dírithe ar tháirgí tógtha agus faoi mheantóireacht"
+          }
+        },
+        "tnw": {
+          "role": "CTO / Bainisteoir Innealtóireachta / Príomhfhorbróir",
+          "description": "Comhairleoireacht a sholáthraíonn dearadh agus forbairt aipeanna soghluaiste don todhchaí, ó straitéis táirge go seoladh agus fás.",
+          "highlights": {
+            "h1": "Straitéis teicneolaíochta agus innealtóireacht á stiúradh ar fud ghnólachtaí Media, Events, Programs agus Spaces TNW. Freagrach as treo teicniúil, ceannaireacht innealtóireachta, forbairt ardán agus seachadadh táirgí digiteacha agus bonneagair inscálaithe.",
+            "h2": "Innealtóireacht tosaigh, caighdeáin forbartha agus seachadadh teicniúil á stiúradh ar fud ardáin meán, margaíochta agus imeachtaí TNW. Maoirseacht ar ailtireacht gréasáin, forbairt ardán, meantóireacht foirne agus treochláir táirge, le fócas ar eispéiris dhigiteacha inscálaithe, éifeachtúla agus inchothaithe.",
+            "h3": "Ardáin meán agus margaíochta TNW forbartha, cothaithe agus nuachóirithe, le cur le himirceanna, comhtháthuithe, sreafaí oibre tosaigh, barrfheabhsú feidhmíochta agus slándáil ar fud na foirne innealtóireachta níos leithne"
+          }
+        },
+        "websummit": {
+          "role": "Forbróir Tosaigh agus Ceannaire Foirne",
+          "description": "Stiúradh forbairt gréasáin ag Web Summit, le maoirseacht ar sheachadadh uirlisí inmheánacha, ardán gréasáin saincheaptha agus teicneolaíochtaí tosaigh. Tiomáineadh imirceanna ardán, athstruchtúrú ailtireachta agus forbairt feidhmiúlachta saincheaptha, mar aon le meantóireacht d'fhorbróirí agus sreafaí oibre aclaí a thabhairt isteach ar fud foirne innealtóireachta trasfheidhmiúla.",
+          "highlights": {
+            "h1": "Úinéireacht theicniúil: ardáin, uirlisí, ailtireacht agus seachadadh.",
+            "h2": "Ceannaireacht: meantóireacht foirne agus cleachtais aclaí.",
+            "h3": "Cur i gcrích: imirceanna, athstruchtúrú agus forbairt shaincheaptha."
+          }
+        }
+      }
+    },
+    "skillsHeading": "Scileanna",
+    "services": {
+      "heading": "Seirbhísí",
+      "consultancy": {
+        "title": "Comhairleoireacht",
+        "description": "Iniúchtaí táirge agus teicniúla, treochláir agus athbhreithnithe ailtireachta."
+      },
+      "development": {
+        "title": "Forbairt",
+        "description": "Dearadh agus tógáil táirgí soghluaiste agus gréasáin ó thús go deireadh."
+      },
+      "growth": {
+        "title": "Fás",
+        "description": "Anailísíocht, turgnamh agus atriall tar éis an tseolta."
+      }
+    },
+    "cta": {
+      "line1": "Bímis ag obair",
+      "line2": "le chéile"
+    }
+  },
+  "privacy": {
+    "titleLine1": "Polasaí",
+    "titleLine2": "Príobháideachta",
+    "lead": "Cad a bhailímid, cén fáth, agus cad is féidir leat a dhéanamh faoi. Go hachomair: an méid a sheolann tú chugainn amháin, chun freagra a thabhairt ort amháin.",
+    "lastUpdated": "Nuashonraithe go deireanach: {date}",
+    "sections": {
+      "who": {
+        "title": "Cé muid féin",
+        "p1": "Is gnó aonair é Busy Little Pixels atá á reáchtáil ag Rónán Ó Laoire, cláraithe in Amstardam, an Ísiltír (KVK {kvk}). Is muidne rialaitheoir na sonraí pearsanta a ndéantar cur síos orthu sa pholasaí seo.",
+        "p2": "Is féidir ceisteanna faoi do shonraí a sheoladh chuig <email>{address}</email>."
+      },
+      "collect": {
+        "title": "Cad a bhailímid",
+        "form": "<b>Foirm teagmhála.</b> Nuair a sheolann tú teachtaireacht, faighimid d'ainm, do sheoladh ríomhphoist agus ábhar do theachtaireachta.",
+        "cookies": "<b>Fianáin.</b> Socraímid fianán amháin chun cuimhneamh ar ghlac tú lenár bhfógra fianán nó ar dhiúltaigh tú dó. Ní stórálann sé aon fhaisnéis phearsanta agus téann sé in éag tar éis 12 mhí. Ní úsáidimid fianáin anailísíochta, fógraíochta ná rianaithe.",
+        "technical": "<b>Sonraí teicniúla.</b> Mar le haon suíomh gréasáin, d'fhéadfadh ár soláthraí óstála faisnéis theicniúil, amhail do sheoladh IP agus cineál do bhrabhsálaí, a logáil go gearr chun an suíomh a choinneáil slán agus ag feidhmiú."
+      },
+      "why": {
+        "title": "Cén fáth a n-úsáidimid é",
+        "p1": "Ní úsáidimid na sonraí a sheolann tú tríd an bhfoirm teagmhála ach chun d'fhiosrúchán a léamh agus freagra a thabhairt air agus, má thosaímid ag obair le chéile, chun moladh nó comhaontú a ullmhú. Is é an bunús dlí do thoiliú, a thugann tú nuair a chuireann tú tic sa bhosca ar an bhfoirm, agus ár leas dlisteanach freagra a thabhairt ar fhiosrúcháin ghnó. Ní dhíolaimid do shonraí riamh agus ní úsáidimid iad le haghaidh margaíochta gan cead a iarraidh."
+      },
+      "share": {
+        "title": "Cé leis a roinnimid é",
+        "p1": "Seachadann Resend, seirbhís seachadta ríomhphoist a phróiseálann an teachtaireacht thar ár gceann, teachtaireachtaí na foirme teagmhála chuig ár mbosca isteach. D'fhéadfadh Resend sonraí a phróiseáil lasmuigh den Limistéar Eorpach Eacnamaíoch; má dhéanann, tá an t-aistriú clúdaithe ag coimircí iomchuí, amhail Clásail Chonarthacha Chaighdeánacha an Choimisiúin Eorpaigh. Ní roinnimid do shonraí le haon duine eile mura n-éilíonn an dlí é."
+      },
+      "retention": {
+        "title": "Cá fhad a choinnímid é",
+        "p1": "Coinnímid fiosrúcháin chomh fada agus is gá chun freagra a thabhairt agus obair leantach a dhéanamh, agus scriosaimid iad laistigh de dhá bhliain mura dtagann caidreamh oibre astu. Má oibrímid le chéile, coinnítear an comhfhreagras gaolmhar chomh fada agus a éilíonn dlí cánach agus cuntasaíochta na hÍsiltíre (seacht mbliana faoi láthair)."
+      },
+      "rights": {
+        "title": "Do chearta",
+        "p1": "Faoin GDPR is féidir leat iarraidh orainn rochtain a thabhairt duit ar do shonraí pearsanta, iad a cheartú, a scriosadh nó a easpórtáil, agóid a dhéanamh i gcoinne an chaoi a n-úsáidimid iad nó srian a chur air, agus do thoiliú a tharraingt siar am ar bith. Ní dhéanann tarraingt siar toilithe difear d'aon rud a rinneamar le do shonraí sular tharraing tú siar é.",
+        "p2": "Chun iarratas a dhéanamh, seol ríomhphost chuig <email>{address}</email>. Mura bhfuil tú sásta leis an gcaoi a láimhseálaimid do shonraí, is féidir leat gearán a dhéanamh le húdarás cosanta sonraí na hÍsiltíre, an <ap>Autoriteit Persoonsgegevens</ap>."
+      },
+      "changes": {
+        "title": "Athruithe",
+        "p1": "D'fhéadfaimis an polasaí seo a nuashonrú ó am go chéile. Léiríonn an dáta thíos cathain a athraíodh é go deireanach."
+      }
+    }
+  }
+}

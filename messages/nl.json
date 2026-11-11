@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Busy Little Pixels | Consultancy, Development, Groei",
+      "description": "Busy Little Pixels. Toekomstgericht ontwerp en ontwikkeling van mobiele apps."
+    },
+    "hireMe": {
+      "title": "Huur mij in",
+      "description": "Ervaring, vakmanschap en precisie. Beschikbaar voor consultancy-, ontwerp- en ontwikkelprojecten."
+    },
+    "privacy": {
+      "title": "Privacybeleid",
+      "description": "Hoe Busy Little Pixels je gegevens verzamelt, gebruikt en beschermt."
+    }
+  },
+  "nav": {
+    "work": "Werk / Diensten",
+    "about": "Over mij",
+    "contact": "Contact",
+    "hireMe": "Huur mij in",
+    "language": "Taal",
+    "openMenu": "Menu openen",
+    "closeMenu": "Menu sluiten",
+    "siteNavigation": "Sitenavigatie",
+    "elsewhere": "Elders"
+  },
+  "hero": {
+    "tagline": "Innovatieve oplossingen, gemaakt met passie, precisie...en een (druk) klein vleugje magie.",
+    "hireMe": "Huur mij in",
+    "whatIDo": "Wat ik doe"
+  },
+  "work": {
+    "heading": "Werk & Diensten",
+    "moreInfo": "Meer info +",
+    "projects": {
+      "cogar": {
+        "title": "Cogar",
+        "description": "Social media. Trí Ghaeilge.",
+        "role": "Concept, ontwerp, ontwikkeling, management",
+        "summary": {
+          "p1": "Een kort overzicht van het project: het probleem, voor wie het was en hoe succes eruitzag.",
+          "p2": "Een tweede alinea over de aanpak, de belangrijkste beslissingen en het resultaat. Vervang deze tijdelijke tekst door het echte verhaal."
+        },
+        "images": {
+          "logo": "Cogar-logo",
+          "feed": "Cogar — feed",
+          "profile": "Cogar — profiel",
+          "compose": "Cogar — bericht opstellen",
+          "onboarding": "Cogar — onboarding"
+        }
+      },
+      "consultancy": {
+        "title": "Technische consultancy",
+        "description": "Een heldere, eerlijke blik op je app, codebase en oplevering.",
+        "role": "Onafhankelijk consultant",
+        "stack": {
+          "architecture": "Architectuur",
+          "performance": "Performance",
+          "ci": "CI/CD & EAS",
+          "security": "Beveiliging",
+          "roadmap": "Roadmap"
+        },
+        "summary": {
+          "p1": "Een korte opdracht met vaste scope voor teams die vastlopen: trage releases, een kwetsbare codebase of een product dat zijn eerste versie is ontgroeid. Ik duik in de code, de pipeline en de manier van werken van het team, niet alleen in de slides.",
+          "p2": "Je krijgt een rapport in begrijpelijke taal, een geprioriteerde roadmap van wat eerst moet worden opgelost en, waar het zinvol is, de eerste verbeteringen door mij doorgevoerd voordat ik het overdraag."
+        },
+        "images": {
+          "audit": "Technische audit — overzicht van bevindingen",
+          "decision": "Technische beslissing — geprioriteerde roadmap",
+          "action": "Technische actie — voor en na"
+        }
+      },
+      "embedded": {
+        "title": "Embedded / Fractional",
+        "description": "Praktische technische expertise en leiderschap, binnen je team.",
+        "year": "2019 — heden",
+        "role": "Fractional Tech Lead",
+        "summary": {
+          "p1": "Voor klanten die senior technische sturing nodig hebben zonder een fulltime lead aan te nemen. Ik schuif aan bij je standups, review en schrijf code, en neem de beslissingen die een product in beweging houden: architectuur, tooling, releases.",
+          "p2": "Het doel is om dingen beter achter te laten dan ik ze aantrof: een team dat met vertrouwen oplevert, een codebase die makkelijker te veranderen is en een duidelijk pad voor wie er na mij komt."
+        },
+        "images": {
+          "pipeline": "Embedded Lead — release-pipeline",
+          "architecture": "Embedded Lead — architectuur",
+          "workflow": "Embedded Lead — teamworkflow",
+          "product": "Embedded Lead — opgeleverd product"
+        }
+      }
+    }
+  },
+  "projectSheet": {
+    "counter": "Project {current} / {total}",
+    "close": "Project sluiten",
+    "year": "Jaar",
+    "role": "Rol",
+    "stack": "Stack",
+    "next": "Volgend project"
+  },
+  "carousel": {
+    "label": "Projectafbeeldingen",
+    "slide": "{current} van {total}",
+    "show": "Toon afbeelding {number}",
+    "previous": "Vorige afbeelding",
+    "next": "Volgende afbeelding"
+  },
+  "about": {
+    "heading": "Over mij",
+    "photoAlt": "Rónán Ó Laoire",
+    "p1": "<brand>BusyLittlePixels</brand> is de Ierse developer <link>Rónán Ó Laoire</link>, met jarenlange praktijkervaring in het bouwen van moderne digitale producten voor bedrijven die vooruit willen.",
+    "p2": "BLP/Rónán is gespecialiseerd in web- en mobiele ontwikkeling van de volgende generatie en levert maatwerk, schaalbare oplossingen die zich in productie hebben bewezen. Door strategisch technisch leiderschap te combineren met diepgaande engineeringkennis biedt Rónán het perspectief van een fractional tech lead en de praktische vaardigheden van een developer die dingen voor elkaar krijgt.",
+    "p3": "Geen overdrachten, geen theoretisch advies. Gewoon helder denken, doordachte technische beslissingen en kwalitatieve oplossingen om dat waar te maken."
+  },
+  "skills": {
+    "mobile": "Mobiel",
+    "web": "Web",
+    "platform": "Platform",
+    "practice": "Werkwijze",
+    "items": {
+      "agentic": "Agentic development",
+      "consultancy": "Technische consultancy",
+      "strategy": "Productstrategie",
+      "ux": "UX- & interfaceontwerp",
+      "leadership": "Technisch leiderschap",
+      "growth": "Groei & analytics"
+    }
+  },
+  "contact": {
+    "heading": "Contact",
+    "lead": "Interesse om samen te werken? Laten we je project bespreken.",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "location": "Locatie",
+    "locationValue": "Amsterdam, Nederland",
+    "form": {
+      "name": "Naam",
+      "namePlaceholder": "Je naam",
+      "email": "E-mail",
+      "emailPlaceholder": "Je e-mailadres",
+      "message": "Bericht",
+      "messagePlaceholder": "Je bericht",
+      "consent": "Ik ga ermee akkoord dat Busy Little Pixels mijn gegevens opslaat en verwerkt om op mijn aanvraag te reageren, zoals beschreven in het <link>privacybeleid</link>.",
+      "submit": "Verstuur bericht",
+      "sending": "Versturen…",
+      "successTitle": "Bericht verzonden",
+      "successBody": "Bedankt voor je bericht. Ik neem zo snel mogelijk contact met je op."
+    },
+    "errors": {
+      "nameRequired": "Naam is verplicht",
+      "emailInvalid": "Een geldig e-mailadres is verplicht",
+      "messageTooShort": "Het bericht moet minstens 10 tekens lang zijn",
+      "consentRequired": "Je moet het privacybeleid accepteren",
+      "generic": "Het bericht kon niet worden verzonden. Probeer het later opnieuw."
+    }
+  },
+  "footer": {
+    "copyright": "© {year} busylittlepixels. Alle rechten voorbehouden. Gemaakt met <heart>♥</heart> en ingeschreven in Amsterdam, NL. KVK: {kvk}",
+    "love": "liefde"
+  },
+  "cookies": {
+    "message": "Deze website gebruikt cookies om je ervaring te verbeteren. Door onze website te gebruiken, ga je akkoord met het gebruik van cookies. Lees meer in ons <link>privacybeleid</link>.",
+    "accept": "Alles accepteren",
+    "decline": "Weigeren"
+  },
+  "common": {
+    "scrollToTop": "Terug naar boven",
+    "downloadPdf": "Download pdf",
+    "getInTouch": "Neem contact op"
+  },
+  "hireMe": {
+    "titleLine1": "Huur",
+    "titleLine2": "mij in",
+    "lead": "Ik help teams van idee naar lancering, en daarna verder groeien.",
+    "photoAlt": "Rónán Ó Laoire",
+    "facts": {
+      "basedIn": "Gevestigd in",
+      "basedInValue": "Amsterdam, NL",
+      "availability": "Beschikbaarheid",
+      "availabilityValue": "Beschikbaar voor projecten",
+      "engagement": "Samenwerking",
+      "engagementValue": "Project, parttime of fulltime",
+      "timezone": "Tijdzone"
+    },
+    "intro": {
+      "p1": "Hoi, ik ben Rónán — softwareontwikkelaar en technisch leider met meer dan 16 jaar ervaring in de branche. Via Busy Little Pixels breng ik praktische engineeringexpertise en technisch leiderschap, gevormd door het werken met organisaties als Web Summit, Picnic Technologies en The Next Web.",
+      "p2": "Ik bouw met passie aan betekenisvolle technologie, waarbij ik strategisch denken combineer met praktische uitvoering om ambitieuze ideeën om te zetten in robuuste, schaalbare digitale producten. Ik ben ook de maker van Cogar, een project dat twee levenslange passies samenbrengt — technologie en de Ierse taal — en bijdraagt aan de heropleving van het Iers als een bloeiende, levende taal voor iedereen.",
+      "origin": "Oorspronkelijk uit Dublin, Ierland, nu gevestigd in Amsterdam.",
+      "languagesLabel": "Talen:",
+      "languagesValue": "Iers en Engels."
+    },
+    "experience": {
+      "heading": "Ervaring",
+      "present": "heden",
+      "jobs": {
+        "cogar": {
+          "role": "Oprichter & developer",
+          "description": "Consultancy voor toekomstgericht ontwerp en ontwikkeling van mobiele apps, van productstrategie tot lancering en groei.",
+          "highlights": {
+            "h1": "Native en cross-platform apps opgeleverd voor startups en gevestigde merken",
+            "h2": "Discovery-workshops, technische architectuur en opleveringsplanning geleid",
+            "h3": "Kleine, senior, productgerichte teams opgebouwd en begeleid"
+          }
+        },
+        "blp": {
+          "role": "Oprichter",
+          "description": "Oprichter/developer bij BusyLittlePixels — een toekomstgericht technologiebedrijf, gespecialiseerd in platform- en softwareontwikkeling van de volgende generatie. We combineren diepgaande technische expertise met innovatief denken om geavanceerde oplossingen te leveren die bedrijfsgroei stimuleren. Onze diensten omvatten productstrategie en full-stack development, mobiele applicaties en het ontwerp van schaalbare architectuur.",
+          "highlights": {
+            "h1": "Native en cross-platform apps opgeleverd voor startups en gevestigde merken",
+            "h2": "Discovery-workshops, technische architectuur en opleveringsplanning geleid",
+            "h3": "Kleine, senior, productgerichte teams opgebouwd en begeleid"
+          }
+        },
+        "picnic": {
+          "role": "Tech Lead (webteam)",
+          "description": "Leidde het webdevelopmentteam en stuurde technische richting, probleemoplossing en oplevering. Bouwde maatwerkintegraties, ontwikkelde en onderhield webinfrastructuur en koppelde webservices aan het mobiele platform van Picnic.",
+          "highlights": {
+            "h1": "Teamleiderschap, technische richting, probleemoplossing en oplevering",
+            "h2": "Discovery-workshops, technische architectuur en opleveringsplanning geleid",
+            "h3": "Cross-functionele, productgerichte teams opgebouwd en begeleid"
+          }
+        },
+        "tnw": {
+          "role": "CTO / Engineering Manager / Lead Developer",
+          "description": "Consultancy voor toekomstgericht ontwerp en ontwikkeling van mobiele apps, van productstrategie tot lancering en groei.",
+          "highlights": {
+            "h1": "Leidde technologiestrategie en engineering binnen de Media-, Events-, Programs- en Spaces-onderdelen van TNW. Verantwoordelijk voor technische richting, engineeringleiderschap, platformontwikkeling en de oplevering van schaalbare digitale producten en infrastructuur.",
+            "h2": "Leidde frontend engineering, ontwikkelstandaarden en technische oplevering voor de media-, marketing- en eventplatforms van TNW. Verantwoordelijk voor webarchitectuur, platformontwikkeling, teambegeleiding en productroadmaps, met focus op schaalbare, snelle en onderhoudbare digitale ervaringen.",
+            "h3": "Ontwikkelde, onderhield en moderniseerde de media- en marketingplatforms van TNW, met bijdragen aan migraties, integraties, frontend-workflows, performance-optimalisatie en beveiliging binnen het bredere engineeringteam"
+          }
+        },
+        "websummit": {
+          "role": "Frontend developer en teamleider",
+          "description": "Leidde webdevelopment bij Web Summit en was verantwoordelijk voor de oplevering van interne tools, maatwerk webplatforms en frontendtechnologie. Stuurde platformmigraties, architecturale refactoring en de ontwikkeling van maatwerkfunctionaliteit, begeleidde developers en introduceerde agile werkwijzen in een cross-functioneel engineeringteam.",
+          "highlights": {
+            "h1": "Technisch eigenaarschap: platforms, tooling, architectuur en oplevering.",
+            "h2": "Leiderschap: teambegeleiding en agile werkwijzen.",
+            "h3": "Uitvoering: migraties, refactoring en maatwerkontwikkeling."
+          }
+        }
+      }
+    },
+    "skillsHeading": "Vaardigheden",
+    "services": {
+      "heading": "Diensten",
+      "consultancy": {
+        "title": "Consultancy",
+        "description": "Product- en technische audits, roadmaps en architectuurreviews."
+      },
+      "development": {
+        "title": "Ontwikkeling",
+        "description": "Ontwerp en bouw van mobiele en webproducten, van begin tot eind."
+      },
+      "growth": {
+        "title": "Groei",
+        "description": "Analytics, experimenten en doorontwikkeling na de lancering."
+      }
+    },
+    "cta": {
+      "line1": "Laten we",
+      "line2": "samenwerken"
+    }
+  },
+  "privacy": {
+    "titleLine1": "Privacy-",
+    "titleLine2": "beleid",
+    "lead": "Wat we verzamelen, waarom, en wat je eraan kunt doen. Kort gezegd: alleen wat je ons stuurt, alleen om je te antwoorden.",
+    "lastUpdated": "Laatst bijgewerkt: {date}",
+    "sections": {
+      "who": {
+        "title": "Wie we zijn",
+        "p1": "Busy Little Pixels is een eenmanszaak van Rónán Ó Laoire, ingeschreven in Amsterdam, Nederland (KVK {kvk}). Wij zijn de verwerkingsverantwoordelijke voor de persoonsgegevens die in dit beleid worden beschreven.",
+        "p2": "Vragen over je gegevens kun je sturen naar <email>{address}</email>."
+      },
+      "collect": {
+        "title": "Wat we verzamelen",
+        "form": "<b>Contactformulier.</b> Als je een bericht stuurt, ontvangen we je naam, e-mailadres en de inhoud van je bericht.",
+        "cookies": "<b>Cookies.</b> We plaatsen één cookie om te onthouden of je onze cookiemelding hebt geaccepteerd of geweigerd. Deze cookie bevat geen persoonsgegevens en verloopt na 12 maanden. We gebruiken geen analytische, advertentie- of trackingcookies.",
+        "technical": "<b>Technische gegevens.</b> Zoals bij elke website kan onze hostingprovider kortstondig technische informatie vastleggen, zoals je IP-adres en browsertype, om de site veilig en werkend te houden."
+      },
+      "why": {
+        "title": "Waarom we het gebruiken",
+        "p1": "We gebruiken de gegevens die je via het contactformulier stuurt alleen om je aanvraag te lezen en te beantwoorden en, als we gaan samenwerken, om een voorstel of overeenkomst op te stellen. De rechtsgrond is je toestemming, die je geeft door het vakje op het formulier aan te vinken, en ons gerechtvaardigd belang om op zakelijke aanvragen te reageren. We verkopen je gegevens nooit en gebruiken ze niet voor marketing zonder het te vragen."
+      },
+      "share": {
+        "title": "Met wie we het delen",
+        "p1": "Berichten via het contactformulier worden in onze inbox afgeleverd door Resend, een e-mailbezorgdienst die het bericht namens ons verwerkt. Resend kan gegevens buiten de Europese Economische Ruimte verwerken; in dat geval is de doorgifte gedekt door passende waarborgen, zoals de standaardcontractbepalingen van de Europese Commissie. We delen je gegevens met niemand anders, tenzij de wet dat vereist."
+      },
+      "retention": {
+        "title": "Hoe lang we het bewaren",
+        "p1": "We bewaren aanvragen zolang nodig is om te reageren en op te volgen, en verwijderen ze binnen twee jaar als er geen samenwerking uit voortkomt. Als we wel samenwerken, wordt de bijbehorende correspondentie bewaard zolang de Nederlandse fiscale en boekhoudkundige wetgeving dat vereist (momenteel zeven jaar)."
+      },
+      "rights": {
+        "title": "Je rechten",
+        "p1": "Onder de AVG kun je ons vragen om je persoonsgegevens in te zien, te corrigeren, te verwijderen of over te dragen, bezwaar te maken tegen of beperking te vragen van hoe we ze gebruiken, en je toestemming op elk moment in te trekken. Het intrekken van toestemming heeft geen invloed op wat we met je gegevens hebben gedaan voordat je die introk.",
+        "p2": "Stuur voor een verzoek een e-mail naar <email>{address}</email>. Als je niet tevreden bent over hoe we met je gegevens omgaan, kun je een klacht indienen bij de Nederlandse toezichthouder, de <ap>Autoriteit Persoonsgegevens</ap>."
+      },
+      "changes": {
+        "title": "Wijzigingen",
+        "p1": "We kunnen dit beleid van tijd tot tijd bijwerken. De datum hieronder laat zien wanneer het voor het laatst is gewijzigd."
+      }
+    }
+  }
+}

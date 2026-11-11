@@ -1,0 +1,302 @@
+{
+  "metadata": {
+    "home": {
+      "title": "Busy Little Pixels | Consultancy, Development, Growth",
+      "description": "Busy Little Pixels. Future-facing mobile app design and development."
+    },
+    "hireMe": {
+      "title": "Hire Me",
+      "description": "Experience, skill and precision. Available for consultancy, design and development projects."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "How Busy Little Pixels collects, uses and protects your data."
+    }
+  },
+  "nav": {
+    "work": "Work / Services",
+    "about": "About",
+    "contact": "Contact",
+    "hireMe": "Hire Me",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "siteNavigation": "Site navigation",
+    "elsewhere": "Elsewhere"
+  },
+  "hero": {
+    "tagline": "Creating innovative solutions with passion, precision...and a (busy) little touch of magic.",
+    "hireMe": "Hire me",
+    "whatIDo": "What I do"
+  },
+  "work": {
+    "heading": "Work & Services",
+    "moreInfo": "More Info +",
+    "projects": {
+      "cogar": {
+        "title": "Cogar",
+        "description": "Social media. Trí Ghaeilge.",
+        "role": "Concept, Design, Development, Management",
+        "summary": {
+          "p1": "A short overview of the project: the problem, who it was for, and what success looked like.",
+          "p2": "A second paragraph on the approach, key decisions and the outcome. Swap this placeholder copy for the real story."
+        },
+        "images": {
+          "logo": "Cogar logo",
+          "feed": "Cogar — feed",
+          "profile": "Cogar — profile",
+          "compose": "Cogar — compose",
+          "onboarding": "Cogar — onboarding"
+        }
+      },
+      "consultancy": {
+        "title": "Technical Consultancy",
+        "description": "A clear, honest look at your app, codebase and delivery.",
+        "role": "Independent Consultant",
+        "stack": {
+          "architecture": "Architecture",
+          "performance": "Performance",
+          "ci": "CI/CD & EAS",
+          "security": "Security",
+          "roadmap": "Roadmap"
+        },
+        "summary": {
+          "p1": "A short, fixed-scope engagement for teams that feel stuck: slow releases, a fragile codebase, or a product that's outgrown its first build. I get into the code, the pipeline and the team's way of working, not just the slides.",
+          "p2": "You get a plain-English report, a prioritised roadmap of what to fix first, and, where it makes sense, the first few fixes shipped by me before I hand over."
+        },
+        "images": {
+          "audit": "Technical Audit — findings overview",
+          "decision": "Technical Decision — prioritised roadmap",
+          "action": "Technical Action — before and after"
+        }
+      },
+      "embedded": {
+        "title": "Embedded / Fractional",
+        "description": "Hands-on technical expertise and leadership, inside your team.",
+        "year": "2019 — Present",
+        "role": "Fractional Tech Lead",
+        "summary": {
+          "p1": "For clients that need senior technical direction without hiring a full-time lead. I join your standups, review and write code, and own the decisions that keep a product moving: architecture, tooling, releases.",
+          "p2": "The aim is to leave things better than I found them: a team that ships with confidence, a codebase that's easier to change, and a clear path for whoever comes next."
+        },
+        "images": {
+          "pipeline": "Embedded Lead — release pipeline",
+          "architecture": "Embedded Lead — architecture",
+          "workflow": "Embedded Lead — team workflow",
+          "product": "Embedded Lead — shipped product"
+        }
+      }
+    }
+  },
+  "projectSheet": {
+    "counter": "Project {current} / {total}",
+    "close": "Close project",
+    "year": "Year",
+    "role": "Role",
+    "stack": "Stack",
+    "next": "Next project"
+  },
+  "carousel": {
+    "label": "Project images",
+    "slide": "{current} of {total}",
+    "show": "Show image {number}",
+    "previous": "Previous image",
+    "next": "Next image"
+  },
+  "about": {
+    "heading": "About",
+    "photoAlt": "Rónán Ó Laoire",
+    "p1": "<brand>BusyLittlePixels</brand> is Irish developer <link>Rónán Ó Laoire</link>. (Ronan O'Leary) Bringing years of hands-on experience building modern digital products to businesses that want to move forward.",
+    "p2": "BLP/Ronan specialises in next-generation web and mobile development, delivering bespoke, scalable solutions proven in production. Combining strategic technical leadership with deep engineering expertise, Rónán offers the perspective of a fractional tech lead and the practical skills of a developer who gets things done.",
+    "p3": "No hand-offs, no theoretical advice. Just clear thinking, sound technical decisions and quality solutions to back them up."
+  },
+  "skills": {
+    "mobile": "Mobile",
+    "web": "Web",
+    "platform": "Platform",
+    "practice": "Practice",
+    "items": {
+      "agentic": "Agentic development",
+      "consultancy": "Technical consultancy",
+      "strategy": "Product strategy",
+      "ux": "UX & interface design",
+      "leadership": "Technical leadership",
+      "growth": "Growth & analytics"
+    }
+  },
+  "contact": {
+    "heading": "Contact",
+    "lead": "Interested in working together? Let's discuss your project.",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "locationValue": "Amsterdam, The Netherlands",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "consent": "I agree to Busy Little Pixels storing and processing my details to respond to my enquiry, as described in the <link>privacy policy</link>.",
+      "submit": "Send Message",
+      "sending": "Sending…",
+      "successTitle": "Message sent",
+      "successBody": "Thanks for getting in touch. I'll get back to you as soon as I can."
+    },
+    "errors": {
+      "nameRequired": "Name is required",
+      "emailInvalid": "Valid email is required",
+      "messageTooShort": "Message must be at least 10 characters long",
+      "consentRequired": "You must accept the privacy policy",
+      "generic": "Failed to send message. Please try again later."
+    }
+  },
+  "footer": {
+    "copyright": "© {year} busylittlepixels. All rights reserved. Made with <heart>♥</heart> and registered in Amsterdam, NL. KVK: {kvk}",
+    "love": "love"
+  },
+  "cookies": {
+    "message": "This website uses cookies to enhance your experience. By using our website, you consent to the use of cookies. You can read more in our <link>privacy policy</link>.",
+    "accept": "Accept All",
+    "decline": "Decline"
+  },
+  "common": {
+    "scrollToTop": "Scroll to top",
+    "downloadPdf": "Download PDF",
+    "getInTouch": "Get in Touch"
+  },
+  "hireMe": {
+    "titleLine1": "Hire",
+    "titleLine2": "Me",
+    "lead": "I help teams go from idea to launch, and keep growing after.",
+    "photoAlt": "Rónán Ó Laoire",
+    "facts": {
+      "basedIn": "Based in",
+      "basedInValue": "Amsterdam, NL",
+      "availability": "Availability",
+      "availabilityValue": "Open to projects",
+      "engagement": "Engagement",
+      "engagementValue": "Project, part-time or full-time",
+      "timezone": "Timezone"
+    },
+    "intro": {
+      "p1": "Hi, I'm Rónán — a software developer and technical lead with over 16 years of industry experience. Through Busy Little Pixels, I bring hands-on engineering expertise and technical leadership shaped by working with organisations including Web Summit, Picnic Technologies and The Next Web.",
+      "p2": "I'm passionate about building meaningful technology, combining strategic thinking with practical execution to turn ambitious ideas into robust, scalable digital products. I'm also the creator of Cogar, a project that brings together two lifelong passions — technology and the Irish language — and contributes to the revival of Irish as a thriving, living language for everyone.",
+      "origin": "Originally from Dublin, Ireland, now based in Amsterdam.",
+      "languagesLabel": "Languages:",
+      "languagesValue": "Irish and English."
+    },
+    "experience": {
+      "heading": "Experience",
+      "present": "Present",
+      "jobs": {
+        "cogar": {
+          "role": "Founder & Developer",
+          "description": "Consultancy delivering future-facing mobile app design and development, from product strategy through launch and growth.",
+          "highlights": {
+            "h1": "Shipped native and cross-platform apps for startups and established brands",
+            "h2": "Led discovery workshops, technical architecture and delivery planning",
+            "h3": "Built and mentored small, senior, product-focused teams"
+          }
+        },
+        "blp": {
+          "role": "Founder",
+          "description": "Founder/Developer at BusyLittlePixels - a future-facing technology company, specializing in next-generation platform and software development. We combine deep technical expertise with innovative thinking to deliver cutting-edge solutions that drive business growth. Our comprehensive services span product strategy and full-stack development, mobile applications, and scalable architecture design.",
+          "highlights": {
+            "h1": "Shipped native and cross-platform apps for startups and established brands",
+            "h2": "Led discovery workshops, technical architecture and delivery planning",
+            "h3": "Built and mentored small, senior, product-focused teams"
+          }
+        },
+        "picnic": {
+          "role": "Tech Lead (Web Team)",
+          "description": "Led the web development team, driving technical direction, problem-solving and delivery. Built custom integrations, developed and maintained web infrastructure, and integrated web services with Picnic's mobile platform.",
+          "highlights": {
+            "h1": "Team leadership, technical direction, problem-solving and delivery",
+            "h2": "Led discovery workshops, technical architecture and delivery planning",
+            "h3": "Built and mentored cross-functional product-focused teams"
+          }
+        },
+        "tnw": {
+          "role": "CTO / Engineering Manager / Lead Developer",
+          "description": "Consultancy delivering future-facing mobile app design and development, from product strategy through launch and growth.",
+          "highlights": {
+            "h1": "Led technology strategy and engineering across TNW's Media, Events, Programs and Spaces businesses. Responsible for technical direction, engineering leadership, platform development and the delivery of scalable digital products and infrastructure.",
+            "h2": "Led frontend engineering, development standards and technical delivery across TNW's media, marketing and event platforms. Oversaw web architecture, platform development, team mentoring and product roadmaps, with a focus on scalable, performant and maintainable digital experiences.",
+            "h3": "Developed, maintained and modernised TNW's media and marketing platforms, contributing to migrations, integrations, frontend workflows, performance optimisation and security across the wider engineering team"
+          }
+        },
+        "websummit": {
+          "role": "Frontend Developer and Team Lead",
+          "description": "Led web development at Web Summit, overseeing the delivery of internal tools, custom web platforms and frontend technologies. Drove platform migrations, architectural refactoring and bespoke functionality development while mentoring developers and introducing agile workflows across a cross-functional engineering team.",
+          "highlights": {
+            "h1": "Technical ownership: platforms, tooling, architecture and delivery.",
+            "h2": "Leadership: team mentoring and agile practices.",
+            "h3": "Execution: migrations, refactoring and custom development."
+          }
+        }
+      }
+    },
+    "skillsHeading": "Skills",
+    "services": {
+      "heading": "Services",
+      "consultancy": {
+        "title": "Consultancy",
+        "description": "Product and technical audits, roadmaps and architecture reviews."
+      },
+      "development": {
+        "title": "Development",
+        "description": "End-to-end design and build of mobile and web products."
+      },
+      "growth": {
+        "title": "Growth",
+        "description": "Analytics, experimentation and iteration after launch."
+      }
+    },
+    "cta": {
+      "line1": "Let's work",
+      "line2": "together"
+    }
+  },
+  "privacy": {
+    "titleLine1": "Privacy",
+    "titleLine2": "Policy",
+    "lead": "What we collect, why, and what you can do about it. Short version: only what you send us, only to reply to you.",
+    "lastUpdated": "Last updated: {date}",
+    "sections": {
+      "who": {
+        "title": "Who we are",
+        "p1": "Busy Little Pixels is a sole proprietorship run by Rónán Ó Laoire, registered in Amsterdam, the Netherlands (KVK {kvk}). We are the controller of the personal data described in this policy.",
+        "p2": "Questions about your data can be sent to <email>{address}</email>."
+      },
+      "collect": {
+        "title": "What we collect",
+        "form": "<b>Contact form.</b> When you send a message we receive your name, email address and the content of your message.",
+        "cookies": "<b>Cookies.</b> We set a single cookie to remember whether you accepted or declined our cookie notice. It stores no personal information and expires after 12 months. We do not use analytics, advertising or tracking cookies.",
+        "technical": "<b>Technical data.</b> Like any website, our hosting provider may briefly log technical information such as your IP address and browser type to keep the site secure and running."
+      },
+      "why": {
+        "title": "Why we use it",
+        "p1": "We use the details you send through the contact form only to read and reply to your enquiry and, if we end up working together, to prepare a proposal or agreement. The legal basis is your consent, given when you tick the box on the form, and our legitimate interest in responding to business enquiries. We never sell your data or use it for marketing without asking."
+      },
+      "share": {
+        "title": "Who we share it with",
+        "p1": "Contact form messages are delivered to our inbox by Resend, an email delivery service that processes the message on our behalf. Resend may process data outside the European Economic Area; where it does, the transfer is covered by appropriate safeguards such as the European Commission's Standard Contractual Clauses. We do not share your data with anyone else unless the law requires it."
+      },
+      "retention": {
+        "title": "How long we keep it",
+        "p1": "We keep enquiries for as long as needed to respond and follow up, and delete them within two years if no working relationship follows. If we do work together, related correspondence is kept for as long as Dutch tax and accounting law requires (currently seven years)."
+      },
+      "rights": {
+        "title": "Your rights",
+        "p1": "Under the GDPR you can ask us to access, correct, delete or export your personal data, object to or restrict how we use it, and withdraw your consent at any time. Withdrawing consent does not affect anything we did with your data before you withdrew it.",
+        "p2": "To make a request, email <email>{address}</email>. If you are unhappy with how we handle your data, you can complain to the Dutch data protection authority, the <ap>Autoriteit Persoonsgegevens</ap>."
+      },
+      "changes": {
+        "title": "Changes",
+        "p1": "We may update this policy from time to time. The date below shows when it was last changed."
+      }
+    }
+  }
+}

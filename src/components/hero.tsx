@@ -7,7 +7,7 @@ export async function Hero() {
   const t = await getTranslations("hero");
 
   return (
-    <section className="relative overflow-hidden border-b-8 border-red-600 bg-black text-white">
+    <section className="hero-timeline relative overflow-clip border-b-8 border-red-600 bg-black text-white">
       <div aria-hidden className="pointer-events-none absolute inset-0">
         <Particles
           particleColors={["#ffffff", "#dc2626"]}
@@ -19,7 +19,7 @@ export async function Hero() {
           clickBurst={false}
         />
       </div>
-      <div className="relative container mx-auto px-4 pt-32 pb-12 md:px-8 md:pt-40 md:pb-16">
+      <div className="hero-parallax relative container mx-auto px-4 pt-32 pb-12 md:px-8 md:pt-40 md:pb-16">
         <div className="grid grid-cols-12 gap-y-10 md:gap-x-8">
           <div className="@container col-span-12 md:col-span-7">
             <h1 className="text-[clamp(4rem,36cqw,15rem)] leading-[0.82] font-bold tracking-tighter">

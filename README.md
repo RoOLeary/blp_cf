@@ -171,6 +171,7 @@ Long Irish and Dutch words are the usual layout breakers. Big headings use conta
 - **No filesystem at runtime.** Don't `readFile` in route handlers or image generators; import the data instead (see `outfit-bold.ts`).
 - **Images:** `next/image` optimisation runs through the `IMAGES` binding (Cloudflare Images). Check your plan's free transformation allowance if traffic grows.
 - **Bundle size:** the Worker is about 2.3 MB gzipped. The free plan's limit is 3 MB, the paid plan's 10 MB. Heavy server-side deps will push it over.
+- **Stale CSS:** Turbopack's cache sometimes misses edits to `globals.css`, in both `next dev` and `next build`. The preview/deploy/upload scripts delete `.next/cache` first. If dev looks out of date, stop it, `rm -rf .next`, and restart.
 - `next dev` runs on Node, not Workers. Anything runtime-sensitive (fonts, fs, Node APIs) must be checked with `npm run preview`.
 
 ---

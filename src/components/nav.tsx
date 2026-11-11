@@ -14,7 +14,11 @@ export async function Nav() {
 
   return (
     <nav className="fixed top-0 left-0 z-50 w-full border-b border-black bg-white print:hidden">
-      <div className="container mx-auto flex items-center justify-between px-4 py-4 md:px-8">
+      <div
+        aria-hidden
+        className="nav-divider pointer-events-none absolute inset-x-0 top-full h-2 bg-red-600 opacity-0"
+      />
+      <div className="container mx-auto flex h-15 items-center justify-between px-4 md:px-8">
         <Link
           href="/"
           className="font-display origin-left text-xl font-bold tracking-tighter transition-transform duration-300 ease-out hover:scale-105 focus-visible:scale-105 motion-reduce:transition-none"

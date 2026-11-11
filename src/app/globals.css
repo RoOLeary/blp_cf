@@ -71,6 +71,48 @@ body {
   }
 }
 
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .hero-parallax {
+      animation: hero-parallax linear both;
+      animation-timeline: view();
+      animation-range: exit-crossing;
+    }
+  }
+}
+
+/* The inset is the nav's height plus the docked divider, so the swap happens
+   exactly when the hero's divider sits flush under the nav. */
+@supports (timeline-scope: --hero) {
+  body {
+    timeline-scope: --hero;
+  }
+
+  .hero-timeline {
+    view-timeline: --hero block;
+    view-timeline-inset: 4.25rem 0px;
+  }
+
+  .nav-divider {
+    animation: nav-divider-dock step-end both;
+    animation-timeline: --hero;
+    animation-range: exit-crossing;
+  }
+}
+
+@keyframes nav-divider-dock {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes hero-parallax {
+  to {
+    transform: translateY(30%);
+    opacity: 0.25;
+  }
+}
+
 :root {
   --tick-red: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23dc2626' stroke-width='3' stroke-linecap='square'%3E%3Cpath d='M3 8.5l3.5 3.5L13 4.5'/%3E%3C/svg%3E");
 }

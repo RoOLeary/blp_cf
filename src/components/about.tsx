@@ -9,24 +9,24 @@ export async function About() {
   return (
     <section id="about" className="px-4 py-20 md:px-8">
       <div className="container mx-auto">
-        <div className="grid grid-cols-12 gap-y-8 md:gap-x-8">
-          <div className="col-span-12 md:col-span-5">
+        <div className="grid grid-cols-12 gap-y-8 lg:gap-x-8">
+          <div className="col-span-12 lg:col-span-5">
             <h2 className="mb-8 text-6xl font-bold tracking-tighter uppercase">
               {t("heading")}
             </h2>
-            <div className="shiney-wrapper mb-8 md:mb-0">
-              <div className="shimmer relative aspect-[4/5] w-full overflow-hidden rounded-[0_15%] bg-neutral-100">
+            <div className="shiney-wrapper">
+              <div className="shimmer relative aspect-[4/3] w-full overflow-hidden rounded-[0_15%] bg-neutral-100 lg:aspect-[4/5]">
                 <Image
                   src="/me.jpg"
                   alt={t("photoAlt")}
                   fill
-                  sizes="(min-width: 48rem) 40vw, 100vw"
+                  sizes="(min-width: 64rem) 40vw, 100vw"
                   className="object-cover object-[60%_center]"
                 />
               </div>
             </div>
           </div>
-          <div className="col-span-12 md:col-span-7 md:pt-24">
+          <div className="col-span-12 lg:col-span-7 lg:pt-24">
             <p className="mb-6 text-xl">
               {t.rich("p1", {
                 brand: () => (

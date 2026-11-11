@@ -38,8 +38,12 @@
         "description": "Social media. Trí Ghaeilge.",
         "role": "Concept, ontwerp, ontwikkeling, management",
         "summary": {
-          "p1": "Een kort overzicht van het project: het probleem, voor wie het was en hoe succes eruitzag.",
-          "p2": "Een tweede alinea over de aanpak, de belangrijkste beslissingen en het resultaat. Vervang deze tijdelijke tekst door het echte verhaal."
+          "p1": "Cogar is een onafhankelijk sociaal netwerk rond de Ierse taal, ontworpen om het gebruik van het Iers online tot een normale, alledaagse ervaring te maken.",
+          "p2": "Cogar begon als persoonlijk project en is uitgegroeid tot een volledig functionerend sociaal platform met meer dan 5.100 geregistreerde gebruikers, beschikbaar op iOS en Android.",
+          "p3": "Als oprichter en enige ontwikkelaar heb ik Cogar van het eerste concept via productontwerp, engineering en deployment tot de dagelijkse operatie gebracht. Ik ben verantwoordelijk voor de volledige technische levenscyclus, waaronder productarchitectuur, UX/UI-design, mobiele en backendontwikkeling, infrastructuur, beveiliging, moderatiesystemen, analytics en onderhoud.",
+          "p4": "Daarnaast heb ik Cogar Teicneolaíochta Ltd opgericht, het Ierse bedrijf achter het platform, dat ik zelfstandig leid. Daarmee reiken mijn verantwoordelijkheden verder dan engineering, tot bedrijfsstrategie, commerciële ontwikkeling, advertenties, partnerschappen, naleving van regelgeving en de dagelijkse bedrijfsvoering.",
+          "p5": "Cogar is voornamelijk gebouwd met React Native, Expo, TypeScript, Supabase en Cloudflare en omvat sociale feeds, gebruikers- en organisatieprofielen, privéberichten, groepen, evenementen, notificaties, media, contentmoderatie en een geïntegreerd advertentieplatform.",
+          "p6": "Cogar is een praktijkvoorbeeld van end-to-end producteigenaarschap en engineering onder leiding van de oprichter. Het laat zien dat ik een complex product kan bedenken en ontwerpen, technische en commerciële beslissingen kan nemen, productierijpe software kan opleveren en een live platform met duizenden gebruikers zelfstandig kan beheren en doorontwikkelen."
         },
         "images": {
           "logo": "Cogar-logo",
@@ -61,8 +65,11 @@
           "roadmap": "Roadmap"
         },
         "summary": {
-          "p1": "Een korte opdracht met vaste scope voor teams die vastlopen: trage releases, een kwetsbare codebase of een product dat zijn eerste versie is ontgroeid. Ik duik in de code, de pipeline en de manier van werken van het team, niet alleen in de slides.",
-          "p2": "Je krijgt een rapport in begrijpelijke taal, een geprioriteerde roadmap van wat eerst moet worden opgelost en, waar het zinvol is, de eerste verbeteringen door mij doorgevoerd voordat ik het overdraag."
+          "p1": "Met meer dan 16 jaar ervaring in software engineering en technisch leiderschap breng ik een brede achtergrond mee in hands-on development, systeemarchitectuur, systeemintegratie, orkestratie en automatisering.",
+          "p2": "Mijn werk loopt uiteen van het ontwerpen en bouwen van losse applicaties tot het opzetten van de architectuur voor complexe, onderling verbonden platformen, het moderniseren van legacysystemen en het ontwikkelen van schaalbare technische infrastructuur. Ik combineer praktische engineeringervaring met een breder begrip van productontwikkeling, bedrijfsbehoeften en technische strategie op de lange termijn.",
+          "p3": "Door de jaren heen heb ik gewerkt met organisaties als Web Summit, The Next Web (TNW), Run Republic en UnitOpsMedia, en bijgedragen aan het ontwerp, de ontwikkeling en de operatie van digitale producten, publicatieplatformen, interne tooling en bedrijfskritische systemen.",
+          "p4": "Mijn aanpak is geworteld in hands-on engineering, met bijzondere aandacht voor pragmatisch systeemontwerp, API-integraties, workflow-orkestratie, automatisering en AI-ondersteunde ontwikkeling. Ik voel me even goed thuis op architectuurniveau, bij het evalueren van technologieën en het ontwerpen van systemen, als bij de implementatie zelf.",
+          "p5": "Ik richt me op technologie die echte problemen oplost, operationele complexiteit vermindert en praktisch te onderhouden en door te ontwikkelen blijft naarmate de eisen veranderen."
         },
         "images": {
           "audit": "Technische audit — overzicht van bevindingen",
@@ -74,10 +81,14 @@
         "title": "Embedded / Remote / In-house",
         "description": "Praktische technische expertise en leiderschap, binnen je team.",
         "year": "2019 — heden",
-        "role": "Fractional Tech Lead",
+        "role": "Engineering Manager / Senior Developer",
         "summary": {
-          "p1": "Voor klanten die senior technische sturing nodig hebben zonder een fulltime lead aan te nemen. Ik schuif aan bij je standups, review en schrijf code, en neem de beslissingen die een product in beweging houden: architectuur, tooling, releases.",
-          "p2": "Het doel is om dingen beter achter te laten dan ik ze aantrof: een team dat met vertrouwen oplevert, een codebase die makkelijker te veranderen is en een duidelijk pad voor wie er na mij komt."
+          "p1": "Mijn loopbaan heeft me door alle lagen van software engineering geleid, van hands-on development over de volledige stack tot technisch leiderschap, teammanagement en verantwoordelijkheid op directieniveau. Die brede ervaring geeft me een goed begrip van hoe technologie, mensen en bedrijfsdoelen samenkomen om succesvolle producten op te leveren.",
+          "p2": "Ik heb engineeringteams geleid, complexe technische projecten gemanaged en de ontwikkeling en oplevering van grootschalige platformen aangestuurd. Als CTO van The Next Web (TNW) en in senior technische functies bij andere organisaties heb ik gewerkt aan engineeringstrategie, systeemarchitectuur, teamontwikkeling, stakeholdermanagement en productoplevering.",
+          "p3": "Hoewel ik me thuis voel in de volledige technische stack, lever ik de meeste waarde in productuitvoering en oplevering. Ik vind het vooral mooi om ambitieuze ideeën of ingewikkelde eisen op te pakken, een heldere technische richting te bepalen en ze om te zetten in goed gebouwde, werkende producten. Dat betekent het grotere geheel begrijpen, pragmatische architectuurbeslissingen nemen, de juiste mensen en technologieën samenbrengen en het momentum vasthouden van concept tot productie.",
+          "p4": "Ik voel me even goed thuis als leider van een engineeringafdeling, als onderdeel van een bestaand team of als directe eigenaar van een technische uitdaging. Mijn aanpak is collaboratief, commercieel bewust en stevig geworteld in hands-on engineering.",
+          "p5": "Ik werk als embedded consultant, als remote freelancer en in vaste in-house functies, en breng in elke vorm dezelfde mate van eigenaarschap, technisch oordeelsvermogen en toewijding aan oplevering mee.",
+          "p6": "Uiteindelijk vind ik het leuk om dingen te bouwen, lastige problemen op te lossen en met goede mensen te werken. Mijn kracht ligt in het overbruggen van technische complexiteit en praktische uitvoering, zodat goede ideeën uitgroeien tot succesvolle, duurzame producten."
         },
         "images": {
           "pipeline": "Embedded Lead — release-pipeline",

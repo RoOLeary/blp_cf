@@ -36,10 +36,15 @@
       "cogar": {
         "title": "Cogar",
         "description": "Social media. Trí Ghaeilge.",
+        "year": "2025 — Present",
         "role": "Concept, Design, Development, Management",
         "summary": {
-          "p1": "A short overview of the project: the problem, who it was for, and what success looked like.",
-          "p2": "A second paragraph on the approach, key decisions and the outcome. Swap this placeholder copy for the real story."
+          "p1": "Cogar is an independent social networking platform built around the Irish language, designed to make using Irish online a normal, everyday experience.",
+          "p2": "Conceived as a personal project, Cogar has grown into a fully functioning social platform with over 5,100 registered users, available on both iOS and Android.",
+          "p3": "As the founder and sole developer, I have taken Cogar from initial concept through product design, engineering, deployment and ongoing operation. I am responsible for the entire technical lifecycle, including product architecture, UX/UI design, mobile and backend development, infrastructure, security, moderation systems, analytics and maintenance.",
+          "p4": "I also founded and independently manage Cogar Teicneolaíochta Ltd, the Irish company behind the platform. This extends my responsibilities beyond engineering into business strategy, commercial development, advertising, partnerships, regulatory compliance and day-to-day company operations.",
+          "p5": "Built primarily with React Native, Expo, TypeScript, Supabase and Cloudflare, Cogar incorporates social feeds, user and organisation profiles, private messaging, groups, events, notifications, media, content moderation and an integrated advertising platform.",
+          "p6": "Cogar is a practical case study in end-to-end product ownership and founder-led engineering. It demonstrates my ability to conceive and architect a complex product, make technical and commercial decisions, deliver production-ready software, and independently operate and evolve a live platform serving thousands of users."
         },
         "images": {
           "logo": "Cogar logo",
@@ -52,6 +57,7 @@
       "consultancy": {
         "title": "Technical Consulting / System Design",
         "description": "A clear, honest look at your app, codebase and delivery.",
+        "year": "2024 — Present",
         "role": "Independent Consultant",
         "stack": {
           "architecture": "Architecture",
@@ -61,8 +67,11 @@
           "roadmap": "Roadmap"
         },
         "summary": {
-          "p1": "A short, fixed-scope engagement for teams that feel stuck: slow releases, a fragile codebase, or a product that's outgrown its first build. I get into the code, the pipeline and the team's way of working, not just the slides.",
-          "p2": "You get a plain-English report, a prioritised roadmap of what to fix first, and, where it makes sense, the first few fixes shipped by me before I hand over."
+          "p1": "With over 16 years of experience in software engineering and technical leadership, I bring an extensive background in hands-on development, system architecture, systems integration, orchestration and automation.",
+          "p2": "My work spans everything from designing and building individual applications to architecting complex, interconnected platforms, modernising legacy systems and developing scalable technical infrastructure. I combine practical engineering experience with a broader understanding of product development, business requirements and long-term technical strategy.",
+          "p3": "Over the years, I've worked with organisations including Web Summit, The Next Web (TNW), Run Republic and UnitOpsMedia, contributing to the design, development and operation of digital products, publishing platforms, internal tooling and business-critical systems.",
+          "p4": "My approach is grounded in hands-on engineering, with a particular focus on pragmatic system design, API integrations, workflow orchestration, automation and AI-assisted development. I'm equally comfortable working at an architectural level, evaluating technologies and designing systems, or getting directly involved in implementation.",
+          "p5": "I focus on building technology that solves real problems, reduces operational complexity and remains practical to maintain and evolve as requirements change."
         },
         "images": {
           "audit": "Technical Audit — findings overview",
@@ -73,11 +82,15 @@
       "embedded": {
         "title": "Embedded / Remote / In-House",
         "description": "Hands-on technical expertise and leadership, inside your team.",
-        "year": "2019 — Present",
-        "role": "Fractional Tech Lead",
+        "year": "2024 — Present",
+        "role": "Engineering Manager / Senior Developer",
         "summary": {
-          "p1": "For clients that need senior technical direction without hiring a full-time lead. I join your standups, review and write code, and own the decisions that keep a product moving: architecture, tooling, releases.",
-          "p2": "The aim is to leave things better than I found them: a team that ships with confidence, a codebase that's easier to change, and a clear path for whoever comes next."
+          "p1": "My career has taken me through every level of software engineering, from hands-on development across the full stack to technical leadership, team management and executive responsibility. That breadth of experience gives me a strong understanding of how technology, people and business objectives come together to deliver successful products.",
+          "p2": "I've led engineering teams, managed complex technical projects and overseen the development and delivery of large-scale platforms. As CTO of The Next Web (TNW), and through senior technical roles with other organisations, I've worked across engineering strategy, system architecture, team development, stakeholder management and product delivery.",
+          "p3": "While I'm comfortable working across the entire technical stack, product execution and delivery are where I bring the greatest value. I particularly enjoy taking ambitious ideas or complicated requirements, establishing a clear technical direction and turning them into well-engineered, working products. That means understanding the bigger picture, making pragmatic architectural decisions, bringing the right people and technologies together, and maintaining momentum from concept through to production.",
+          "p4": "I'm equally comfortable leading an engineering function, working as part of an established team or taking direct ownership of a technical challenge. My approach is collaborative, commercially aware and firmly grounded in hands-on engineering.",
+          "p5": "I work across embedded consulting, remote freelance and permanent in-house roles, bringing the same level of ownership, technical judgement and commitment to delivery regardless of the arrangement.",
+          "p6": "Ultimately, I enjoy building things, solving difficult problems and working with good people. My strength lies in bridging the gap between technical complexity and practical execution, ensuring that good ideas become successful, sustainable products."
         },
         "images": {
           "pipeline": "Embedded Lead — release pipeline",

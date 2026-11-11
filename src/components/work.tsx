@@ -66,7 +66,9 @@ export async function Work() {
       stack: p.stack.map((item) =>
         t.has(key(`stack.${item}`)) ? t(key(`stack.${item}`)) : item,
       ),
-      summary: [t(key("summary.p1")), t(key("summary.p2"))],
+      summary: Array.from({ length: 10 }, (_, i) => key(`summary.p${i + 1}`))
+        .filter((k) => t.has(k))
+        .map((k) => t(k)),
       images: p.images.map((image) => ({
         src: image.src,
         alt: t(key(`images.${image.key}`)),

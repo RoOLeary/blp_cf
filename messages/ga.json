@@ -38,8 +38,12 @@
         "description": "Na meáin shóisialta. Trí Ghaeilge.",
         "role": "Coincheap, dearadh, forbairt, bainistíocht",
         "summary": {
-          "p1": "Forléargas gairid ar an tionscadal: an fhadhb, cé dó a raibh sé, agus cén chuma a bhí ar rath.",
-          "p2": "Dara halt faoin gcur chuige, faoi na príomhchinntí agus faoin toradh. Cuir an scéal fíor in áit an téacs sealadach seo."
+          "p1": "Is líonra sóisialta neamhspleách é Cogar atá bunaithe ar an nGaeilge, deartha chun go mbeadh úsáid na Gaeilge ar líne ina gnáthrud laethúil.",
+          "p2": "Thosaigh Cogar mar thionscadal pearsanta, agus tá sé anois ina ardán sóisialta lánfheidhmiúil le breis is 5,100 úsáideoir cláraithe, ar fáil ar iOS agus ar Android.",
+          "p3": "Mar bhunaitheoir agus an t-aon fhorbróir, thug mé Cogar ón gcoincheap tosaigh trí dhearadh táirge, innealtóireacht agus imscaradh go dtí an oibriú leanúnach. Tá mé freagrach as an saolré teicniúil ar fad, lena n-áirítear ailtireacht an táirge, dearadh UX/UI, forbairt mhóibíleach agus chúlchórais, bonneagar, slándáil, córais mhodhnóireachta, anailísíocht agus cothabháil.",
+          "p4": "Bhunaigh mé Cogar Teicneolaíochta Ltd freisin, an comhlacht Éireannach taobh thiar den ardán, agus bainistím go neamhspleách é. Síneann sé sin mo chuid freagrachtaí thar an innealtóireacht isteach i straitéis ghnó, forbairt tráchtála, fógraíocht, comhpháirtíochtaí, comhlíonadh rialála agus oibríochtaí laethúla an chomhlachta.",
+          "p5": "Tógtha go príomha le React Native, Expo, TypeScript, Supabase agus Cloudflare, cuimsíonn Cogar fothaí sóisialta, próifílí úsáideoirí agus eagraíochtaí, teachtaireachtaí príobháideacha, grúpaí, imeachtaí, fógraí, meáin, modhnóireacht ábhair agus ardán fógraíochta comhtháite.",
+          "p6": "Is cás-staidéar praiticiúil é Cogar ar úinéireacht táirge ó thús go deireadh agus ar innealtóireacht faoi stiúir bunaitheora. Léiríonn sé mo chumas táirge casta a cheapadh agus a ailtiriú, cinntí teicniúla agus tráchtála a dhéanamh, bogearraí réidh don táirgeadh a sholáthar, agus ardán beo a fhreastalaíonn ar na mílte úsáideoir a oibriú agus a fhorbairt go neamhspleách."
         },
         "images": {
           "logo": "Lógó Cogar",
@@ -61,8 +65,11 @@
           "roadmap": "Treochlár"
         },
         "summary": {
-          "p1": "Tasc gearr le scóip sheasta d'fhoirne atá i bhfostú: eisiúintí malla, cód leochaileach, nó táirge atá imithe thar a chéad leagan. Téim isteach sa chód, sa phíblíne agus i modh oibre na foirne, ní hamháin sna sleamhnáin.",
-          "p2": "Faigheann tú tuarascáil i dteanga shimplí, treochlár tosaíochta ar cad ba cheart a réiteach ar dtús, agus, nuair is ciallmhar é, na chéad réitigh curtha i bhfeidhm agam féin sula dtugaim an obair ar ais duit."
+          "p1": "Le breis is 16 bliana de thaithí in innealtóireacht bogearraí agus i gceannaireacht theicniúil, tugaim cúlra fairsing liom i bhforbairt phraiticiúil, ailtireacht córas, comhtháthú córas, comhordú agus uathoibriú.",
+          "p2": "Clúdaíonn mo chuid oibre gach rud ó fheidhmchláir aonair a dhearadh agus a thógáil go hailtireacht ardán casta idirnasctha, seanchórais a nuachóiriú agus bonneagar teicniúil inscálaithe a fhorbairt. Cuirim taithí phraiticiúil innealtóireachta le chéile le tuiscint níos leithne ar fhorbairt táirgí, ar riachtanais ghnó agus ar straitéis theicniúil fhadtéarmach.",
+          "p3": "Thar na blianta, d'oibrigh mé le heagraíochtaí lena n-áirítear Web Summit, The Next Web (TNW), Run Republic agus UnitOpsMedia, ag cur le dearadh, forbairt agus oibriú táirgí digiteacha, ardán foilsitheoireachta, uirlisí inmheánacha agus córas atá ríthábhachtach don ghnó.",
+          "p4": "Tá mo chur chuige bunaithe ar innealtóireacht phraiticiúil, le béim ar leith ar dhearadh pragmatach córas, comhtháthú API, comhordú sreafaí oibre, uathoibriú agus forbairt le cúnamh AI. Bím chomh compordach céanna ag obair ar leibhéal ailtireachta, ag measúnú teicneolaíochtaí agus ag dearadh córas, is a bhím i mbun an chur i bhfeidhm féin.",
+          "p5": "Dírím ar theicneolaíocht a thógáil a réitíonn fadhbanna fíora, a laghdaíonn castacht oibríochtúil agus a fhanann praiticiúil le cothabháil agus le forbairt de réir mar a athraíonn na riachtanais."
         },
         "images": {
           "audit": "Iniúchadh Teicniúil — forléargas ar na torthaí",
@@ -74,10 +81,14 @@
         "title": "Leabaithe / Cianda / Inmheánach",
         "description": "Saineolas agus ceannaireacht theicniúil phraiticiúil, istigh i d'fhoireann.",
         "year": "2019 — inniu",
-        "role": "Ceannaire Teicniúil Páirtaimseartha",
+        "role": "Bainisteoir Innealtóireachta / Forbróir Sinsearach",
         "summary": {
-          "p1": "Do chliaint a bhfuil treoir theicniúil shinsearach uathu gan ceannaire lánaimseartha a fhostú. Glacaim páirt i do chruinnithe laethúla, déanaim athbhreithniú ar chód agus scríobhaim é, agus glacaim freagracht as na cinntí a choinníonn táirge ag bogadh: ailtireacht, uirlisí, eisiúintí.",
-          "p2": "Is é an aidhm rudaí a fhágáil níos fearr ná mar a fuair mé iad: foireann a sheolann le muinín, cód atá níos éasca le hathrú, agus cosán soiléir don té a thiocfaidh i mo dhiaidh."
+          "p1": "Thug mo ghairm bheatha mé trí gach leibhéal d'innealtóireacht bogearraí, ó fhorbairt phraiticiúil ar gach sraith den chóras go ceannaireacht theicniúil, bainistíocht foirne agus freagracht fheidhmiúcháin. Tugann leithead na taithí sin tuiscint láidir dom ar an gcaoi a dtagann teicneolaíocht, daoine agus cuspóirí gnó le chéile chun táirgí rathúla a sholáthar.",
+          "p2": "Bhí mé i gceannas ar fhoirne innealtóireachta, bhainistigh mé tionscadail theicniúla chasta agus rinne mé maoirseacht ar fhorbairt agus ar sheachadadh ardán ar scála mór. Mar CTO ar The Next Web (TNW), agus i róil shinsearacha theicniúla le heagraíochtaí eile, d'oibrigh mé ar straitéis innealtóireachta, ailtireacht córas, forbairt foirne, bainistíocht páirtithe leasmhara agus seachadadh táirgí.",
+          "p3": "Cé go bhfuilim compordach ag obair ar fud an chórais theicniúil ar fad, is i bhfeidhmiú agus i seachadadh táirgí is mó a chuirim luach leis. Is breá liom go háirithe smaointe uaillmhianacha nó riachtanais chasta a ghlacadh, treo teicniúil soiléir a leagan síos, agus iad a iompú ina dtáirgí oibre atá innealtóirithe go maith. Ciallaíonn sé sin an pictiúr mór a thuiscint, cinntí pragmatacha ailtireachta a dhéanamh, na daoine agus na teicneolaíochtaí cearta a thabhairt le chéile, agus an móiminteam a choinneáil ón gcoincheap go dtí an táirgeadh.",
+          "p4": "Bím chomh compordach céanna ag stiúradh feidhm innealtóireachta, ag obair mar chuid d'fhoireann bhunaithe nó ag glacadh úinéireacht dhíreach ar dhúshlán teicniúil. Tá mo chur chuige comhoibríoch, feasach ar chúrsaí tráchtála agus bunaithe go daingean ar innealtóireacht phraiticiúil.",
+          "p5": "Oibrím i gcomhairleoireacht leabaithe, mar shaoroibrí cianda agus i róil bhuana inmheánacha, agus tugaim an leibhéal céanna úinéireachta, breithiúnais theicniúil agus tiomantais don seachadadh cibé socrú atá i gceist.",
+          "p6": "Sa deireadh thiar, is breá liom rudaí a thógáil, fadhbanna deacra a réiteach agus oibriú le daoine maithe. Is é mo láidreacht an bhearna idir castacht theicniúil agus feidhmiú praiticiúil a dhúnadh, ionas go n-éiríonn smaointe maithe ina dtáirgí rathúla inbhuanaithe."
         },
         "images": {
           "pipeline": "Ceannaire Leabaithe — píblíne eisiúna",

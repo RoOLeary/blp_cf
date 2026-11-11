@@ -1,7 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { WorkGrid } from "@/components/work-grid";
 
-export type ProjectImage = { src?: string; alt: string };
+export type ProjectImage = { src?: string; alt: string; fit?: "contain" };
 
 export type Project = {
   id: string;
@@ -19,7 +19,7 @@ const projectData: {
   id: string;
   year?: string;
   stack: string[];
-  images: { key: string; src?: string }[];
+  images: { key: string; src?: string; fit?: "contain" }[];
 }[] = [
   {
     id: "cogar",
@@ -27,10 +27,28 @@ const projectData: {
     stack: ["React Native", "Expo", "TypeScript", "Supabase"],
     images: [
       { key: "logo", src: "/cogar-logo.png" },
-      { key: "feed" },
-      { key: "profile" },
-      { key: "compose" },
-      { key: "onboarding" },
+      { key: "feed", src: "/CogarIMG_6935.PNG", fit: "contain" },
+      { key: "profile", src: "/CogarIMG_6937.PNG", fit: "contain" },
+      { key: "compose", src: "/CogarIMG-8.PNG", fit: "contain" },
+      { key: "onboarding", src: "/CogarIMG-1-1-1.PNG", fit: "contain" },
+    ],
+  },
+  // Draft copy: edit before launch.
+  {
+    id: "engineering",
+    stack: [
+      "React Native",
+      "Expo / EAS",
+      "TypeScript",
+      "Next.js",
+      "Supabase",
+      "agentic",
+    ],
+    images: [
+      { key: "pipeline" },
+      { key: "architecture" },
+      { key: "workflow" },
+      { key: "product" },
     ],
   },
   // Draft copy: edit before launch.
@@ -39,17 +57,6 @@ const projectData: {
     year: "2025/26",
     stack: ["architecture", "performance", "ci", "security", "roadmap"],
     images: [{ key: "audit" }, { key: "decision" }, { key: "action" }],
-  },
-  // Draft copy: edit before launch.
-  {
-    id: "embedded",
-    stack: ["React Native", "EAS", "Next.js", "TypeScript", "PHP", "Python"],
-    images: [
-      { key: "pipeline" },
-      { key: "architecture" },
-      { key: "workflow" },
-      { key: "product" },
-    ],
   },
 ];
 
@@ -71,6 +78,7 @@ export async function Work() {
         .map((k) => t(k)),
       images: p.images.map((image) => ({
         src: image.src,
+        fit: image.fit,
         alt: t(key(`images.${image.key}`)),
       })),
     };

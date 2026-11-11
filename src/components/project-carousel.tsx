@@ -68,14 +68,22 @@ export function ProjectCarousel({ images }: { images: ProjectImage[] }) {
             aria-label={t("slide", { current: i + 1, total: images.length })}
             className="shiney-wrapper relative h-full w-full shrink-0 snap-start"
           >
-            <div className="shimmer relative h-full w-full overflow-hidden">
+            <div
+              className={`shimmer relative h-full w-full overflow-hidden ${
+                image.fit === "contain" ? "bg-neutral-100" : ""
+              }`}
+            >
               {image.src ? (
                 <Image
                   src={image.src}
                   alt={image.alt}
                   fill
                   sizes="(min-width: 48rem) 48rem, 100vw"
-                  className="object-cover"
+                  className={
+                    image.fit === "contain"
+                      ? "object-contain py-[5%] drop-shadow-xl"
+                      : "object-cover"
+                  }
                 />
               ) : (
                 placeholders[i % placeholders.length]

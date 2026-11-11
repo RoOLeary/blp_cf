@@ -77,24 +77,27 @@
           "action": "Gníomh Teicniúil — roimh agus ina dhiaidh"
         }
       },
-      "embedded": {
-        "title": "Leabaithe / Cianda / Inmheánach",
-        "description": "Saineolas agus ceannaireacht theicniúil phraiticiúil, istigh i d'fhoireann.",
-        "year": "2019 — inniu",
-        "role": "Bainisteoir Innealtóireachta / Forbróir Sinsearach",
+      "engineering": {
+        "title": "Innealtóireacht Shoghluaiste, Ghréasáin agus Táirge",
+        "description": "Innealtóireacht shinsearach shoghluaiste agus lánchruachta, le huirlisí nua-aimseartha.",
+        "year": "2024 — inniu",
+        "role": "Innealtóir Soghluaiste Sinsearach / Ceannaire Teicniúil",
+        "stack": {
+          "agentic": "Sreafaí oibre gníomhaireacha"
+        },
         "summary": {
-          "p1": "Thug mo ghairm bheatha mé trí gach leibhéal d'innealtóireacht bogearraí, ó fhorbairt phraiticiúil ar gach sraith den chóras go ceannaireacht theicniúil, bainistíocht foirne agus freagracht fheidhmiúcháin. Tugann leithead na taithí sin tuiscint láidir dom ar an gcaoi a dtagann teicneolaíocht, daoine agus cuspóirí gnó le chéile chun táirgí rathúla a sholáthar.",
-          "p2": "Bhí mé i gceannas ar fhoirne innealtóireachta, bhainistigh mé tionscadail theicniúla chasta agus rinne mé maoirseacht ar fhorbairt agus ar sheachadadh ardán ar scála mór. Mar CTO ar The Next Web (TNW), agus i róil shinsearacha theicniúla le heagraíochtaí eile, d'oibrigh mé ar straitéis innealtóireachta, ailtireacht córas, forbairt foirne, bainistíocht páirtithe leasmhara agus seachadadh táirgí.",
-          "p3": "Cé go bhfuilim compordach ag obair ar fud an chórais theicniúil ar fad, is i bhfeidhmiú agus i seachadadh táirgí is mó a chuirim luach leis. Is breá liom go háirithe smaointe uaillmhianacha nó riachtanais chasta a ghlacadh, treo teicniúil soiléir a leagan síos, agus iad a iompú ina dtáirgí oibre atá innealtóirithe go maith. Ciallaíonn sé sin an pictiúr mór a thuiscint, cinntí pragmatacha ailtireachta a dhéanamh, na daoine agus na teicneolaíochtaí cearta a thabhairt le chéile, agus an móiminteam a choinneáil ón gcoincheap go dtí an táirgeadh.",
-          "p4": "Bím chomh compordach céanna ag stiúradh feidhm innealtóireachta, ag obair mar chuid d'fhoireann bhunaithe nó ag glacadh úinéireacht dhíreach ar dhúshlán teicniúil. Tá mo chur chuige comhoibríoch, feasach ar chúrsaí tráchtála agus bunaithe go daingean ar innealtóireacht phraiticiúil.",
-          "p5": "Oibrím i gcomhairleoireacht leabaithe, mar shaoroibrí cianda agus i róil bhuana inmheánacha, agus tugaim an leibhéal céanna úinéireachta, breithiúnais theicniúil agus tiomantais don seachadadh cibé socrú atá i gceist.",
-          "p6": "Sa deireadh thiar, is breá liom rudaí a thógáil, fadhbanna deacra a réiteach agus oibriú le daoine maithe. Is é mo láidreacht an bhearna idir castacht theicniúil agus feidhmiú praiticiúil a dhúnadh, ionas go n-éiríonn smaointe maithe ina dtáirgí rathúla inbhuanaithe."
+          "p1": "Is innealtóir soghluaiste sinsearach cumasach mé le breis is 16 bliana de thaithí ag tógáil bogearraí, tréimhse mar CTO ar The Next Web (TNW) san áireamh. Tá réimse leathan oibre déanta agam, ó ardáin ghréasáin luatha go feidhmchláir iOS agus Android a úsáideann na mílte duine gach lá. Inniu, dírím ar React Native agus Expo, le tacaíocht ó TypeScript, ó chórais chúil nua-aimseartha agus ó thuiscint lánchruachta ar an gcaoi a n-oireann na páirteanna go léir le chéile.",
+          "p2": "Tógaim feidhmchláir mar is ceart táirgí nua-aimseartha a thógáil: clóscríofa ó cheann ceann, bunaithe ar chomhpháirteanna, tástáilte agus seolta trí phíblínte uathoibrithe. Ciallaíonn sé sin Expo Router agus EAS le haghaidh tógálacha agus nuashonruithe thar an aer, Reanimated le haghaidh idirghníomhaíochta líofa a mhothaíonn dúchasach, agus sraitheanna staide agus sonraí dea-struchtúrtha a fhanann tapa de réir mar a fhásann an táirge.",
+          "p3": "Taobh thiar den fheidhmchlár, bím compordach freagracht a ghlacadh as an gcuid eile den chruach: API agus comhtháthuithe, Supabase agus Postgres, bonneagar imeallach ar Cloudflare, CI/CD, monatóireacht agus bainistíocht eisiúintí don App Store agus do Google Play.",
+          "p4": "Úsáidim uirlisí códaithe AI nuair a chabhraíonn siad i ndáiríre, mar chreatlach, athfhachtóiriú, tástálacha agus doiciméadú, agus fágaim ar leataobh iad nuair nach gcabhraíonn. Déantar athbhreithniú ar gach rud a tháirgeann siad agus glacaim úinéireacht air mar a dhéanfainn le cód ar bith eile, mar is é an breithiúnas faoi cad ba cheart a sheoladh an rud is tábhachtaí fós.",
+          "p5": "Nuair a oireann sé don táirge, is féidir liom gnéithe AI a thógáil i gceart freisin: comhtháthuithe LLM, cuardach i do dhoiciméid agus i do shonraí féin, agus uathoibrithe a nascann leis na huirlisí atá in úsáid ag d'fhoireann cheana féin.",
+          "p6": "Cibé an bhfuilim ag dul isteach i bhfoireann atá ann cheana, ag stiúradh tógáil shoghluaiste nó ag tabhairt táirge ón smaoineamh go dtí na siopaí, is é an sprioc chéanna atá agam: bogearraí dea-innealtóirithe a sheoltar, a fheidhmíonn go maith agus ar pléisiúr iad a úsáid."
         },
         "images": {
-          "pipeline": "Ceannaire Leabaithe — píblíne eisiúna",
-          "architecture": "Ceannaire Leabaithe — ailtireacht",
-          "workflow": "Ceannaire Leabaithe — sreabhadh oibre na foirne",
-          "product": "Ceannaire Leabaithe — táirge seolta"
+          "pipeline": "Innealtóireacht Shoghluaiste — píblíne eisiúna",
+          "architecture": "Innealtóireacht Shoghluaiste — ailtireacht",
+          "workflow": "Innealtóireacht Shoghluaiste — sreabhadh oibre le cúnamh AI",
+          "product": "Innealtóireacht Shoghluaiste — feidhmchlár seolta"
         }
       }
     }
@@ -117,17 +120,25 @@
   "about": {
     "heading": "Fúm",
     "photoAlt": "Rónán Ó Laoire",
-    "p1": "Is é an forbróir Éireannach <link>Rónán Ó Laoire</link> atá taobh thiar de <brand>BusyLittlePixels</brand>. Tá blianta de thaithí phraiticiúil aige ag tógáil táirgí digiteacha nua-aimseartha do ghnólachtaí atá ag iarraidh dul chun cinn.",
+    "p1": "Is é an forbróir soghluaiste, gréasáin agus bogearraí Éireannach <link>Rónán Ó Laoire</link> atá taobh thiar de <brand>BusyLittlePixels</brand>. Tá blianta de thaithí phraiticiúil aige ag tógáil táirgí digiteacha nua-aimseartha do ghnólachtaí atá ag iarraidh dul chun cinn.",
     "p2": "Is é forbairt gréasáin agus soghluaiste den chéad ghlúin eile sainréimse BLP/Rónáin, ag soláthar réitigh shaincheaptha, inscálaithe atá cruthaithe i dtáirgeadh. Le ceannaireacht theicniúil straitéiseach agus saineolas domhain innealtóireachta, tugann Rónán dearcadh ceannaire teicniúil páirtaimseartha agus scileanna praiticiúla forbróra a chuireann rudaí i gcrích.",
     "p3": "Gan obair a chaitheamh chuig daoine eile, gan comhairle theoiriciúil. Smaointeoireacht shoiléir, cinntí teicniúla stuama agus réitigh ardchaighdeáin mar thaca leo."
   },
   "skills": {
     "mobile": "Soghluaiste",
     "web": "Gréasán",
-    "platform": "Ardán",
+    "tooling": "Uirlisí",
     "practice": "Cleachtas",
     "items": {
       "agentic": "Forbairt ghníomhaireach",
+      "mcp": "Freastalaithe MCP",
+      "rag": "Píblínte RAG",
+      "documents": "Próiseáil PDF agus scananna (OCR)",
+      "embeddings": "Embeddings le pgvector",
+      "hybridSearch": "Cuardach hibrideach: veicteoir + téacs iomlán",
+      "permissions": "Aisghabháil de réir ceadanna",
+      "evals": "Measúnú agus breathnóireacht LLM",
+      "aiCoding": "Cursor, Claude agus Copilot, nuair is cuí",
       "consultancy": "Comhairleoireacht theicniúil",
       "strategy": "Straitéis táirge",
       "ux": "Dearadh UX agus comhéadain",

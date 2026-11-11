@@ -77,24 +77,27 @@
           "action": "Technische actie — voor en na"
         }
       },
-      "embedded": {
-        "title": "Embedded / Remote / In-house",
-        "description": "Praktische technische expertise en leiderschap, binnen je team.",
-        "year": "2019 — heden",
-        "role": "Engineering Manager / Senior Developer",
+      "engineering": {
+        "title": "Mobile, Web & Product Engineering",
+        "description": "Senior mobile- en full-stack engineering, met moderne tooling.",
+        "year": "2024 — heden",
+        "role": "Senior Mobile Engineer / Tech Lead",
+        "stack": {
+          "agentic": "Agentic workflows"
+        },
         "summary": {
-          "p1": "Mijn loopbaan heeft me door alle lagen van software engineering geleid, van hands-on development over de volledige stack tot technisch leiderschap, teammanagement en verantwoordelijkheid op directieniveau. Die brede ervaring geeft me een goed begrip van hoe technologie, mensen en bedrijfsdoelen samenkomen om succesvolle producten op te leveren.",
-          "p2": "Ik heb engineeringteams geleid, complexe technische projecten gemanaged en de ontwikkeling en oplevering van grootschalige platformen aangestuurd. Als CTO van The Next Web (TNW) en in senior technische functies bij andere organisaties heb ik gewerkt aan engineeringstrategie, systeemarchitectuur, teamontwikkeling, stakeholdermanagement en productoplevering.",
-          "p3": "Hoewel ik me thuis voel in de volledige technische stack, lever ik de meeste waarde in productuitvoering en oplevering. Ik vind het vooral mooi om ambitieuze ideeën of ingewikkelde eisen op te pakken, een heldere technische richting te bepalen en ze om te zetten in goed gebouwde, werkende producten. Dat betekent het grotere geheel begrijpen, pragmatische architectuurbeslissingen nemen, de juiste mensen en technologieën samenbrengen en het momentum vasthouden van concept tot productie.",
-          "p4": "Ik voel me even goed thuis als leider van een engineeringafdeling, als onderdeel van een bestaand team of als directe eigenaar van een technische uitdaging. Mijn aanpak is collaboratief, commercieel bewust en stevig geworteld in hands-on engineering.",
-          "p5": "Ik werk als embedded consultant, als remote freelancer en in vaste in-house functies, en breng in elke vorm dezelfde mate van eigenaarschap, technisch oordeelsvermogen en toewijding aan oplevering mee.",
-          "p6": "Uiteindelijk vind ik het leuk om dingen te bouwen, lastige problemen op te lossen en met goede mensen te werken. Mijn kracht ligt in het overbruggen van technische complexiteit en praktische uitvoering, zodat goede ideeën uitgroeien tot succesvolle, duurzame producten."
+          "p1": "Ik ben een ervaren senior mobile engineer met meer dan 16 jaar ervaring in softwareontwikkeling, waaronder een periode als CTO van The Next Web (TNW). Mijn werk loopt uiteen van vroege webplatformen tot iOS- en Android-apps die dagelijks door duizenden mensen worden gebruikt. Vandaag ligt mijn focus op React Native en Expo, ondersteund door TypeScript, moderne backends en een full-stack begrip van hoe alle onderdelen samenkomen.",
+          "p2": "Ik bouw apps zoals moderne producten gebouwd moeten worden: end-to-end getypeerd, opgebouwd uit componenten, getest en uitgerold via geautomatiseerde pipelines. Dat betekent Expo Router en EAS voor builds en over-the-air updates, Reanimated voor vloeiende, native aanvoelende interactie, en goed gestructureerde state- en datalagen die snel blijven terwijl het product groeit.",
+          "p3": "Achter de app neem ik ook de rest van de stack voor mijn rekening: API's en integraties, Supabase en Postgres, edge-infrastructuur op Cloudflare, CI/CD, monitoring en releasemanagement voor de App Store en Google Play.",
+          "p4": "Ik gebruik AI-codeertools waar ze echt helpen, zoals scaffolding, refactoring, tests en documentatie, en laat ze weg waar dat niet zo is. Alles wat ze opleveren wordt gereviewd en beheerd zoals elke andere code, want het oordeel over wat er live gaat blijft het belangrijkst.",
+          "p5": "Waar het bij het product past, kan ik ook AI-functionaliteit degelijk inbouwen: LLM-integraties, zoeken in je eigen documenten en data, en automatiseringen die aansluiten op de tools die je team al gebruikt.",
+          "p6": "Of ik nu aansluit bij een bestaand team, een mobiele build leid of een product van idee naar de stores breng, het doel is hetzelfde: goed gebouwde software die live gaat, presteert en prettig in gebruik is."
         },
         "images": {
-          "pipeline": "Embedded Lead — release-pipeline",
-          "architecture": "Embedded Lead — architectuur",
-          "workflow": "Embedded Lead — teamworkflow",
-          "product": "Embedded Lead — opgeleverd product"
+          "pipeline": "Mobile Engineering — release-pipeline",
+          "architecture": "Mobile Engineering — architectuur",
+          "workflow": "Mobile Engineering — AI-ondersteunde workflow",
+          "product": "Mobile Engineering — opgeleverde app"
         }
       }
     }
@@ -117,17 +120,25 @@
   "about": {
     "heading": "Over mij",
     "photoAlt": "Rónán Ó Laoire",
-    "p1": "<brand>BusyLittlePixels</brand> is de Ierse developer <link>Rónán Ó Laoire</link>, met jarenlange praktijkervaring in het bouwen van moderne digitale producten voor bedrijven die vooruit willen.",
+    "p1": "<brand>BusyLittlePixels</brand> is de Ierse mobile-, web- en softwaredeveloper <link>Rónán Ó Laoire</link>, met jarenlange praktijkervaring in het bouwen van moderne digitale producten voor bedrijven die vooruit willen.",
     "p2": "BLP/Rónán is gespecialiseerd in web- en mobiele ontwikkeling van de volgende generatie en levert maatwerk, schaalbare oplossingen die zich in productie hebben bewezen. Door strategisch technisch leiderschap te combineren met diepgaande engineeringkennis biedt Rónán het perspectief van een fractional tech lead en de praktische vaardigheden van een developer die dingen voor elkaar krijgt.",
     "p3": "Geen overdrachten, geen theoretisch advies. Gewoon helder denken, doordachte technische beslissingen en kwalitatieve oplossingen om dat waar te maken."
   },
   "skills": {
     "mobile": "Mobiel",
     "web": "Web",
-    "platform": "Platform",
+    "tooling": "Tooling",
     "practice": "Werkwijze",
     "items": {
       "agentic": "Agentic development",
+      "mcp": "MCP-servers",
+      "rag": "RAG-pipelines",
+      "documents": "Verwerking van PDF's & scans (OCR)",
+      "embeddings": "Embeddings met pgvector",
+      "hybridSearch": "Hybride zoeken: vector + full-text",
+      "permissions": "Retrieval op basis van rechten",
+      "evals": "LLM-evals & observability",
+      "aiCoding": "Cursor, Claude & Copilot, waar passend",
       "consultancy": "Technische consultancy",
       "strategy": "Productstrategie",
       "ux": "UX- & interfaceontwerp",

@@ -37,7 +37,7 @@ export async function getTechSkills() {
       ],
     },
     {
-      heading: t("platform"),
+      heading: t("tooling"),
       items: [
         "Laravel",
         "Supabase",
@@ -46,6 +46,14 @@ export async function getTechSkills() {
         "CI/CD",
         "LLMs",
         t("items.agentic"),
+        t("items.mcp"),
+        t("items.rag"),
+        t("items.documents"),
+        t("items.embeddings"),
+        t("items.hybridSearch"),
+        t("items.permissions"),
+        t("items.evals"),
+        t("items.aiCoding"),
       ],
     },
   ];

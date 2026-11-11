@@ -79,24 +79,27 @@
           "action": "Technical Action — before and after"
         }
       },
-      "embedded": {
-        "title": "Embedded / Remote / In-House",
-        "description": "Hands-on technical expertise and leadership, inside your team.",
+      "engineering": {
+        "title": "Mobile, Web & Product Engineering",
+        "description": "Senior mobile, web and full-stack engineering, with modern tooling.",
         "year": "2024 — Present",
-        "role": "Engineering Manager / Senior Developer",
+        "role": "Senior Mobile Engineer / Tech Lead",
+        "stack": {
+          "agentic": "Agentic workflows"
+        },
         "summary": {
-          "p1": "My career has taken me through every level of software engineering, from hands-on development across the full stack to technical leadership, team management and executive responsibility. That breadth of experience gives me a strong understanding of how technology, people and business objectives come together to deliver successful products.",
-          "p2": "I've led engineering teams, managed complex technical projects and overseen the development and delivery of large-scale platforms. As CTO of The Next Web (TNW), and through senior technical roles with other organisations, I've worked across engineering strategy, system architecture, team development, stakeholder management and product delivery.",
-          "p3": "While I'm comfortable working across the entire technical stack, product execution and delivery are where I bring the greatest value. I particularly enjoy taking ambitious ideas or complicated requirements, establishing a clear technical direction and turning them into well-engineered, working products. That means understanding the bigger picture, making pragmatic architectural decisions, bringing the right people and technologies together, and maintaining momentum from concept through to production.",
-          "p4": "I'm equally comfortable leading an engineering function, working as part of an established team or taking direct ownership of a technical challenge. My approach is collaborative, commercially aware and firmly grounded in hands-on engineering.",
-          "p5": "I work across embedded consulting, remote freelance and permanent in-house roles, bringing the same level of ownership, technical judgement and commitment to delivery regardless of the arrangement.",
-          "p6": "Ultimately, I enjoy building things, solving difficult problems and working with good people. My strength lies in bridging the gap between technical complexity and practical execution, ensuring that good ideas become successful, sustainable products."
+          "p1": "I'm an experienced senior developer with over 16 years of building software, including time as CTO of The Next Web (TNW). My work has ranged from early web platforms to iOS and Android apps used by thousands of people every day. Today my focus is React Native and Expo, backed by TypeScript, modern backends and a full-stack understanding of how all the pieces fit together.",
+          "p2": "I build apps the way modern products need to be built: typed end to end, component-driven, tested and shipped through automated pipelines. That means Expo Router and EAS for builds and over-the-air updates, Reanimated for fluid, native-feeling interaction, and well-structured state and data layers that stay fast as the product grows.",
+          "p3": "Behind the app, I'm comfortable owning the rest of the stack: APIs and integrations, Supabase and Postgres, edge infrastructure on Cloudflare, CI/CD, monitoring and release management for the App Store and Google Play.",
+          "p4": "I use AI coding tools where they genuinely help, such as scaffolding, refactoring, tests and documentation, and leave them out where they don't. Everything they produce gets reviewed and owned like any other code, because the judgement about what to ship still matters most.",
+          "p5": "Where it suits the product, I can also build AI features properly: LLM integrations, search over your own documents and data, and automations that connect to the tools your team already uses.",
+          "p6": "Whether I'm joining an existing team, leading a mobile build or taking a product from idea to the stores, the goal is the same: well-engineered software that ships, performs and is a pleasure to use."
         },
         "images": {
-          "pipeline": "Embedded Lead — release pipeline",
-          "architecture": "Embedded Lead — architecture",
-          "workflow": "Embedded Lead — team workflow",
-          "product": "Embedded Lead — shipped product"
+          "pipeline": "Mobile Engineering — release pipeline",
+          "architecture": "Mobile Engineering — architecture",
+          "workflow": "Mobile Engineering — AI-assisted workflow",
+          "product": "Mobile Engineering — shipped app"
         }
       }
     }
@@ -119,17 +122,25 @@
   "about": {
     "heading": "About",
     "photoAlt": "Rónán Ó Laoire",
-    "p1": "<brand>BusyLittlePixels</brand> is Irish developer <link>Rónán Ó Laoire</link>. (Ronan O'Leary) Bringing years of hands-on experience building modern digital products to businesses that want to move forward.",
+    "p1": "<brand>BusyLittlePixels</brand> is Irish mobile/web/software developer <link>Rónán Ó Laoire</link>. (Ronan O'Leary) Bringing years of hands-on experience building modern digital products to businesses that want to move forward.",
     "p2": "BLP/Ronan specialises in next-generation web and mobile development, delivering bespoke, scalable solutions proven in production. Combining strategic technical leadership with deep engineering expertise, Rónán offers the perspective of a fractional tech lead and the practical skills of a developer who gets things done.",
     "p3": "No hand-offs, no theoretical advice. Just clear thinking, sound technical decisions and quality solutions to back them up."
   },
   "skills": {
     "mobile": "Mobile",
     "web": "Web",
-    "platform": "Platform",
+    "tooling": "Tooling",
     "practice": "Practice",
     "items": {
       "agentic": "Agentic development",
+      "mcp": "MCP servers",
+      "rag": "RAG pipelines",
+      "documents": "PDF & scan processing (OCR)",
+      "embeddings": "Embeddings with pgvector",
+      "hybridSearch": "Hybrid vector + full-text search",
+      "permissions": "Permission-aware retrieval",
+      "evals": "LLM evals & observability",
+      "aiCoding": "Cursor, Claude & Copilot, where they fit",
       "consultancy": "Technical consultancy",
       "strategy": "Product strategy",
       "ux": "UX & interface design",

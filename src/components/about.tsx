@@ -52,15 +52,26 @@ export async function About() {
             <p className="mb-6">
               {t("p3")}
             </p>
-            <div className="mt-12 grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3">
-              {techSkills.map((list) => (
-                <div key={list.heading}>
-                  <h3 className="mb-2 text-sm tracking-widest uppercase">
+            <div className="mt-12 border-b-2 border-black">
+              {techSkills.map((list, i) => (
+                <div
+                  key={list.heading}
+                  className="grid grid-cols-1 gap-4 border-t-2 border-black py-6 sm:grid-cols-[9rem_1fr]"
+                >
+                  <h3 className="flex items-baseline gap-3 text-sm tracking-widest uppercase">
+                    <span className="font-bold text-red-600 tabular-nums">
+                      {String(i + 1).padStart(2, "0")}
+                    </span>
                     {list.heading}
                   </h3>
-                  <ul className="tick-list space-y-2">
+                  <ul className="flex flex-wrap gap-2">
                     {list.items.map((item) => (
-                      <li key={item}>{item}</li>
+                      <li
+                        key={item}
+                        className="rounded-[0_0.75rem] border border-black px-3 py-1.5 text-sm transition-colors hover:border-red-600 hover:bg-red-600 hover:text-white"
+                      >
+                        {item}
+                      </li>
                     ))}
                   </ul>
                 </div>

@@ -43,9 +43,12 @@ export function WorkGrid({ projects }: { projects: Project[] }) {
 
   return (
     <>
-      <ul className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
+      <ul className="-mx-4 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 py-2 [scrollbar-width:none] md:-mx-8 md:scroll-px-8 md:px-8 lg:mx-0 lg:grid lg:grid-cols-3 lg:gap-y-8 lg:overflow-visible lg:px-0 lg:py-0 [&::-webkit-scrollbar]:hidden">
         {projects.map((project, i) => (
-          <li key={project.id}>
+          <li
+            key={project.id}
+            className="w-[80%] shrink-0 snap-start sm:w-[45%] md:w-[42%] lg:w-auto"
+          >
             <button
               type="button"
               onClick={() => open(i)}

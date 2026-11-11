@@ -239,9 +239,12 @@ export async function Resume() {
       >
         <div className="container mx-auto">
           <h2 className={sectionHeading}>{t("services.heading")}</h2>
-          <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
+          <div className="-mx-4 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 [scrollbar-width:none] md:-mx-8 md:scroll-px-8 md:px-8 lg:mx-0 lg:grid lg:grid-cols-3 lg:gap-8 lg:overflow-visible lg:px-0 print:mx-0 print:grid print:grid-cols-1 print:gap-8 print:overflow-visible print:px-0 [&::-webkit-scrollbar]:hidden">
             {services.map((service, i) => (
-              <div key={service} className="bg-white p-8 print:p-0">
+              <div
+                key={service}
+                className="w-[85%] shrink-0 snap-start bg-white p-8 sm:w-[60%] md:w-[45%] lg:w-auto print:w-auto print:p-0"
+              >
                 <span className="mb-6 block text-6xl font-bold text-red-600 print:mb-2 print:text-2xl">
                   {String(i + 1).padStart(2, "0")}
                 </span>

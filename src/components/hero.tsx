@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Particles from "@/components/particles";
 import { PixelHeart } from "@/components/pixel-heart";
+import { navTransition } from "@/components/page-transition";
 import { Link } from "@/i18n/navigation";
 
 export async function Hero() {
@@ -47,6 +48,7 @@ export async function Hero() {
               <div className="flex flex-wrap gap-4 text-sm tracking-widest uppercase">
                 <Link
                   href="/hire-me"
+                  transitionTypes={navTransition("/hire-me")}
                   className="border-2 border-red-600 bg-red-600 px-6 py-3 text-white transition-colors hover:border-white hover:bg-white hover:text-black"
                 >
                   {t("hireMe")}

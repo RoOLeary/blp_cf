@@ -88,7 +88,7 @@
         "summary": {
           "p1": "Táim ag tógáil bogearraí le breis is 16 bliana, tréimhse mar CTO ar The Next Web (TNW) san áireamh. Rith an obair ó ardáin ghréasáin luatha go feidhmchláir iOS agus Android a úsáideann na mílte duine gach lá. Smaoiním fós i dtéarmaí táirge, ardáin, soghluaiste agus na gcóras taobh thiar díobh. Tá athrú tagtha ar an gcaoi a dtógaim.",
           "p2": "Is innealtóireacht táirge ghníomhaireach í an obair anois. React Native agus Expo don táirge, TypeScript ó cheann ceann, agus gníomhairí códaithe mar ghnáthchuid den tógáil: creatlach, athfhachtóiriú, tástálacha, doiciméadú, agus an sreangú eatarthu. Leagaim síos an treo, déanaim athbhreithniú ar a dtugtar ar ais, agus glacaim úinéireacht ar a sheoltar. Tagann an luas ó na huirlisí. Fanann an breithiúnas liomsa.",
-          "p3": "Feictear é sin sa táirge. Bíonn sé clóscríofa ó cheann ceann agus bunaithe ar chomhpháirteanna, tástáilte, agus seolta trí phíblínte uathoibrithe — Expo Router agus EAS le haghaidh tógálacha agus nuashonruithe thar an aer, Reanimated le haghaidh idirghníomhaíochta líofa a mhothaíonn dúchasach, agus sraitheanna staide agus sonraí a fhanann tapa de réir mar a fhásann an táirge.",
+          "p3": "Feictear é sin sa táirge. Bíonn sé clóscríofa ó cheann ceann agus bunaithe ar chomhpháirteanna, tástáilte, agus seolta trí phíblínte uathoibrithe — Expo Router agus EAS le haghaidh tógálacha agus Uasdátú TAA, Reanimated le haghaidh idirghníomhaíochta líofa a mhothaíonn dúchasach, agus sraitheanna staide agus sonraí a fhanann tapa de réir mar a fhásann an táirge.",
           "p4": "Taobh thiar den fheidhmchlár, glacaim freagracht as an gcuid eile den chruach: API agus comhtháthuithe, Supabase agus Postgres, bonneagar imeallach ar Cloudflare, CI/CD, monatóireacht agus bainistíocht eisiúintí don App Store agus do Google Play.",
           "p5": "Nuair a oireann sé don táirge, tógaim an intleacht isteach ann freisin: comhtháthuithe LLM, cuardach i do dhoiciméid agus i do shonraí féin, agus uathoibrithe a nascann leis na huirlisí atá in úsáid ag foireann cheana féin. Deartha, measúnaithe agus seolta de réir an chaighdeáin chéanna leis an gcuid eile den fheidhmchlár.",
           "p6": "Cibé an bhfuilim ag dul le foireann, ag stiúradh tógáil shoghluaiste nó ag tabhairt táirge ón smaoineamh go dtí na siopaí, is í an aidhm chéanna í: bogearraí dea-innealtóirithe a sheoltar, a fheidhmíonn go maith agus ar pléisiúr iad a úsáid, tógtha mar a thógtar táirgí anois."
@@ -121,7 +121,7 @@
     "heading": "Fúm",
     "photoAlt": "Rónán Ó Laoire",
     "p1": "Is é an t-innealtóir táirge agus forbróir feidhmchlár Éireannach <link>Rónán Ó Laoire</link> atá taobh thiar de <brand>BusyLittlePixels</brand>. Tá blianta de thaithí phraiticiúil aige ag tógáil táirgí digiteacha nua-aimseartha do ghnólachtaí atá ag iarraidh dul chun cinn.",
-    "p2": "Is é forbairt gréasáin agus soghluaiste den chéad ghlúin eile sainréimse BLP/Rónáin, ag soláthar réitigh shaincheaptha, inscálaithe atá cruthaithe i dtáirgeadh. Le ceannaireacht theicniúil straitéiseach agus saineolas domhain innealtóireachta, tugann Rónán dearcadh ceannaire teicniúil páirtaimseartha agus scileanna praiticiúla forbróra a chuireann rudaí i gcrích.",
+    "p2": "Is é innealtóireacht táirge den chéad ghlúin eile sainréimse Rónáin, le cúlra i bhforbairt gréasáin agus soghluaiste agus i mbainistíocht innealtóireachta, ag soláthar réitigh inscálaithe atá cruthaithe i dtáirgeadh. Tugann Rónán eolas agus dearcadh ceannaire teicniúil, mar aon le scileanna praiticiúla forbróra nua-aimseartha a bhfuil a chumas méadaithe go mór, a chuireann rudaí i gcrích. Sa ré ghníomhaireach, is féidir le duine ar bith cód a ghiniúint. Is é an buntáiste a fhios a bheith agat cad ba cheart a thógáil, agus cad atá réidh le seoladh.",
     "p3": "Gan obair a chaitheamh chuig daoine eile, gan comhairle theoiriciúil. Smaointeoireacht shoiléir, cinntí teicniúla stuama agus réitigh ardchaighdeáin mar thaca leo."
   },
   "skills": {
@@ -131,7 +131,7 @@
     "ai": "AI agus Gníomhairí",
     "practice": "Cleachtas",
     "items": {
-      "ota": "Nuashonruithe thar an aer",
+      "ota": "Uasdátú TAA",
       "apis": "APIanna agus comhtháthuithe",
       "observability": "Monatóireacht agus breathnóireacht",
       "llm": "Comhtháthuithe LLM",

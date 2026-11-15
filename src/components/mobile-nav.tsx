@@ -2,6 +2,7 @@
 
 import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
+import { navTransition } from "@/components/page-transition";
 import { socials } from "@/components/socials";
 import { Link, usePathname } from "@/i18n/navigation";
 
@@ -112,6 +113,7 @@ export function MobileNav({ links }: { links: NavLink[] }) {
                 <Link
                   ref={i === 0 ? firstLinkRef : undefined}
                   href={link.href}
+                  transitionTypes={navTransition(link.href)}
                   onClick={() => setOpen(false)}
                   aria-current={active ? "page" : undefined}
                   className="group flex items-baseline gap-4 py-1 focus:outline-none"

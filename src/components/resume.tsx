@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import { navTransition } from "@/components/page-transition";
 import { Link } from "@/i18n/navigation";
 
 const experience = [
@@ -118,6 +119,7 @@ export async function Resume() {
             <div className="flex flex-wrap gap-4 print:hidden">
               <Link
                 href="/#contact"
+                transitionTypes={navTransition("/#contact")}
                 className="bg-red-600 px-8 py-3 text-sm tracking-widest text-white uppercase transition-colors hover:bg-black"
               >
                 {tCommon("getInTouch")}
@@ -293,6 +295,7 @@ export async function Resume() {
           </h2>
           <Link
             href="/#contact"
+            transitionTypes={navTransition("/#contact")}
             className="bg-black px-8 py-3 text-sm tracking-widest text-white uppercase transition-colors hover:bg-white hover:text-black"
           >
             {tCommon("getInTouch")}

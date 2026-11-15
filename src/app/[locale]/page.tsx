@@ -6,6 +6,7 @@ import { Contact } from "@/components/contact";
 import { Footer } from "@/components/footer";
 import { Hero } from "@/components/hero";
 import { Nav } from "@/components/nav";
+import { PageTransition } from "@/components/page-transition";
 import { Work } from "@/components/work";
 import { socials } from "@/components/socials";
 import {
@@ -53,19 +54,21 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
   };
 
   return (
-    <main className="min-h-screen bg-white">
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
-        }}
-      />
-      <Nav />
-      <Hero />
-      <Work />
-      <About />
-      <Contact />
-      <Footer />
-    </main>
+    <PageTransition>
+      <main className="min-h-screen bg-white">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c"),
+          }}
+        />
+        <Nav />
+        <Hero />
+        <Work />
+        <About />
+        <Contact />
+        <Footer />
+      </main>
+    </PageTransition>
   );
 }

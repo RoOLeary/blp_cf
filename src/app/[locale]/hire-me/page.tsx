@@ -3,6 +3,7 @@ import type { Locale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { Footer } from "@/components/footer";
 import { Nav } from "@/components/nav";
+import { PageTransition } from "@/components/page-transition";
 import { Resume } from "@/components/resume";
 import { pageMetadata } from "@/i18n/metadata";
 
@@ -22,10 +23,12 @@ export default async function HireMe({ params }: PageProps<"/[locale]/hire-me">)
   setRequestLocale(locale as Locale);
 
   return (
-    <main className="min-h-screen bg-white">
-      <Nav />
-      <Resume />
-      <Footer />
-    </main>
+    <PageTransition>
+      <main className="min-h-screen bg-white">
+        <Nav />
+        <Resume />
+        <Footer />
+      </main>
+    </PageTransition>
   );
 }

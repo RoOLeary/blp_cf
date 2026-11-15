@@ -1,7 +1,7 @@
 {
   "metadata": {
     "home": {
-      "title": "Busy Little Pixels | Consultancy, Development, Growth",
+      "title": "Busy Little Pixels | Next-generation Product Engineering",
       "description": "Busy Little Pixels. Future-facing mobile app design and development."
     },
     "hireMe": {
@@ -44,7 +44,7 @@
           "p3": "As the founder and sole developer, I have taken Cogar from initial concept through product design, engineering, deployment and ongoing operation. I am responsible for the entire technical lifecycle, including product architecture, UX/UI design, mobile and backend development, infrastructure, security, moderation systems, analytics and maintenance.",
           "p4": "I also founded and independently manage Cogar Teicneolaíochta Ltd, the Irish company behind the platform. This extends my responsibilities beyond engineering into business strategy, commercial development, advertising, partnerships, regulatory compliance and day-to-day company operations.",
           "p5": "Built primarily with React Native, Expo, TypeScript, Supabase and Cloudflare, Cogar incorporates social feeds, user and organisation profiles, private messaging, groups, events, notifications, media, content moderation and an integrated advertising platform.",
-          "p6": "Cogar is a practical case study in end-to-end product ownership and founder-led engineering. It demonstrates my ability to conceive and architect a complex product, make technical and commercial decisions, deliver production-ready software, and independently operate and evolve a live platform serving thousands of users."
+          "p6": "Cogar is a practical case study in end-to-end product ownership and founder-led engineering. It demonstrates my ability to conceive and architect a complex product, make technical and commercial decisions, deliver production-ready software, and independently operate and evolve a live platform serving thousands of users. It is a modern app, done with old-school craft. I write the code myself. AI is not used on this project. This is where I scratch the coding itch."
         },
         "images": {
           "logo": "Cogar logo",
@@ -122,7 +122,7 @@
   "about": {
     "heading": "About",
     "photoAlt": "Rónán Ó Laoire",
-    "p1": "<brand>BusyLittlePixels</brand> is Irish mobile/web/software developer <link>Rónán Ó Laoire</link>. (Ronan O'Leary) Bringing years of hands-on experience building modern digital products to businesses that want to move forward.",
+    "p1": "<brand>BusyLittlePixels</brand> is an Irish Product Engineer and Application Developer <link>Rónán Ó Laoire</link>. (Ronan O'Leary) Bringing years of hands-on experience building modern digital products to businesses that want to move forward.",
     "p2": "BLP/Ronan specialises in next-generation web and mobile development, delivering bespoke, scalable solutions proven in production. Combining strategic technical leadership with deep engineering expertise, Rónán offers the perspective of a fractional tech lead and the practical skills of a developer who gets things done.",
     "p3": "No hand-offs, no theoretical advice. Just clear thinking, sound technical decisions and quality solutions to back them up."
   },

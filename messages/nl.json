@@ -43,7 +43,7 @@
           "p3": "Als oprichter en enige ontwikkelaar heb ik Cogar van het eerste concept via productontwerp, engineering en deployment tot de dagelijkse operatie gebracht. Ik ben verantwoordelijk voor de volledige technische levenscyclus, waaronder productarchitectuur, UX/UI-design, mobiele en backendontwikkeling, infrastructuur, beveiliging, moderatiesystemen, analytics en onderhoud.",
           "p4": "Daarnaast heb ik Cogar Teicneolaíochta Ltd opgericht, het Ierse bedrijf achter het platform, dat ik zelfstandig leid. Daarmee reiken mijn verantwoordelijkheden verder dan engineering, tot bedrijfsstrategie, commerciële ontwikkeling, advertenties, partnerschappen, naleving van regelgeving en de dagelijkse bedrijfsvoering.",
           "p5": "Cogar is voornamelijk gebouwd met React Native, Expo, TypeScript, Supabase en Cloudflare en omvat sociale feeds, gebruikers- en organisatieprofielen, privéberichten, groepen, evenementen, notificaties, media, contentmoderatie en een geïntegreerd advertentieplatform.",
-          "p6": "Cogar is een praktijkvoorbeeld van end-to-end producteigenaarschap en engineering onder leiding van de oprichter. Het laat zien dat ik een complex product kan bedenken en ontwerpen, technische en commerciële beslissingen kan nemen, productierijpe software kan opleveren en een live platform met duizenden gebruikers zelfstandig kan beheren en doorontwikkelen."
+          "p6": "Cogar is een praktijkvoorbeeld van end-to-end producteigenaarschap en engineering onder leiding van de oprichter. Het laat zien dat ik een complex product kan bedenken en ontwerpen, technische en commerciële beslissingen kan nemen, productierijpe software kan opleveren en een live platform met duizenden gebruikers zelfstandig kan beheren en doorontwikkelen. Het is een moderne app, gemaakt met ouderwets vakmanschap. Ik schrijf de code zelf. In dit project wordt geen AI gebruikt. Dit is waar ik de drang om zelf te coderen kwijt kan."
         },
         "images": {
           "logo": "Cogar-logo",
@@ -120,7 +120,7 @@
   "about": {
     "heading": "Over mij",
     "photoAlt": "Rónán Ó Laoire",
-    "p1": "<brand>BusyLittlePixels</brand> is de Ierse mobile-, web- en softwaredeveloper <link>Rónán Ó Laoire</link>, met jarenlange praktijkervaring in het bouwen van moderne digitale producten voor bedrijven die vooruit willen.",
+    "p1": "<brand>BusyLittlePixels</brand> is de Ierse Product Engineer en Application Developer <link>Rónán Ó Laoire</link>, met jarenlange praktijkervaring in het bouwen van moderne digitale producten voor bedrijven die vooruit willen.",
     "p2": "BLP/Rónán is gespecialiseerd in web- en mobiele ontwikkeling van de volgende generatie en levert maatwerk, schaalbare oplossingen die zich in productie hebben bewezen. Door strategisch technisch leiderschap te combineren met diepgaande engineeringkennis biedt Rónán het perspectief van een fractional tech lead en de praktische vaardigheden van een developer die dingen voor elkaar krijgt.",
     "p3": "Geen overdrachten, geen theoretisch advies. Gewoon helder denken, doordachte technische beslissingen en kwalitatieve oplossingen om dat waar te maken."
   },

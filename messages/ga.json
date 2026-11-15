@@ -43,7 +43,7 @@
           "p3": "Mar bhunaitheoir agus an t-aon fhorbróir, thug mé Cogar ón gcoincheap tosaigh trí dhearadh táirge, innealtóireacht agus imscaradh go dtí an oibriú leanúnach. Tá mé freagrach as an saolré teicniúil ar fad, lena n-áirítear ailtireacht an táirge, dearadh UX/UI, forbairt mhóibíleach agus chúlchórais, bonneagar, slándáil, córais mhodhnóireachta, anailísíocht agus cothabháil.",
           "p4": "Bhunaigh mé Cogar Teicneolaíochta Ltd freisin, an comhlacht Éireannach taobh thiar den ardán, agus bainistím go neamhspleách é. Síneann sé sin mo chuid freagrachtaí thar an innealtóireacht isteach i straitéis ghnó, forbairt tráchtála, fógraíocht, comhpháirtíochtaí, comhlíonadh rialála agus oibríochtaí laethúla an chomhlachta.",
           "p5": "Tógtha go príomha le React Native, Expo, TypeScript, Supabase agus Cloudflare, cuimsíonn Cogar fothaí sóisialta, próifílí úsáideoirí agus eagraíochtaí, teachtaireachtaí príobháideacha, grúpaí, imeachtaí, fógraí, meáin, modhnóireacht ábhair agus ardán fógraíochta comhtháite.",
-          "p6": "Is cás-staidéar praiticiúil é Cogar ar úinéireacht táirge ó thús go deireadh agus ar innealtóireacht faoi stiúir bunaitheora. Léiríonn sé mo chumas táirge casta a cheapadh agus a ailtiriú, cinntí teicniúla agus tráchtála a dhéanamh, bogearraí réidh don táirgeadh a sholáthar, agus ardán beo a fhreastalaíonn ar na mílte úsáideoir a oibriú agus a fhorbairt go neamhspleách."
+          "p6": "Is cás-staidéar praiticiúil é Cogar ar úinéireacht táirge ó thús go deireadh agus ar innealtóireacht faoi stiúir bunaitheora. Léiríonn sé mo chumas táirge casta a cheapadh agus a ailtiriú, cinntí teicniúla agus tráchtála a dhéanamh, bogearraí réidh don táirgeadh a sholáthar, agus ardán beo a fhreastalaíonn ar na mílte úsáideoir a oibriú agus a fhorbairt go neamhspleách. Is aip nua-aimseartha í, déanta le seancheird. Scríobhaim an cód mé féin. Ní úsáidtear AI sa tionscadal seo. Is anseo a ligim don dúil cód a scríobh."
         },
         "images": {
           "logo": "Lógó Cogar",
@@ -120,7 +120,7 @@
   "about": {
     "heading": "Fúm",
     "photoAlt": "Rónán Ó Laoire",
-    "p1": "Is é an forbróir soghluaiste, gréasáin agus bogearraí Éireannach <link>Rónán Ó Laoire</link> atá taobh thiar de <brand>BusyLittlePixels</brand>. Tá blianta de thaithí phraiticiúil aige ag tógáil táirgí digiteacha nua-aimseartha do ghnólachtaí atá ag iarraidh dul chun cinn.",
+    "p1": "Is é an t-innealtóir táirge agus forbróir feidhmchlár Éireannach <link>Rónán Ó Laoire</link> atá taobh thiar de <brand>BusyLittlePixels</brand>. Tá blianta de thaithí phraiticiúil aige ag tógáil táirgí digiteacha nua-aimseartha do ghnólachtaí atá ag iarraidh dul chun cinn.",
     "p2": "Is é forbairt gréasáin agus soghluaiste den chéad ghlúin eile sainréimse BLP/Rónáin, ag soláthar réitigh shaincheaptha, inscálaithe atá cruthaithe i dtáirgeadh. Le ceannaireacht theicniúil straitéiseach agus saineolas domhain innealtóireachta, tugann Rónán dearcadh ceannaire teicniúil páirtaimseartha agus scileanna praiticiúla forbróra a chuireann rudaí i gcrích.",
     "p3": "Gan obair a chaitheamh chuig daoine eile, gan comhairle theoiriciúil. Smaointeoireacht shoiléir, cinntí teicniúla stuama agus réitigh ardchaighdeáin mar thaca leo."
   },

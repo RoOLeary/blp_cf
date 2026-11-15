@@ -127,22 +127,31 @@
   "skills": {
     "mobile": "Mobiel",
     "web": "Web",
-    "tooling": "Tooling",
+    "platform": "Platform & infra",
+    "ai": "AI & agents",
     "practice": "Werkwijze",
     "items": {
+      "ota": "Over-the-air updates",
+      "apis": "API's & integraties",
+      "observability": "Monitoring & observability",
+      "llm": "LLM-integraties",
+      "context": "Prompt- & context-engineering",
+      "toolCalling": "Tool calling & structured outputs",
       "agentic": "Agentic development",
       "mcp": "MCP-servers",
       "rag": "RAG-pipelines",
       "documents": "Verwerking van PDF's & scans (OCR)",
-      "embeddings": "Embeddings met pgvector",
+      "embeddings": "Embeddings",
       "hybridSearch": "Hybride zoeken: vector + full-text",
       "permissions": "Retrieval op basis van rechten",
       "evals": "LLM-evals & observability",
-      "aiCoding": "Cursor, Claude & Copilot, waar passend",
+      "aiCoding": "Cursor, Claude & Copilot (waar passend)",
       "consultancy": "Technische consultancy",
+      "systemDesign": "Systeemontwerp & architectuur",
       "strategy": "Productstrategie",
       "ux": "UX- & interfaceontwerp",
       "leadership": "Technisch leiderschap",
+      "fractional": "Fractional tech lead",
       "growth": "Groei & analytics"
     }
   },
@@ -265,17 +274,17 @@
     "skillsHeading": "Vaardigheden",
     "services": {
       "heading": "Diensten",
+      "engineering": {
+        "title": "Product Engineering",
+        "description": "Agentic, getypeerd en opgeleverd. Mobiele en webproducten van idee tot de App Store, Google Play en verder."
+      },
       "consultancy": {
-        "title": "Consultancy",
-        "description": "Product- en technische audits, roadmaps en architectuurreviews."
+        "title": "Technisch advies / Systeemontwerp",
+        "description": "Een heldere, eerlijke blik op je app, codebase en oplevering. Audits, architectuurreviews en praktische roadmaps."
       },
-      "development": {
-        "title": "Ontwikkeling",
-        "description": "Ontwerp en bouw van mobiele en webproducten, van begin tot eind."
-      },
-      "growth": {
-        "title": "Groei",
-        "description": "Analytics, experimenten en doorontwikkeling na de lancering."
+      "ai": {
+        "title": "Automatisering",
+        "description": "LLM-integraties, zoeken in je eigen documenten en data, en automatiseringen die aansluiten op de tools die je team al gebruikt."
       }
     },
     "cta": {

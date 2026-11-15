@@ -129,22 +129,31 @@
   "skills": {
     "mobile": "Mobile",
     "web": "Web",
-    "tooling": "Tooling",
+    "platform": "Platform & Infra",
+    "ai": "AI & Agents",
     "practice": "Practice",
     "items": {
+      "ota": "Over-the-air updates",
+      "apis": "APIs & integrations",
+      "observability": "Monitoring & observability",
+      "llm": "LLM integrations",
+      "context": "Prompt & context engineering",
+      "toolCalling": "Tool calling & structured outputs",
       "agentic": "Agentic development",
       "mcp": "MCP servers",
       "rag": "RAG pipelines",
       "documents": "PDF & scan processing (OCR)",
-      "embeddings": "Embeddings with pgvector",
+      "embeddings": "Embeddings",
       "hybridSearch": "Hybrid vector + full-text search",
       "permissions": "Permission-aware retrieval",
       "evals": "LLM evals & observability",
-      "aiCoding": "Cursor, Claude & Copilot, where they fit",
+      "aiCoding": "Cursor, Claude & Copilot (where they fit)",
       "consultancy": "Technical consultancy",
+      "systemDesign": "System design & architecture",
       "strategy": "Product strategy",
       "ux": "UX & interface design",
       "leadership": "Technical leadership",
+      "fractional": "Fractional tech lead",
       "growth": "Growth & analytics"
     }
   },
@@ -267,17 +276,17 @@
     "skillsHeading": "Skills",
     "services": {
       "heading": "Services",
+      "engineering": {
+        "title": "Product Engineering",
+        "description": "Agentic, typed and shipped. Mobile and web products taken from idea to the App Store, Google Play and beyond."
+      },
       "consultancy": {
-        "title": "Consultancy",
-        "description": "Product and technical audits, roadmaps and architecture reviews."
+        "title": "Technical Consulting / System Design",
+        "description": "A clear, honest look at your app, codebase and delivery. Audits, architecture reviews and practical roadmaps."
       },
-      "development": {
-        "title": "Development",
-        "description": "End-to-end design and build of mobile and web products."
-      },
-      "growth": {
-        "title": "Growth",
-        "description": "Analytics, experimentation and iteration after launch."
+      "ai": {
+        "title": "Automation",
+        "description": "LLM integrations, search over your own documents and data, and automations wired into the tools your team already uses."
       }
     },
     "cta": {

@@ -127,22 +127,31 @@
   "skills": {
     "mobile": "Soghluaiste",
     "web": "Gréasán",
-    "tooling": "Uirlisí",
+    "platform": "Ardán agus Bonneagar",
+    "ai": "AI agus Gníomhairí",
     "practice": "Cleachtas",
     "items": {
+      "ota": "Nuashonruithe thar an aer",
+      "apis": "APIanna agus comhtháthuithe",
+      "observability": "Monatóireacht agus breathnóireacht",
+      "llm": "Comhtháthuithe LLM",
+      "context": "Innealtóireacht leideanna agus comhthéacs",
+      "toolCalling": "Glaonna uirlisí agus aschuir struchtúrtha",
       "agentic": "Forbairt ghníomhaireach",
       "mcp": "Freastalaithe MCP",
       "rag": "Píblínte RAG",
       "documents": "Próiseáil PDF agus scananna (OCR)",
-      "embeddings": "Embeddings le pgvector",
+      "embeddings": "Embeddings",
       "hybridSearch": "Cuardach hibrideach: veicteoir + téacs iomlán",
       "permissions": "Aisghabháil de réir ceadanna",
       "evals": "Measúnú agus breathnóireacht LLM",
-      "aiCoding": "Cursor, Claude agus Copilot, nuair is cuí",
+      "aiCoding": "Cursor, Claude agus Copilot (nuair is cuí)",
       "consultancy": "Comhairleoireacht theicniúil",
+      "systemDesign": "Dearadh córas agus ailtireacht",
       "strategy": "Straitéis táirge",
       "ux": "Dearadh UX agus comhéadain",
       "leadership": "Ceannaireacht theicniúil",
+      "fractional": "Ceannaire teicniúil páirtaimseartha",
       "growth": "Fás agus anailísíocht"
     }
   },
@@ -265,17 +274,17 @@
     "skillsHeading": "Scileanna",
     "services": {
       "heading": "Seirbhísí",
+      "engineering": {
+        "title": "Innealtóireacht Táirge",
+        "description": "Gníomhaireach, clóscríofa agus seolta. Táirgí soghluaiste agus gréasáin ó smaoineamh go dtí an App Store, Google Play agus níos faide."
+      },
       "consultancy": {
-        "title": "Comhairleoireacht",
-        "description": "Iniúchtaí táirge agus teicniúla, treochláir agus athbhreithnithe ailtireachta."
+        "title": "Comhairleoireacht Theicniúil / Dearadh Córas",
+        "description": "Súil shoiléir, mhacánta ar d'aip, ar do chód agus ar do sheachadadh. Iniúchtaí, athbhreithnithe ailtireachta agus treochláir phraiticiúla."
       },
-      "development": {
-        "title": "Forbairt",
-        "description": "Dearadh agus tógáil táirgí soghluaiste agus gréasáin ó thús go deireadh."
-      },
-      "growth": {
-        "title": "Fás",
-        "description": "Anailísíocht, turgnamh agus atriall tar éis an tseolta."
+      "ai": {
+        "title": "Uathoibriú",
+        "description": "Comhtháthuithe LLM, cuardach i do dhoiciméid agus i do shonraí féin, agus uathoibrithe a nascann leis na huirlisí atá in úsáid ag d'fhoireann cheana féin."
       }
     },
     "cta": {

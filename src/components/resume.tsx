@@ -17,12 +17,13 @@ export async function getTechSkills() {
       heading: t("mobile"),
       items: [
         "React Native",
-        "EAS / EXPO",
-        "AppStore Connect",
-        "Google Play Console",
-        "Zustand / RTK Query",
+        "Expo / EAS",
         "Expo Router",
         "Reanimated",
+        t("items.ota"),
+        "Zustand / RTK Query",
+        "App Store Connect",
+        "Google Play Console",
       ],
     },
     {
@@ -30,28 +31,37 @@ export async function getTechSkills() {
       items: [
         "TypeScript",
         "React / Next.js",
+        "React Server Components",
         "Node.js",
-        "PHP",
-        "Python",
         "Tailwind CSS",
+        "PHP / Laravel",
+        "Python",
       ],
     },
     {
-      heading: t("tooling"),
+      heading: t("platform"),
       items: [
-        "Laravel",
-        "Supabase",
-        "Cloudflare",
+        "Supabase / Postgres",
+        "Cloudflare / Edge",
         "Docker",
         "CI/CD",
-        "LLMs",
+        t("items.apis"),
+        t("items.observability"),
+      ],
+    },
+    {
+      heading: t("ai"),
+      items: [
+        t("items.llm"),
         t("items.agentic"),
+        t("items.context"),
+        t("items.toolCalling"),
         t("items.mcp"),
         t("items.rag"),
-        t("items.documents"),
         t("items.embeddings"),
         t("items.hybridSearch"),
         t("items.permissions"),
+        t("items.documents"),
         t("items.evals"),
         t("items.aiCoding"),
       ],
@@ -59,7 +69,7 @@ export async function getTechSkills() {
   ];
 }
 
-const services = ["consultancy", "development", "growth"];
+const services = ["engineering", "consultancy", "ai"];
 
 const sectionHeading =
   "mb-12 uppercase text-5xl xl:text-6xl font-bold tracking-tighter print:mb-6 print:text-3xl";
@@ -80,9 +90,15 @@ export async function Resume() {
     ...(await getTechSkills()),
     {
       heading: tSkills("practice"),
-      items: ["consultancy", "strategy", "ux", "leadership", "growth"].map(
-        (key) => tSkills(`items.${key}`),
-      ),
+      items: [
+        "consultancy",
+        "systemDesign",
+        "strategy",
+        "ux",
+        "leadership",
+        "fractional",
+        "growth",
+      ].map((key) => tSkills(`items.${key}`)),
     },
   ];
 
@@ -212,23 +228,31 @@ export async function Resume() {
         id="skills"
         className="px-4 py-20 md:px-8 print:py-8 break-inside-avoid"
       >
-        <div className="container mx-auto grid grid-cols-12 gap-y-8 md:gap-x-8">
-          <div className="col-span-12 lg:col-span-5">
-            <h2 className={sectionHeading}>{t("skillsHeading")}</h2>
-          </div>
-          <div className="col-span-12 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-7 xl:grid-cols-4 lg:pt-4">
-            {skills.map((group) => (
-              <div key={group.heading}>
-                <h3 className="mb-4 border-b-2 border-black pb-2 text-sm tracking-widest uppercase">
-                  {group.heading}
-                </h3>
-                <ul className="tick-list space-y-2">
-                  {group.items.map((item) => (
-                    <li key={item}>{item}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+        <div className="container mx-auto">
+          <h2 className={sectionHeading}>{t("skillsHeading")}</h2>
+          <div className="grid grid-cols-1 gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 print:grid-cols-3 print:gap-y-6">
+            {skills.map((group) => {
+              const wide = group.items.length > 10;
+              return (
+                <div
+                  key={group.heading}
+                  className={wide ? "sm:order-last sm:col-span-2 print:col-span-2" : undefined}
+                >
+                  <h3 className="mb-4 border-b-2 border-black pb-2 text-sm tracking-widest uppercase">
+                    {group.heading}
+                  </h3>
+                  <ul
+                    className={`tick-list ${wide ? "gap-x-8 sm:columns-2 print:columns-2" : ""}`}
+                  >
+                    {group.items.map((item) => (
+                      <li key={item} className="mb-2 break-inside-avoid">
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

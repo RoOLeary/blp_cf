@@ -19,5 +19,8 @@
   },
   "observability": {
     "enabled": true
+  },
+  "vars": {
+    "TURNSTILE_HOSTNAMES": "busylittlepixels.com"
   }
 }

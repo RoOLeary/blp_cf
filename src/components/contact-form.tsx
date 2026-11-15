@@ -1,9 +1,31 @@
 "use client";
 
+import Script from "next/script";
 import { useTranslations } from "next-intl";
-import { useActionState } from "react";
+import { useActionState, useEffect, useRef } from "react";
 import { sendContact, type ContactState } from "@/actions/contact";
 import { Link } from "@/i18n/navigation";
+
+type Turnstile = {
+  render: (
+    container: HTMLElement,
+    options: {
+      sitekey: string;
+      action?: string;
+      appearance?: "always" | "interaction-only";
+    },
+  ) => string;
+  reset: (widgetId: string) => void;
+  remove: (widgetId: string) => void;
+};
+
+declare global {
+  interface Window {
+    turnstile?: Turnstile;
+  }
+}
+
+const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY ?? "";
 
 const inputClass =
   "w-full border-b-2 border-white bg-transparent px-0 py-2 placeholder-white/50 focus:border-black focus:outline-none";
@@ -15,6 +37,36 @@ const initialState: ContactState = { success: false };
 export function ContactForm() {
   const t = useTranslations("contact");
   const [state, formAction, pending] = useActionState(sendContact, initialState);
+  const turnstileRef = useRef<HTMLDivElement>(null);
+  const widgetId = useRef<string | null>(null);
+
+  const renderTurnstile = () => {
+    if (!window.turnstile || !turnstileRef.current || widgetId.current) return;
+    widgetId.current = window.turnstile.render(turnstileRef.current, {
+      sitekey: TURNSTILE_SITE_KEY,
+      action: "contact",
+      appearance: "interaction-only",
+    });
+  };
+
+  // Tokens are single-use, so a rejected submission needs a fresh one.
+  useEffect(() => {
+    if (!widgetId.current) return;
+    if (state.success) {
+      window.turnstile?.remove(widgetId.current);
+      widgetId.current = null;
+    } else if (state.errors) {
+      window.turnstile?.reset(widgetId.current);
+    }
+  }, [state]);
+
+  useEffect(
+    () => () => {
+      if (widgetId.current) window.turnstile?.remove(widgetId.current);
+      widgetId.current = null;
+    },
+    [],
+  );
 
   if (state.success) {
     return (
@@ -31,6 +83,20 @@ export function ContactForm() {
 
   return (
     <form action={formAction} className="space-y-6">
+      <Script
+        src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+        onReady={renderTurnstile}
+      />
+      <div aria-hidden="true" className="absolute -left-[9999px] h-px w-px overflow-hidden">
+        <label htmlFor="website">Website</label>
+        <input
+          id="website"
+          name="website"
+          type="text"
+          tabIndex={-1}
+          autoComplete="off"
+        />
+      </div>
       <div>
         <label htmlFor="name" className={labelClass}>
           {t("form.name")}
@@ -98,6 +164,8 @@ export function ContactForm() {
           })}
         </label>
       </div>
+
+      <div ref={turnstileRef} />
 
       {state.errors && (
         <ul role="alert" className="space-y-1 border-l-4 border-black pl-4 text-sm font-bold">

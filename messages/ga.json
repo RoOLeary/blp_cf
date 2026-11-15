@@ -78,7 +78,7 @@
         }
       },
       "engineering": {
-        "title": "Innealtóireacht Shoghluaiste, Ghréasáin agus Táirge",
+        "title": "Innealtóireacht Táirge",
         "description": "Innealtóireacht shinsearach shoghluaiste agus lánchruachta, le huirlisí nua-aimseartha.",
         "year": "2024 — inniu",
         "role": "Innealtóir Soghluaiste Sinsearach / Ceannaire Teicniúil",
@@ -169,8 +169,10 @@
     "errors": {
       "nameRequired": "Tá ainm ag teastáil",
       "emailInvalid": "Tá seoladh ríomhphoist bailí ag teastáil",
+      "emailBlocked": "Úsáid do sheoladh ríomhphoist féin, le do thoil",
       "messageTooShort": "Caithfidh 10 gcarachtar ar a laghad a bheith sa teachtaireacht",
       "consentRequired": "Caithfidh tú glacadh leis an bpolasaí príobháideachta",
+      "verificationFailed": "Níorbh fhéidir a dhearbhú gur duine thú. Bain triail eile as.",
       "generic": "Níorbh fhéidir an teachtaireacht a sheoladh. Bain triail eile as ar ball."
     }
   },

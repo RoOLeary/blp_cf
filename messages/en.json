@@ -25,7 +25,7 @@
     "elsewhere": "Elsewhere"
   },
   "hero": {
-    "tagline": "Creating innovative solutions with passion, precision...and a (busy) little touch of magic.",
+    "tagline": "Engineering innovative solutions with passion, precision...and a (busy) little touch of magic.",
     "hireMe": "Hire me",
     "whatIDo": "What I do"
   },
@@ -80,7 +80,7 @@
         }
       },
       "engineering": {
-        "title": "Mobile, Web & Product Engineering",
+        "title": "Product Engineering",
         "description": "Senior mobile, web and full-stack engineering, with modern tooling.",
         "year": "2024 — Present",
         "role": "Senior Mobile Engineer / Tech Lead",
@@ -171,8 +171,10 @@
     "errors": {
       "nameRequired": "Name is required",
       "emailInvalid": "Valid email is required",
+      "emailBlocked": "Please use your own email address",
       "messageTooShort": "Message must be at least 10 characters long",
       "consentRequired": "You must accept the privacy policy",
+      "verificationFailed": "We couldn't verify you're human. Please try again.",
       "generic": "Failed to send message. Please try again later."
     }
   },

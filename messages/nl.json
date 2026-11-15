@@ -78,7 +78,7 @@
         }
       },
       "engineering": {
-        "title": "Mobile, Web & Product Engineering",
+        "title": "Product Engineering",
         "description": "Senior mobile- en full-stack engineering, met moderne tooling.",
         "year": "2024 — heden",
         "role": "Senior Mobile Engineer / Tech Lead",
@@ -169,8 +169,10 @@
     "errors": {
       "nameRequired": "Naam is verplicht",
       "emailInvalid": "Een geldig e-mailadres is verplicht",
+      "emailBlocked": "Gebruik je eigen e-mailadres",
       "messageTooShort": "Het bericht moet minstens 10 tekens lang zijn",
       "consentRequired": "Je moet het privacybeleid accepteren",
+      "verificationFailed": "We konden niet bevestigen dat je een mens bent. Probeer het opnieuw.",
       "generic": "Het bericht kon niet worden verzonden. Probeer het later opnieuw."
     }
   },

@@ -79,19 +79,19 @@
       },
       "engineering": {
         "title": "Product Engineering",
-        "description": "Senior mobile- en full-stack engineering, met moderne tooling.",
+        "description": "Software-engineering van deze tijd — agentic, getypeerd en opgeleverd.",
         "year": "2024 — heden",
         "role": "Senior Mobile Engineer / Tech Lead",
         "stack": {
           "agentic": "Agentic workflows"
         },
         "summary": {
-          "p1": "Ik ben een ervaren senior mobile engineer met meer dan 16 jaar ervaring in softwareontwikkeling, waaronder een periode als CTO van The Next Web (TNW). Mijn werk loopt uiteen van vroege webplatformen tot iOS- en Android-apps die dagelijks door duizenden mensen worden gebruikt. Vandaag ligt mijn focus op React Native en Expo, ondersteund door TypeScript, moderne backends en een full-stack begrip van hoe alle onderdelen samenkomen.",
-          "p2": "Ik bouw apps zoals moderne producten gebouwd moeten worden: end-to-end getypeerd, opgebouwd uit componenten, getest en uitgerold via geautomatiseerde pipelines. Dat betekent Expo Router en EAS voor builds en over-the-air updates, Reanimated voor vloeiende, native aanvoelende interactie, en goed gestructureerde state- en datalagen die snel blijven terwijl het product groeit.",
-          "p3": "Achter de app neem ik ook de rest van de stack voor mijn rekening: API's en integraties, Supabase en Postgres, edge-infrastructuur op Cloudflare, CI/CD, monitoring en releasemanagement voor de App Store en Google Play.",
-          "p4": "Ik gebruik AI-codeertools waar ze echt helpen, zoals scaffolding, refactoring, tests en documentatie, en laat ze weg waar dat niet zo is. Alles wat ze opleveren wordt gereviewd en beheerd zoals elke andere code, want het oordeel over wat er live gaat blijft het belangrijkst.",
-          "p5": "Waar het bij het product past, kan ik ook AI-functionaliteit degelijk inbouwen: LLM-integraties, zoeken in je eigen documenten en data, en automatiseringen die aansluiten op de tools die je team al gebruikt.",
-          "p6": "Of ik nu aansluit bij een bestaand team, een mobiele build leid of een product van idee naar de stores breng, het doel is hetzelfde: goed gebouwde software die live gaat, presteert en prettig in gebruik is."
+          "p1": "Ik bouw al meer dan 16 jaar software, waaronder een periode als CTO van The Next Web (TNW). Het werk liep van vroege webplatformen tot iOS- en Android-apps die dagelijks door duizenden mensen worden gebruikt. Ik denk nog steeds in product, platform, mobiel en de systemen erachter. Hoe ik bouw, is veranderd.",
+          "p2": "Het werk is nu agentic product engineering. React Native en Expo voor het product, TypeScript van begin tot eind, en coding agents als vast onderdeel van de build: scaffolding, refactors, tests, documentatie en de bedrading ertussen. Ik bepaal de richting, review wat terugkomt en neem verantwoordelijkheid voor wat live gaat. Het tempo komt van de tools. Het oordeel blijft bij mij.",
+          "p3": "Dat zie je terug in het product. Het is end-to-end getypeerd en opgebouwd uit componenten, getest en uitgerold via geautomatiseerde pipelines — Expo Router en EAS voor builds en over-the-air updates, Reanimated voor vloeiende, native aanvoelende interactie, en state- en datalagen die snel blijven terwijl het product groeit.",
+          "p4": "Achter de app neem ik de rest van de stack voor mijn rekening: API's en integraties, Supabase en Postgres, edge-infrastructuur op Cloudflare, CI/CD, monitoring en releasemanagement voor de App Store en Google Play.",
+          "p5": "Waar het bij het product past, bouw ik de intelligentie er ook in: LLM-integraties, zoeken in je eigen documenten en data, en automatiseringen die aansluiten op de tools die een team al gebruikt. Ontworpen, geëvalueerd en opgeleverd volgens dezelfde standaard als de rest van de app.",
+          "p6": "Of ik nu aansluit bij een team, een mobiele build leid of een product van idee naar de stores breng, het doel is hetzelfde: goed gebouwde software die live gaat, presteert en prettig in gebruik is, gebouwd zoals producten nu gebouwd worden."
         },
         "images": {
           "pipeline": "Mobile Engineering — release-pipeline",

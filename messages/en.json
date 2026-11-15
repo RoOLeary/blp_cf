@@ -81,19 +81,19 @@
       },
       "engineering": {
         "title": "Product Engineering",
-        "description": "Senior mobile, web and full-stack engineering, with modern tooling.",
+        "description": "Software engineering in the modern age — agentic, typed, and shipped.",
         "year": "2024 — Present",
         "role": "Senior Mobile Engineer / Tech Lead",
         "stack": {
           "agentic": "Agentic workflows"
         },
         "summary": {
-          "p1": "I'm an experienced senior developer with over 16 years of building software, including time as CTO of The Next Web (TNW). My work has ranged from early web platforms to iOS and Android apps used by thousands of people every day. Today my focus is React Native and Expo, backed by TypeScript, modern backends and a full-stack understanding of how all the pieces fit together.",
-          "p2": "I build apps the way modern products need to be built: typed end to end, component-driven, tested and shipped through automated pipelines. That means Expo Router and EAS for builds and over-the-air updates, Reanimated for fluid, native-feeling interaction, and well-structured state and data layers that stay fast as the product grows.",
-          "p3": "Behind the app, I'm comfortable owning the rest of the stack: APIs and integrations, Supabase and Postgres, edge infrastructure on Cloudflare, CI/CD, monitoring and release management for the App Store and Google Play.",
-          "p4": "I use AI coding tools where they genuinely help, such as scaffolding, refactoring, tests and documentation, and leave them out where they don't. Everything they produce gets reviewed and owned like any other code, because the judgement about what to ship still matters most.",
-          "p5": "Where it suits the product, I can also build AI features properly: LLM integrations, search over your own documents and data, and automations that connect to the tools your team already uses.",
-          "p6": "Whether I'm joining an existing team, leading a mobile build or taking a product from idea to the stores, the goal is the same: well-engineered software that ships, performs and is a pleasure to use."
+          "p1": "I've been building software for over 16 years, including time as CTO of The Next Web (TNW). The work ran from early web platforms to iOS and Android apps used by thousands of people every day. I still think across product, platform, mobile and the systems behind them. How I build has changed.",
+          "p2": "The work now is agentic product engineering. React Native and Expo for the product, TypeScript end to end, and coding agents as a normal part of the build: scaffolding, refactors, tests, documentation, and the wiring between them. I set the direction, review what comes back, and own what ships. The pace comes from the tools. The judgement stays with me.",
+          "p3": "That shows up in the product. It is typed end to end and component-driven, tested, and released through automated pipelines — Expo Router and EAS for builds and over-the-air updates, Reanimated for fluid, native-feeling interaction, and state and data layers that stay fast as the product grows.",
+          "p4": "Behind the app, I own the rest of the stack: APIs and integrations, Supabase and Postgres, edge infrastructure on Cloudflare, CI/CD, monitoring and release management for the App Store and Google Play.",
+          "p5": "Where it suits the product, I build the intelligence in as well: LLM integrations, search over your own documents and data, and automations that connect to the tools a team already uses. Designed, evaluated and shipped to the same standard as the rest of the app.",
+          "p6": "Whether I'm joining a team, leading a mobile build or taking a product from idea to the stores, the aim is the same: well-engineered software that ships, performs and is a pleasure to use, built the way products are built now."
         },
         "images": {
           "pipeline": "Mobile Engineering — release pipeline",

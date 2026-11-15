@@ -1,6 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "busylittlepixels",
+  "account_id": "12af8a34e16014e92c54cc2270121a72",
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-11-01",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],

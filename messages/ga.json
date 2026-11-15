@@ -79,19 +79,19 @@
       },
       "engineering": {
         "title": "Innealtóireacht Táirge",
-        "description": "Innealtóireacht shinsearach shoghluaiste agus lánchruachta, le huirlisí nua-aimseartha.",
+        "description": "Innealtóireacht bogearraí na linne seo — gníomhaireach, clóscríofa agus seolta.",
         "year": "2024 — inniu",
         "role": "Innealtóir Soghluaiste Sinsearach / Ceannaire Teicniúil",
         "stack": {
           "agentic": "Sreafaí oibre gníomhaireacha"
         },
         "summary": {
-          "p1": "Is innealtóir soghluaiste sinsearach cumasach mé le breis is 16 bliana de thaithí ag tógáil bogearraí, tréimhse mar CTO ar The Next Web (TNW) san áireamh. Tá réimse leathan oibre déanta agam, ó ardáin ghréasáin luatha go feidhmchláir iOS agus Android a úsáideann na mílte duine gach lá. Inniu, dírím ar React Native agus Expo, le tacaíocht ó TypeScript, ó chórais chúil nua-aimseartha agus ó thuiscint lánchruachta ar an gcaoi a n-oireann na páirteanna go léir le chéile.",
-          "p2": "Tógaim feidhmchláir mar is ceart táirgí nua-aimseartha a thógáil: clóscríofa ó cheann ceann, bunaithe ar chomhpháirteanna, tástáilte agus seolta trí phíblínte uathoibrithe. Ciallaíonn sé sin Expo Router agus EAS le haghaidh tógálacha agus nuashonruithe thar an aer, Reanimated le haghaidh idirghníomhaíochta líofa a mhothaíonn dúchasach, agus sraitheanna staide agus sonraí dea-struchtúrtha a fhanann tapa de réir mar a fhásann an táirge.",
-          "p3": "Taobh thiar den fheidhmchlár, bím compordach freagracht a ghlacadh as an gcuid eile den chruach: API agus comhtháthuithe, Supabase agus Postgres, bonneagar imeallach ar Cloudflare, CI/CD, monatóireacht agus bainistíocht eisiúintí don App Store agus do Google Play.",
-          "p4": "Úsáidim uirlisí códaithe AI nuair a chabhraíonn siad i ndáiríre, mar chreatlach, athfhachtóiriú, tástálacha agus doiciméadú, agus fágaim ar leataobh iad nuair nach gcabhraíonn. Déantar athbhreithniú ar gach rud a tháirgeann siad agus glacaim úinéireacht air mar a dhéanfainn le cód ar bith eile, mar is é an breithiúnas faoi cad ba cheart a sheoladh an rud is tábhachtaí fós.",
-          "p5": "Nuair a oireann sé don táirge, is féidir liom gnéithe AI a thógáil i gceart freisin: comhtháthuithe LLM, cuardach i do dhoiciméid agus i do shonraí féin, agus uathoibrithe a nascann leis na huirlisí atá in úsáid ag d'fhoireann cheana féin.",
-          "p6": "Cibé an bhfuilim ag dul isteach i bhfoireann atá ann cheana, ag stiúradh tógáil shoghluaiste nó ag tabhairt táirge ón smaoineamh go dtí na siopaí, is é an sprioc chéanna atá agam: bogearraí dea-innealtóirithe a sheoltar, a fheidhmíonn go maith agus ar pléisiúr iad a úsáid."
+          "p1": "Táim ag tógáil bogearraí le breis is 16 bliana, tréimhse mar CTO ar The Next Web (TNW) san áireamh. Rith an obair ó ardáin ghréasáin luatha go feidhmchláir iOS agus Android a úsáideann na mílte duine gach lá. Smaoiním fós i dtéarmaí táirge, ardáin, soghluaiste agus na gcóras taobh thiar díobh. Tá athrú tagtha ar an gcaoi a dtógaim.",
+          "p2": "Is innealtóireacht táirge ghníomhaireach í an obair anois. React Native agus Expo don táirge, TypeScript ó cheann ceann, agus gníomhairí códaithe mar ghnáthchuid den tógáil: creatlach, athfhachtóiriú, tástálacha, doiciméadú, agus an sreangú eatarthu. Leagaim síos an treo, déanaim athbhreithniú ar a dtugtar ar ais, agus glacaim úinéireacht ar a sheoltar. Tagann an luas ó na huirlisí. Fanann an breithiúnas liomsa.",
+          "p3": "Feictear é sin sa táirge. Bíonn sé clóscríofa ó cheann ceann agus bunaithe ar chomhpháirteanna, tástáilte, agus seolta trí phíblínte uathoibrithe — Expo Router agus EAS le haghaidh tógálacha agus nuashonruithe thar an aer, Reanimated le haghaidh idirghníomhaíochta líofa a mhothaíonn dúchasach, agus sraitheanna staide agus sonraí a fhanann tapa de réir mar a fhásann an táirge.",
+          "p4": "Taobh thiar den fheidhmchlár, glacaim freagracht as an gcuid eile den chruach: API agus comhtháthuithe, Supabase agus Postgres, bonneagar imeallach ar Cloudflare, CI/CD, monatóireacht agus bainistíocht eisiúintí don App Store agus do Google Play.",
+          "p5": "Nuair a oireann sé don táirge, tógaim an intleacht isteach ann freisin: comhtháthuithe LLM, cuardach i do dhoiciméid agus i do shonraí féin, agus uathoibrithe a nascann leis na huirlisí atá in úsáid ag foireann cheana féin. Deartha, measúnaithe agus seolta de réir an chaighdeáin chéanna leis an gcuid eile den fheidhmchlár.",
+          "p6": "Cibé an bhfuilim ag dul le foireann, ag stiúradh tógáil shoghluaiste nó ag tabhairt táirge ón smaoineamh go dtí na siopaí, is í an aidhm chéanna í: bogearraí dea-innealtóirithe a sheoltar, a fheidhmíonn go maith agus ar pléisiúr iad a úsáid, tógtha mar a thógtar táirgí anois."
         },
         "images": {
           "pipeline": "Innealtóireacht Shoghluaiste — píblíne eisiúna",

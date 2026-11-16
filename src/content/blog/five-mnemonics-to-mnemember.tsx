@@ -72,7 +72,7 @@ function Body() {
         ]}
       />
       <P>
-        SCOPE is the overarching framework I use when approaching a new product
+        SCOPE is the overarching formula I use when approaching a new product
         problem.
       </P>
       <P>

@@ -7,7 +7,9 @@ const directional = {
 };
 
 export function navTransition(href: string) {
-  return href.startsWith("/hire-me") ? ["nav-forward"] : ["nav-back"];
+  return href.startsWith("/hire-me") || href.startsWith("/journal")
+    ? ["nav-forward"]
+    : ["nav-back"];
 }
 
 export function PageTransition({ children }: { children: ReactNode }) {

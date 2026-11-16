@@ -11,11 +11,16 @@
     "privacy": {
       "title": "Privacy Policy",
       "description": "How Busy Little Pixels collects, uses and protects your data."
+    },
+    "blog": {
+      "title": "Journal",
+      "description": "Notes on product engineering, architecture and building with AI."
     }
   },
   "nav": {
     "work": "Work / Services",
     "about": "About",
+    "blog": "Journal",
     "contact": "Contact",
     "hireMe": "Hire Me",
     "language": "Language",
@@ -333,5 +338,21 @@
         "p1": "We may update this policy from time to time. The date below shows when it was last changed."
       }
     }
+  },
+  "blog": {
+    "eyebrow": "Busy Little Pixels / Journal",
+    "wordmark": "journal",
+    "lead": "Notes on product engineering, architecture and building with AI. Practical thinking, minus the hype.",
+    "latest": "Latest",
+    "minRead": "{minutes} min read",
+    "readingTime": "Reading time",
+    "readArticle": "Read article",
+    "back": "All posts",
+    "published": "Published",
+    "by": "By",
+    "contents": "Contents",
+    "moreSoon": "More soon",
+    "moreSoonLead": "Further notes are in the works.",
+    "englishOnly": "This article is only available in English."
   }
 }

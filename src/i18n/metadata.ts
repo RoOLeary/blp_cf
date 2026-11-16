@@ -75,3 +75,38 @@ export async function pageMetadata({
     },
   };
 }
+
+export function blogMetadata({
+  locale,
+  href,
+  title,
+  description,
+  publishedTime,
+}: {
+  locale: Locale;
+  href: Href;
+  title: string;
+  description: string;
+  publishedTime?: string;
+}): Metadata {
+  const url = localizedUrl(locale, href);
+
+  return {
+    title,
+    description,
+    robots: { index: false, follow: false },
+    alternates: {
+      canonical: url,
+      languages: languageAlternates(href),
+    },
+    openGraph: {
+      type: publishedTime ? "article" : "website",
+      ...(publishedTime && { publishedTime }),
+      siteName: SITE_NAME,
+      title,
+      description,
+      url,
+      locale: ogLocales[locale],
+    },
+  };
+}

@@ -11,11 +11,16 @@
     "privacy": {
       "title": "Privacybeleid",
       "description": "Hoe Busy Little Pixels je gegevens verzamelt, gebruikt en beschermt."
+    },
+    "blog": {
+      "title": "Journal",
+      "description": "Notities over product engineering, architectuur en bouwen met AI."
     }
   },
   "nav": {
     "work": "Werk / Diensten",
     "about": "Over mij",
+    "blog": "Journal",
     "contact": "Contact",
     "hireMe": "Huur mij in",
     "language": "Taal",
@@ -331,5 +336,21 @@
         "p1": "We kunnen dit beleid van tijd tot tijd bijwerken. De datum hieronder laat zien wanneer het voor het laatst is gewijzigd."
       }
     }
+  },
+  "blog": {
+    "eyebrow": "Busy Little Pixels / Journal",
+    "wordmark": "journal",
+    "lead": "Notities over product engineering, architectuur en bouwen met AI. Praktisch denkwerk, zonder de hype.",
+    "latest": "Nieuwste",
+    "minRead": "{minutes} min lezen",
+    "readingTime": "Leestijd",
+    "readArticle": "Lees artikel",
+    "back": "Alle artikelen",
+    "published": "Gepubliceerd",
+    "by": "Door",
+    "contents": "Inhoud",
+    "moreSoon": "Binnenkort meer",
+    "moreSoonLead": "Er zijn meer artikelen in de maak.",
+    "englishOnly": "Dit artikel is alleen in het Engels beschikbaar."
   }
 }

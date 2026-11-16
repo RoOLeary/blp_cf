@@ -11,11 +11,16 @@
     "privacy": {
       "title": "Polasaí Príobháideachta",
       "description": "Conas a bhailíonn, a úsáideann agus a chosnaíonn Busy Little Pixels do shonraí."
+    },
+    "blog": {
+      "title": "Dialann",
+      "description": "Nótaí ar innealtóireacht táirgí, ailtireacht agus tógáil le hIntleacht Shaorga."
     }
   },
   "nav": {
     "work": "Obair / Seirbhísí",
     "about": "Fúm",
+    "blog": "Dialann",
     "contact": "Teagmháil",
     "hireMe": "Fostaigh Mé",
     "language": "Teanga",
@@ -331,5 +336,21 @@
         "p1": "D'fhéadfaimis an polasaí seo a nuashonrú ó am go chéile. Léiríonn an dáta thíos cathain a athraíodh é go deireanach."
       }
     }
+  },
+  "blog": {
+    "eyebrow": "Busy Little Pixels / Dialann",
+    "wordmark": "dialann",
+    "lead": "Nótaí ar innealtóireacht táirgí, ailtireacht agus tógáil le hIntleacht Shaorga. Smaointeoireacht phraiticiúil, gan áibhéil.",
+    "latest": "Is déanaí",
+    "minRead": "Léamh {minutes} nóim.",
+    "readingTime": "Am léite",
+    "readArticle": "Léigh an t-alt",
+    "back": "Gach alt",
+    "published": "Foilsithe",
+    "by": "Le",
+    "contents": "Clár ábhair",
+    "moreSoon": "Tuilleadh go luath",
+    "moreSoonLead": "Tá tuilleadh nótaí ar na bacáin.",
+    "englishOnly": "Tá an t-alt seo ar fáil i mBéarla amháin."
   }
 }

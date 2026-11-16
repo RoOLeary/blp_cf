@@ -9,6 +9,7 @@ export async function Nav() {
   const links = [
     { href: "/#work", label: t("work") },
     { href: "/#about", label: t("about") },
+    { href: "/journal", label: t("blog") },
     { href: "/#contact", label: t("contact") },
     { href: "/hire-me", label: t("hireMe") },
   ];

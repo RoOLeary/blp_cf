@@ -65,7 +65,9 @@ export function ScopeStrip({
       <figcaption className="border-b-2 border-black bg-black px-4 py-2 text-xs font-bold tracking-widest text-white uppercase">
         {label}
       </figcaption>
-      <ol className="grid grid-cols-1 sm:grid-cols-5">
+      <ol
+        className={`grid grid-cols-1 ${steps.length === 4 ? "sm:grid-cols-4" : "sm:grid-cols-5"}`}
+      >
         {steps.map((step) => (
           <li
             key={step.letter}

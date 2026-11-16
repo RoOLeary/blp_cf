@@ -373,7 +373,7 @@ export const flowpilot: Post = {
     "An exploration of multi-agent architecture, LLMs, MCP, task orchestration and the engineering behind reliable AI-powered products.",
   description:
     "A demo multi-agent application exploring planning, dependency-aware orchestration, structured outputs, observability and evaluation in AI-powered products.",
-  date: "2026-10-19",
+  date: "2026-10-12",
   readingMinutes: 8,
   tags: ["AI agents", "MCP", "Orchestration"],
   toc: [

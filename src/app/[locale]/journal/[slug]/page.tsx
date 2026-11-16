@@ -90,6 +90,22 @@ export default async function JournalPost({
             >
               {post.subtitle}
             </p>
+            {post.repo && (
+              <a
+                href={post.repo}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group mt-8 inline-flex items-center gap-3 border-2 border-white px-5 py-3 text-sm tracking-widest uppercase transition-colors hover:border-red-600 hover:bg-red-600"
+              >
+                {t("viewRepo")}
+                <span
+                  aria-hidden
+                  className="transition-transform duration-300 ease-out group-hover:translate-x-1"
+                >
+                  ↗
+                </span>
+              </a>
+            )}
             <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-white/30 pt-6 text-sm tracking-widest uppercase sm:grid-cols-3">
               <div>
                 <dt className="mb-1 text-white/50">{t("by")}</dt>
@@ -167,6 +183,22 @@ export default async function JournalPost({
                   <span className="text-black/50">{t("by")} </span>
                   Rónán Ó Laoire
                 </p>
+                {post.repo && (
+                  <a
+                    href={post.repo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group inline-flex items-center gap-3 border-2 border-black bg-black px-5 py-3 text-sm tracking-widest text-white uppercase transition-colors hover:border-red-600 hover:bg-red-600"
+                  >
+                    {t("viewRepo")}
+                    <span
+                      aria-hidden
+                      className="transition-transform duration-300 ease-out group-hover:translate-x-1"
+                    >
+                      ↗
+                    </span>
+                  </a>
+                )}
                 <Link
                   href="/journal"
                   transitionTypes={["nav-back"]}

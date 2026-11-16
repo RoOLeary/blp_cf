@@ -353,6 +353,7 @@
     "contents": "Contents",
     "moreSoon": "More soon",
     "moreSoonLead": "Further notes are in the works.",
-    "englishOnly": "This article is only available in English."
+    "englishOnly": "This article is only available in English.",
+    "viewRepo": "View the demo on GitHub"
   }
 }

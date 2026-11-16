@@ -15,5 +15,6 @@ export type Post = {
   readingMinutes: number;
   tags: string[];
   toc: TocEntry[];
+  repo?: string;
   Body: ComponentType;
 };

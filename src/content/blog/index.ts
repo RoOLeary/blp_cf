@@ -1,10 +1,12 @@
+import { cogar } from "./cogar";
+import { flowpilot } from "./flowpilot";
 import { gatekeeper } from "./gatekeeper";
 import { scope } from "./scope";
 import type { Post } from "./types";
 
 export type { Post } from "./types";
 
-export const posts: Post[] = [gatekeeper, scope];
+export const posts: Post[] = [cogar, flowpilot, gatekeeper, scope];
 
 export function getPost(slug: string) {
   return posts.find((post) => post.slug === slug);

@@ -260,7 +260,7 @@ function Body() {
 
 export const gatekeeper: Post = {
   slug: "gatekeeper",
-  title: "Gatekeeper: Building AI Agents That Know Their Limits",
+  title: "Gatekeeper: Building Agents That Know Their Limits",
   subtitle:
     "Exploring MCP, agentic workflows, permissions and the changing role of product engineering.",
   description:

@@ -45,7 +45,6 @@ const projectData: {
       "agentic",
     ],
     images: [
-      { key: "pipeline", src: "/sys-design.svg", fit: "contain" },
       {
         key: "scopeOverview",
         src: "/scope-studio/overview.png",

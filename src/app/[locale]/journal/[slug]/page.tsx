@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import type { Locale } from "next-intl";
 import {
@@ -121,7 +122,19 @@ export default async function JournalPost({
             <dl className="mt-12 grid grid-cols-2 gap-6 border-t border-white/30 pt-6 text-sm tracking-widest uppercase sm:grid-cols-3">
               <div>
                 <dt className="mb-1 text-white/50">{t("by")}</dt>
-                <dd>Rónán Ó Laoire</dd>
+                <dd className="flex items-center gap-3">
+                  <span className="size-10 shrink-0 overflow-hidden rounded-full border-2 border-white">
+                    <Image
+                      src="/rolcogar_sceal.jpg"
+                      alt=""
+                      width={80}
+                      height={80}
+                      sizes="80px"
+                      className="size-full origin-[50%_25%] scale-[1.8] object-cover object-[50%_25%]"
+                    />
+                  </span>
+                  Rónán Ó Laoire
+                </dd>
               </div>
               <div>
                 <dt className="mb-1 text-white/50">{t("published")}</dt>

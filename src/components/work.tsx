@@ -45,7 +45,7 @@ const projectData: {
       "agentic",
     ],
     images: [
-      { key: "pipeline" },
+      { key: "pipeline", src: "/sys-design.svg", fit: "contain" },
       { key: "architecture" },
       { key: "workflow" },
       { key: "product" },

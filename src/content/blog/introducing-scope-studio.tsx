@@ -61,9 +61,9 @@ function Body() {
       </P>
       <P>And naturally, being a developer, I decided it needed an application.</P>
 
-      <H2 id="introducing-scope-studio">Introducing SCOPE Studio</H2>
+      <H2 id="introducing-scope-studio">Introducing ScopeStudio</H2>
       <P>
-        <strong>SCOPE Studio</strong>, from Busy Little Pixels, is a
+        <strong>ScopeStudio</strong>, from Busy Little Pixels, is a
         lightweight, AI-assisted product specification and systems-design
         tool.
       </P>
@@ -75,7 +75,7 @@ function Body() {
       </P>
       <Screenshot
         src="/scope-studio/overview.png"
-        alt="SCOPE Studio project overview for an Order Support Assistant, showing a nine-stage pipeline from requirement intake to engineering contract, 80% completeness, requirement counts, and the items blocking the contract."
+        alt="ScopeStudio project overview for an Order Support Assistant, showing a nine-stage pipeline from requirement intake to engineering contract, 80% completeness, requirement counts, and the items blocking the contract."
         width={1024}
         height={533}
         label="Project overview"
@@ -110,7 +110,7 @@ function Body() {
         From Rough Ideas to Engineering Specifications
       </H2>
       <P>
-        In its current draft, SCOPE Studio accepts product ideas, customer
+        In its current draft, ScopeStudio accepts product ideas, customer
         requirements and technical briefs, then helps organise them into a
         structured engineering specification.
       </P>
@@ -131,7 +131,7 @@ function Body() {
       </P>
       <Screenshot
         src="/scope-studio/situation.png"
-        alt="The Situation pillar in SCOPE Studio, showing a deferred open question asking what is explicitly out of scope for the first release, with an explanation of why it matters and a requirements list below."
+        alt="The Situation pillar in ScopeStudio, showing a deferred open question asking what is explicitly out of scope for the first release, with an explanation of why it matters and a requirements list below."
         width={1024}
         height={644}
         label="Situation"
@@ -146,7 +146,7 @@ function Body() {
         sophisticated agentic workflow.
       </P>
       <P>
-        SCOPE Studio encourages those alternatives to be considered rather than
+        ScopeStudio encourages those alternatives to be considered rather than
         automatically reaching for the most elaborate solution.
       </P>
       <Callout>
@@ -157,7 +157,7 @@ function Body() {
         Engineering Instructions, Not Just Better Prompts
       </H2>
       <P>
-        One of the main outputs of SCOPE Studio is a detailed,
+        One of the main outputs of ScopeStudio is a detailed,
         implementation-ready build prompt.
       </P>
       <P>
@@ -195,7 +195,7 @@ function Body() {
 
       <H2 id="engineer-in-control">Keeping the Engineer in Control</H2>
       <P>
-        An important principle behind SCOPE Studio is that AI should assist
+        An important principle behind ScopeStudio is that AI should assist
         with engineering decisions, not silently make them on our behalf.
       </P>
       <P>
@@ -208,7 +208,7 @@ function Body() {
       </P>
       <Screenshot
         src="/scope-studio/orchestration.png"
-        alt="Orchestration requirements in SCOPE Studio, including deterministic refund eligibility rules and idempotent, audited refund execution, each labelled as an AI suggestion with acceptance criteria and a record of who confirmed it."
+        alt="Orchestration requirements in ScopeStudio, including deterministic refund eligibility rules and idempotent, audited refund execution, each labelled as an AI suggestion with acceptance criteria and a record of who confirmed it."
         width={1024}
         height={684}
         label="Orchestration"
@@ -223,7 +223,7 @@ function Body() {
         operations.
       </P>
       <P>
-        SCOPE Studio is designed around making those assumptions and decisions
+        ScopeStudio is designed around making those assumptions and decisions
         explicit.
       </P>
       <Callout>
@@ -261,7 +261,7 @@ function Body() {
         than ever.
       </P>
       <P>
-        SCOPE Studio is my attempt to bring a little more structure to that
+        ScopeStudio is my attempt to bring a little more structure to that
         process.
       </P>
       <P>
@@ -284,7 +284,7 @@ function Body() {
         It&apos;s to build the right thing, using the right capabilities, with
         the right safeguards in place.
       </PullQuote>
-      <P>That&apos;s the thinking behind SCOPE Studio.</P>
+      <P>That&apos;s the thinking behind ScopeStudio.</P>
       <P>
         <em>
           Built with curiosity, a little engineering discipline and, naturally,
@@ -294,7 +294,7 @@ function Body() {
 
       <aside className="mt-16 border-t-2 border-black pt-8">
         <p className="mb-2 text-sm font-bold tracking-widest uppercase">
-          SCOPE Studio by Busy Little Pixels
+          ScopeStudio by Busy Little Pixels
         </p>
         <p className="font-display text-xl leading-snug font-bold tracking-tight md:text-2xl">
           Specify the objective. Justify the architecture. Constrain the
@@ -307,16 +307,16 @@ function Body() {
 
 export const scopeStudio: Post = {
   slug: "introducing-scope-studio",
-  title: "Introducing SCOPE Studio: Better Specifications, Better Software",
+  title: "Introducing ScopeStudio: Better Specifications, Better Software",
   subtitle:
     "Turning product ideas into structured engineering specifications, from Busy Little Pixels.",
   description:
-    "SCOPE Studio is a lightweight, AI-assisted tool for turning rough product ideas into implementation-ready engineering specifications and build prompts.",
+    "ScopeStudio is a lightweight, AI-assisted tool for turning rough product ideas into implementation-ready engineering specifications and build prompts.",
   date: "2026-11-23",
   readingMinutes: 6,
-  tags: ["SCOPE Studio", "Product engineering", "AI"],
+  tags: ["ScopeStudio", "Product engineering", "AI"],
   toc: [
-    { id: "introducing-scope-studio", label: "Introducing SCOPE Studio" },
+    { id: "introducing-scope-studio", label: "Introducing ScopeStudio" },
     {
       id: "rough-ideas-to-specifications",
       label: "From rough ideas to engineering specifications",

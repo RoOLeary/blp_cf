@@ -31,7 +31,7 @@ export function MobileNav({ links }: { links: NavLink[] }) {
         toggleRef.current?.focus();
       }
     };
-    const desktop = window.matchMedia("(min-width: 48rem)");
+    const desktop = window.matchMedia("(min-width: 64rem)");
     const onResize = () => desktop.matches && setOpen(false);
 
     window.addEventListener("keydown", onKeyDown);
@@ -44,7 +44,7 @@ export function MobileNav({ links }: { links: NavLink[] }) {
   }, [open]);
 
   return (
-    <div className="md:hidden">
+    <div className="lg:hidden">
       <button
         ref={toggleRef}
         type="button"

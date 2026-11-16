@@ -137,7 +137,7 @@ export const scope: Post = {
     "Thinking beyond the code: problems, capabilities, orchestration, permissions and outcomes.",
   description:
     "A simple way to think through modern product engineering: Situation, Capabilities, Orchestration, Permissions and Evaluation.",
-  date: "2026-11-07",
+  date: "2026-10-05",
   readingMinutes: 4,
   tags: ["Product engineering", "AI", "Architecture"],
   toc: [

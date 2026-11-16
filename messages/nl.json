@@ -352,6 +352,8 @@
     "moreSoon": "Binnenkort meer",
     "moreSoonLead": "Er zijn meer artikelen in de maak.",
     "englishOnly": "Dit artikel is alleen in het Engels beschikbaar.",
-    "viewRepo": "Bekijk de demo op GitHub"
+    "viewRepo": "Bekijk de demo op GitHub",
+    "filterByTag": "Filter op tag",
+    "allTags": "Alle"
   }
 }

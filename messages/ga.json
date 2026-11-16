@@ -352,6 +352,8 @@
     "moreSoon": "Tuilleadh go luath",
     "moreSoonLead": "Tá tuilleadh nótaí ar na bacáin.",
     "englishOnly": "Tá an t-alt seo ar fáil i mBéarla amháin.",
-    "viewRepo": "Féach ar an taispeántas ar GitHub"
+    "viewRepo": "Féach ar an taispeántas ar GitHub",
+    "filterByTag": "Scag de réir clibe",
+    "allTags": "Gach ceann"
   }
 }

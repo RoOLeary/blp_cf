@@ -45,10 +45,11 @@ function Body() {
       <P>
         Like many Irish people, I grew up with the language around me. Irish is
         taught in schools, appears on road signs, and is woven into our
-        national identity. I was good at <span lang="ga">Gaeilge</span>, and
-        I&apos;ve always strived to make it a central part of my life rather
-        than something I left behind in the classroom. Yet for many people,
-        actually speaking it can feel strangely intimidating.
+        national identity. I was always good at Irish, and strived to make it a
+        central part of my life rather than something I left behind in the
+        classroom. For a long time, I succeeded (then I moved to the
+        Netherlands&hellip;). Yet for many people, actually speaking it can
+        feel strangely intimidating.
       </P>
       <P>There&apos;s a contradiction there that has bothered me for years.</P>
       <P>

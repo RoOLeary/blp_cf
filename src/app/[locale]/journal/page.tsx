@@ -6,6 +6,7 @@ import {
   setRequestLocale,
 } from "next-intl/server";
 import { Footer } from "@/components/footer";
+import { JournalList } from "@/components/journal-list";
 import { Nav } from "@/components/nav";
 import { PageTransition } from "@/components/page-transition";
 import Particles from "@/components/particles";
@@ -26,7 +27,9 @@ export async function generateMetadata({
   });
 }
 
-export default async function Journal({ params }: PageProps<"/[locale]/journal">) {
+export default async function Journal({
+  params,
+}: PageProps<"/[locale]/journal">) {
   const { locale } = await params;
   setRequestLocale(locale as Locale);
   const t = await getTranslations("blog");
@@ -71,12 +74,16 @@ export default async function Journal({ params }: PageProps<"/[locale]/journal">
         </header>
 
         <section className="container mx-auto px-4 py-20 md:px-8">
-          <p className="mb-8 text-sm font-bold tracking-widest text-red-600 uppercase">
-            {t("latest")}
-          </p>
-          <ol>
-            {posts.map((post, i) => (
-              <li key={post.slug}>
+          <JournalList
+            labels={{
+              filter: t("filterByTag"),
+              all: t("allTags"),
+              latest: t("latest"),
+            }}
+            entries={posts.map((post, i) => ({
+              slug: post.slug,
+              tags: post.tags,
+              content: (
                 <Link
                   href={`/journal/${post.slug}`}
                   transitionTypes={["nav-forward"]}
@@ -95,7 +102,9 @@ export default async function Journal({ params }: PageProps<"/[locale]/journal">
                       <span aria-hidden className="text-red-600">
                         /
                       </span>
-                      <span>{t("minRead", { minutes: post.readingMinutes })}</span>
+                      <span>
+                        {t("minRead", { minutes: post.readingMinutes })}
+                      </span>
                       {post.tags.map((tag) => (
                         <span key={tag} className="text-black/50">
                           {tag}
@@ -121,20 +130,22 @@ export default async function Journal({ params }: PageProps<"/[locale]/journal">
                     </span>
                   </span>
                 </Link>
+              ),
+            }))}
+            after={
+              <li className="grid grid-cols-12 gap-y-4 border-t-2 border-b-2 border-black py-10 text-black/30 md:gap-x-8">
+                <span className="font-display col-span-12 text-7xl leading-[0.8] font-bold tabular-nums md:col-span-2 md:text-8xl">
+                  {String(posts.length + 1).padStart(2, "0")}
+                </span>
+                <div className="col-span-12 md:col-span-10">
+                  <p className="text-4xl font-bold tracking-tighter md:text-6xl">
+                    {t("moreSoon")}
+                  </p>
+                  <p className="mt-2 text-lg">{t("moreSoonLead")}</p>
+                </div>
               </li>
-            ))}
-            <li className="grid grid-cols-12 gap-y-4 border-t-2 border-b-2 border-black py-10 text-black/30 md:gap-x-8">
-              <span className="font-display col-span-12 text-7xl leading-[0.8] font-bold tabular-nums md:col-span-2 md:text-8xl">
-                {String(posts.length + 1).padStart(2, "0")}
-              </span>
-              <div className="col-span-12 md:col-span-10">
-                <p className="text-4xl font-bold tracking-tighter md:text-6xl">
-                  {t("moreSoon")}
-                </p>
-                <p className="mt-2 text-lg">{t("moreSoonLead")}</p>
-              </div>
-            </li>
-          </ol>
+            }
+          />
         </section>
 
         <Footer />

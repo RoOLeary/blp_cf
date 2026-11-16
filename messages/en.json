@@ -354,6 +354,8 @@
     "moreSoon": "More soon",
     "moreSoonLead": "Further notes are in the works.",
     "englishOnly": "This article is only available in English.",
-    "viewRepo": "View the demo on GitHub"
+    "viewRepo": "View the demo on GitHub",
+    "filterByTag": "Filter by tag",
+    "allTags": "All"
   }
 }

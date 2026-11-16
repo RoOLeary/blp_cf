@@ -29,7 +29,7 @@ export async function Nav() {
           busy<span className="text-red-600">little</span>pixels
         </Link>
         <div className="flex items-center gap-6 md:gap-8">
-          <div className="hidden space-x-8 md:flex">
+          <div className="hidden space-x-8 lg:flex">
             {links.map((link) => (
               <Link
                 key={link.href}

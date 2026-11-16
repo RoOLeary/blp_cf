@@ -265,7 +265,7 @@ export const gatekeeper: Post = {
     "Exploring MCP, agentic workflows, permissions and the changing role of product engineering.",
   description:
     "A demo customer operations platform exploring how agentic systems can be designed with proper authorization, execution boundaries and oversight.",
-  date: "2026-11-10",
+  date: "2026-10-12",
   readingMinutes: 5,
   tags: ["AI agents", "MCP", "Security"],
   toc: [

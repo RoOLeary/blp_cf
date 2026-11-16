@@ -141,6 +141,25 @@ export function Flow({
   );
 }
 
+export function Formula({
+  label,
+  children,
+}: {
+  label?: string;
+  children: ReactNode;
+}) {
+  return (
+    <figure className="my-8 border-2 border-black">
+      {label && (
+        <figcaption className="border-b-2 border-black bg-black px-4 py-2 text-xs font-bold tracking-widest text-white uppercase">
+          {label}
+        </figcaption>
+      )}
+      <p className="px-5 py-4 font-mono text-base md:text-lg">{children}</p>
+    </figure>
+  );
+}
+
 export function PullQuote({ children }: { children: ReactNode }) {
   return (
     <blockquote className="my-12 border-l-8 border-red-600 bg-black px-6 py-8 text-white md:px-10 md:py-12">

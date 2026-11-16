@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ReactNode } from "react";
 
 export function H2({ id, children }: { id: string; children: ReactNode }) {
@@ -158,6 +159,45 @@ export function Formula({
         </figcaption>
       )}
       <p className="px-5 py-4 font-mono text-base md:text-lg">{children}</p>
+    </figure>
+  );
+}
+
+export function Screenshot({
+  src,
+  alt,
+  width,
+  height,
+  label,
+  children,
+}: {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  label?: string;
+  children?: ReactNode;
+}) {
+  return (
+    <figure className="my-10 border-2 border-black">
+      {label && (
+        <div className="border-b-2 border-black bg-black px-4 py-2 text-xs font-bold tracking-widest text-white uppercase">
+          {label}
+        </div>
+      )}
+      <Image
+        src={src}
+        alt={alt}
+        width={width}
+        height={height}
+        sizes="(min-width: 48rem) 48rem, 100vw"
+        className="h-auto w-full"
+      />
+      {children && (
+        <figcaption className="border-t-2 border-black px-4 py-3 text-sm leading-snug">
+          {children}
+        </figcaption>
+      )}
     </figure>
   );
 }

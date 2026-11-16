@@ -399,6 +399,6 @@ export const flowpilot: Post = {
       label: "What FlowPilot demonstrates about product engineering",
     },
   ],
-  repo: "https://github.com/RoOLeary/flowpilot",
+  repo: "https://github.com/busylittlepixels/flowpilot",
   Body,
 };

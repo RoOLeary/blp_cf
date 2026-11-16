@@ -100,13 +100,14 @@
           "p3": "Dat zie je terug in het product. Het is end-to-end getypeerd en opgebouwd uit componenten, getest en uitgerold via geautomatiseerde pipelines — Expo Router en EAS voor builds en over-the-air updates, Reanimated voor vloeiende, native aanvoelende interactie, en state- en datalagen die snel blijven terwijl het product groeit.",
           "p4": "Achter de app neem ik de rest van de stack voor mijn rekening: API's en integraties, Supabase en Postgres, edge-infrastructuur op Cloudflare, CI/CD, monitoring en releasemanagement voor de App Store en Google Play.",
           "p5": "Waar het bij het product past, bouw ik de intelligentie er ook in: LLM-integraties, zoeken in je eigen documenten en data, en automatiseringen die aansluiten op de tools die een team al gebruikt. Ontworpen, geëvalueerd en opgeleverd volgens dezelfde standaard als de rest van de app.",
-          "p6": "Of ik nu aansluit bij een team, een mobiele build leid of een product van idee naar de stores breng, het doel is hetzelfde: goed gebouwde software die live gaat, presteert en prettig in gebruik is, gebouwd zoals producten nu gebouwd worden."
+          "p6": "Diezelfde discipline bepaalt hoe een build begint. SCOPE Studio, mijn eigen AI-ondersteunde specificatietool, zet ruwe productideeën en klantbriefings om in gestructureerde engineeringspecificaties op basis van het SCOPE-framework: Situation, Capabilities, Orchestration, Permissions en Evaluation. Het brengt open vragen aan het licht, weegt architectuuropties, risico's en operationele kosten af, en levert implementatieklare bouwinstructies voor coding agents zoals Cursor en Claude Code. De AI doet voorstellen; niets wordt een requirement totdat een mens het goedkeurt.",
+          "p7": "Of ik nu aansluit bij een team, een mobiele build leid of een product van idee naar de stores breng, het doel is hetzelfde: goed gebouwde software die live gaat, presteert en prettig in gebruik is, gebouwd zoals producten nu gebouwd worden."
         },
         "images": {
           "pipeline": "Mobile Engineering — release-pipeline",
-          "architecture": "Mobile Engineering — architectuur",
-          "workflow": "Mobile Engineering — AI-ondersteunde workflow",
-          "product": "Mobile Engineering — opgeleverde app"
+          "scopeOverview": "SCOPE Studio — projectoverzicht",
+          "scopeSituation": "SCOPE Studio — open vragen",
+          "scopeOrchestration": "SCOPE Studio — bevestigde requirements"
         }
       }
     }

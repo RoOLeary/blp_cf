@@ -100,13 +100,14 @@
           "p3": "Feictear é sin sa táirge. Bíonn sé clóscríofa ó cheann ceann agus bunaithe ar chomhpháirteanna, tástáilte, agus seolta trí phíblínte uathoibrithe — Expo Router agus EAS le haghaidh tógálacha agus Uasdátú TAA, Reanimated le haghaidh idirghníomhaíochta líofa a mhothaíonn dúchasach, agus sraitheanna staide agus sonraí a fhanann tapa de réir mar a fhásann an táirge.",
           "p4": "Taobh thiar den fheidhmchlár, glacaim freagracht as an gcuid eile den chruach: API agus comhtháthuithe, Supabase agus Postgres, bonneagar imeallach ar Cloudflare, CI/CD, monatóireacht agus bainistíocht eisiúintí don App Store agus do Google Play.",
           "p5": "Nuair a oireann sé don táirge, tógaim an intleacht isteach ann freisin: comhtháthuithe LLM, cuardach i do dhoiciméid agus i do shonraí féin, agus uathoibrithe a nascann leis na huirlisí atá in úsáid ag foireann cheana féin. Deartha, measúnaithe agus seolta de réir an chaighdeáin chéanna leis an gcuid eile den fheidhmchlár.",
-          "p6": "Cibé an bhfuilim ag dul le foireann, ag stiúradh tógáil shoghluaiste nó ag tabhairt táirge ón smaoineamh go dtí na siopaí, is í an aidhm chéanna í: bogearraí dea-innealtóirithe a sheoltar, a fheidhmíonn go maith agus ar pléisiúr iad a úsáid, tógtha mar a thógtar táirgí anois."
+          "p6": "Múnlaíonn an smacht céanna an chaoi a dtosaíonn tógáil. Is é SCOPE Studio m'uirlis sonraíochta féin le cúnamh AI. Iompaíonn sé smaointe garbha táirge agus treoracha ó chliaint ina sonraíochtaí innealtóireachta struchtúrtha, bunaithe ar an gcreat SCOPE: Situation, Capabilities, Orchestration, Permissions agus Evaluation. Tugann sé ceisteanna oscailte chun solais, meánn sé roghanna ailtireachta, rioscaí agus costais oibriúcháin, agus cruthaíonn sé treoracha tógála réidh le cur i bhfeidhm do ghníomhairí códaithe ar nós Cursor agus Claude Code. Molann an AI; ní bhíonn aon rud ina riachtanas go dtí go gceadaíonn duine é.",
+          "p7": "Cibé an bhfuilim ag dul le foireann, ag stiúradh tógáil shoghluaiste nó ag tabhairt táirge ón smaoineamh go dtí na siopaí, is í an aidhm chéanna í: bogearraí dea-innealtóirithe a sheoltar, a fheidhmíonn go maith agus ar pléisiúr iad a úsáid, tógtha mar a thógtar táirgí anois."
         },
         "images": {
           "pipeline": "Innealtóireacht Shoghluaiste — píblíne eisiúna",
-          "architecture": "Innealtóireacht Shoghluaiste — ailtireacht",
-          "workflow": "Innealtóireacht Shoghluaiste — sreabhadh oibre le cúnamh AI",
-          "product": "Innealtóireacht Shoghluaiste — feidhmchlár seolta"
+          "scopeOverview": "SCOPE Studio — forbhreathnú tionscadail",
+          "scopeSituation": "SCOPE Studio — ceisteanna oscailte",
+          "scopeOrchestration": "SCOPE Studio — riachtanais dheimhnithe"
         }
       }
     }

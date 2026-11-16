@@ -46,9 +46,21 @@ const projectData: {
     ],
     images: [
       { key: "pipeline", src: "/sys-design.svg", fit: "contain" },
-      { key: "architecture" },
-      { key: "workflow" },
-      { key: "product" },
+      {
+        key: "scopeOverview",
+        src: "/scope-studio/overview.png",
+        fit: "contain",
+      },
+      {
+        key: "scopeSituation",
+        src: "/scope-studio/situation.png",
+        fit: "contain",
+      },
+      {
+        key: "scopeOrchestration",
+        src: "/scope-studio/orchestration.png",
+        fit: "contain",
+      },
     ],
   },
   // Draft copy: edit before launch.

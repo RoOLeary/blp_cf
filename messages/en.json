@@ -102,13 +102,14 @@
           "p3": "That shows up in the product. It is typed end to end and component-driven, tested, and released through automated pipelines — Expo Router and EAS for builds and over-the-air updates, Reanimated for fluid, native-feeling interaction, and state and data layers that stay fast as the product grows.",
           "p4": "Behind the app, I own the rest of the stack: APIs and integrations, Supabase and Postgres, edge infrastructure on Cloudflare, CI/CD, monitoring and release management for the App Store and Google Play.",
           "p5": "Where it suits the product, I build the intelligence in as well: LLM integrations, search over your own documents and data, and automations that connect to the tools a team already uses. Designed, evaluated and shipped to the same standard as the rest of the app.",
-          "p6": "Whether I'm joining a team, leading a mobile build or taking a product from idea to the stores, the aim is the same: well-engineered software that ships, performs and is a pleasure to use, built the way products are built now."
+          "p6": "That same discipline shapes how a build begins. SCOPE Studio, my own AI-assisted specification tool, turns rough product ideas and client briefs into structured engineering specifications using the SCOPE framework: Situation, Capabilities, Orchestration, Permissions and Evaluation. It surfaces open questions, weighs up architecture options, risks and running costs, and produces implementation-ready build instructions for coding agents like Cursor and Claude Code. The AI proposes; nothing becomes a requirement until a person approves it.",
+          "p7": "Whether I'm joining a team, leading a mobile build or taking a product from idea to the stores, the aim is the same: well-engineered software that ships, performs and is a pleasure to use, built the way products are built now."
         },
         "images": {
           "pipeline": "Mobile Engineering — release pipeline",
-          "architecture": "Mobile Engineering — architecture",
-          "workflow": "Mobile Engineering — AI-assisted workflow",
-          "product": "Mobile Engineering — shipped app"
+          "scopeOverview": "SCOPE Studio — project overview",
+          "scopeSituation": "SCOPE Studio — open questions",
+          "scopeOrchestration": "SCOPE Studio — confirmed requirements"
         }
       }
     }

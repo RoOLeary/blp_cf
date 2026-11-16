@@ -1,12 +1,12 @@
 {
   "metadata": {
     "home": {
-      "title": "Busy Little Pixels | Comhairleoireacht, Forbairt, Fás",
-      "description": "Busy Little Pixels. Dearadh agus forbairt aipeanna soghluaiste don todhchaí."
+      "title": "Busy Little Pixels | Innealtóir Táirgí & Ailtireacht Réiteach Comhaimseartha",
+      "description": "Rónán Ó Laoire, Innealtóir Táirgí. Ailtireacht réiteach comhaimseartha, táirgí faoi thiomáint na hintleachta saorga, agus aipeanna soghluaiste agus gréasáin, ó dhearadh go seachadadh."
     },
     "hireMe": {
       "title": "Fostaigh Mé",
-      "description": "Taithí, scil agus beachtas. Ar fáil do thionscadail chomhairleoireachta, deartha agus forbartha."
+      "description": "Innealtóireacht táirgí agus ailtireacht réiteach comhaimseartha. Ar fáil do thionscadail chomhairleoireachta, ailtireachta agus forbartha."
     },
     "privacy": {
       "title": "Polasaí Príobháideachta",
@@ -15,6 +15,10 @@
     "blog": {
       "title": "Dialann",
       "description": "Nótaí ar innealtóireacht táirgí, ailtireacht agus tógáil le hIntleacht Shaorga."
+    },
+    "og": {
+      "role": "Innealtóir Táirgí",
+      "specialism": "Ailtireacht Réiteach Comhaimseartha"
     }
   },
   "nav": {

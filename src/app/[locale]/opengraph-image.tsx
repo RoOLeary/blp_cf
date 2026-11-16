@@ -3,7 +3,7 @@ import { outfitBold } from "@/assets/fonts/outfit-bold";
 import { getTranslations } from "next-intl/server";
 import { SITE_NAME } from "@/i18n/metadata";
 
-export const alt = SITE_NAME;
+export const alt = `${SITE_NAME}: Product Engineer & Modern Solutions Architecture`;
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -16,6 +16,7 @@ export default async function Image({
 }) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "hero" });
+  const og = await getTranslations({ locale, namespace: "metadata.og" });
   const outfit = outfitBold();
 
   return new ImageResponse(
@@ -59,16 +60,34 @@ export default async function Image({
             />
           </span>
         </div>
-        <p
-          style={{
-            width: 420,
-            fontSize: 30,
-            lineHeight: 1.3,
-            color: "rgba(255,255,255,0.85)",
-          }}
-        >
-          {t("tagline")}
-        </p>
+        <div style={{ display: "flex", flexDirection: "column", width: 440 }}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              marginBottom: 28,
+              paddingLeft: 20,
+              borderLeft: `8px solid ${RED}`,
+              fontSize: 34,
+              fontWeight: 700,
+              lineHeight: 1.15,
+              letterSpacing: "-0.02em",
+            }}
+          >
+            <span>{og("role")}</span>
+            <span style={{ color: RED }}>{og("specialism")}</span>
+          </div>
+          <p
+            style={{
+              margin: 0,
+              fontSize: 26,
+              lineHeight: 1.3,
+              color: "rgba(255,255,255,0.75)",
+            }}
+          >
+            {t("tagline")}
+          </p>
+        </div>
       </div>
     ),
     {

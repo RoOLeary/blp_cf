@@ -1,12 +1,12 @@
 {
   "metadata": {
     "home": {
-      "title": "Busy Little Pixels | Next-generation Product Engineering",
-      "description": "Busy Little Pixels. Future-facing mobile app design and development."
+      "title": "Busy Little Pixels | Product Engineer & Modern Solutions Architecture",
+      "description": "Rónán Ó Laoire, Product Engineer. Modern solutions architecture, AI-driven products and mobile and web apps, designed and delivered end to end."
     },
     "hireMe": {
       "title": "Hire Me",
-      "description": "Experience, skill and precision. Available for consultancy, design and development projects."
+      "description": "Product engineering and modern solutions architecture. Available for consultancy, architecture and development projects."
     },
     "privacy": {
       "title": "Privacy Policy",
@@ -15,6 +15,10 @@
     "blog": {
       "title": "Journal",
       "description": "Notes on product engineering, architecture and building with AI."
+    },
+    "og": {
+      "role": "Product Engineer",
+      "specialism": "Modern Solutions Architecture"
     }
   },
   "nav": {

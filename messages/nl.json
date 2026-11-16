@@ -1,12 +1,12 @@
 {
   "metadata": {
     "home": {
-      "title": "Busy Little Pixels | Consultancy, Development, Groei",
-      "description": "Busy Little Pixels. Toekomstgericht ontwerp en ontwikkeling van mobiele apps."
+      "title": "Busy Little Pixels | Product Engineer & Moderne Solutions Architecture",
+      "description": "Rónán Ó Laoire, Product Engineer. Moderne solutions architecture, AI-gedreven producten en mobiele en webapps, van ontwerp tot oplevering."
     },
     "hireMe": {
       "title": "Huur mij in",
-      "description": "Ervaring, vakmanschap en precisie. Beschikbaar voor consultancy-, ontwerp- en ontwikkelprojecten."
+      "description": "Product engineering en moderne solutions architecture. Beschikbaar voor consultancy-, architectuur- en ontwikkelprojecten."
     },
     "privacy": {
       "title": "Privacybeleid",
@@ -15,6 +15,10 @@
     "blog": {
       "title": "Journal",
       "description": "Notities over product engineering, architectuur en bouwen met AI."
+    },
+    "og": {
+      "role": "Product Engineer",
+      "specialism": "Moderne Solutions Architecture"
     }
   },
   "nav": {

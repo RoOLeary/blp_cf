@@ -342,7 +342,7 @@ export const cogar: Post = {
     "Sure! I built a social platform, launched a company, and tried to do something useful and valuable for the Irish language and Irish speaking community.",
   description:
     "On building Cogar, an Irish-language social network, and the company behind it: eighteen months spent across the entire product lifecycle.",
-  date: "2026-11-16",
+  date: "2026-11-09",
   readingMinutes: 8,
   tags: ["Cogar", "Product engineering", "Irish language"],
   toc: [

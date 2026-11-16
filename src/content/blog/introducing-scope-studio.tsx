@@ -312,7 +312,7 @@ export const scopeStudio: Post = {
     "Turning product ideas into structured engineering specifications, from Busy Little Pixels.",
   description:
     "ScopeStudio is a lightweight, AI-assisted tool for turning rough product ideas into implementation-ready engineering specifications and build prompts.",
-  date: "2026-11-23",
+  date: "2026-11-16",
   readingMinutes: 6,
   tags: ["ScopeStudio", "Product engineering", "AI"],
   toc: [

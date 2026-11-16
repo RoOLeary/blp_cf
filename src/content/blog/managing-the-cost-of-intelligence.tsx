@@ -428,7 +428,7 @@ export const costOfIntelligence: Post = {
     "On token economics, throughput, observability and why cost-awareness has become a fundamental part of AI product engineering.",
   description:
     "Estimating traffic, token throughput and per-request cost for AI features, and why cost-awareness belongs in the architecture from day one.",
-  date: "2026-11-02",
+  date: "2026-10-26",
   readingMinutes: 9,
   tags: ["AI", "Cost", "Observability"],
   toc: [

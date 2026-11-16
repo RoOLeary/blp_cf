@@ -480,7 +480,7 @@ export const mnemonics: Post = {
     "Simple mental models for navigating modern software engineering, AI systems and the increasingly complicated business of building useful products.",
   description:
     "SCOPE, SCALE, CLEAR, ROUTE and FAIL: five memorable checklists for designing, constraining and hardening modern AI-powered products.",
-  date: "2026-11-09",
+  date: "2026-11-02",
   readingMinutes: 9,
   tags: ["Product engineering", "Architecture", "AI"],
   toc: [

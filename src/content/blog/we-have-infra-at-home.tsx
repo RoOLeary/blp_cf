@@ -341,7 +341,7 @@ export const infra: Post = {
     "On knowing when not to use AI agents, overengineering perfectly good solutions, and why every shiny new capability comes with a bill.",
   description:
     "When a database query, a RAG pipeline or plain application code beats an agent, and why metered AI services make cost an architectural concern.",
-  date: "2026-10-19",
+  date: "2026-10-12",
   readingMinutes: 8,
   tags: ["AI agents", "Architecture", "Cost"],
   toc: [

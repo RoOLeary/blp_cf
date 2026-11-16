@@ -290,7 +290,7 @@ export const sumOfParts: Post = {
     "On the shift from writing software to designing intelligent systems, and why orchestration, architecture and product thinking matter more than ever.",
   description:
     "As AI makes implementation cheaper, the value of engineering moves to choosing, combining and constraining the right capabilities.",
-  date: "2026-10-26",
+  date: "2026-10-19",
   readingMinutes: 7,
   tags: ["Product engineering", "Architecture", "AI"],
   toc: [

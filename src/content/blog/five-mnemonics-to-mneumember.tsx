@@ -474,8 +474,8 @@ function Body() {
 }
 
 export const mnemonics: Post = {
-  slug: "five-mnemonics-to-mnemember",
-  title: "Five Mnemonics to Mnemember",
+  slug: "five-mnemonics-to-mneumember",
+  title: "Five Mnemonics to Mneumember",
   subtitle:
     "Simple mental models for navigating modern software engineering, AI systems and the increasingly complicated business of building useful products.",
   description:

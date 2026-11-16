@@ -116,7 +116,7 @@ function Body() {
       </P>
       <P>You just need to be willing to give it a go.</P>
 
-      <H2 id="building-the-thing">Building the Thing</H2>
+      <H2 id="building-the-thing">Building it</H2>
       <P>
         From a technical perspective, Cogar has been a fairly substantial
         undertaking.
@@ -335,10 +335,10 @@ function Body() {
 }
 
 export const cogar: Post = {
-  slug: "cogar",
+  slug: "can-you-explain-this-gap-on-your-cv",
   title: "“Can You Explain This Gap on Your CV?”",
   subtitle:
-    "Well, I built a social network, launched a company, and tried to do something useful for the language and community I love.",
+    "Sure! I built a social platform, launched a company, and tried to do something useful and valuable for the Irish language and Irish speaking community.",
   description:
     "On building Cogar, an Irish-language social network, and the company behind it: eighteen months spent across the entire product lifecycle.",
   date: "2026-11-16",
@@ -350,7 +350,7 @@ export const cogar: Post = {
       label: "Where technology meets language",
     },
     { id: "why-mobile", label: "Why a mobile social network?" },
-    { id: "building-the-thing", label: "Building the thing" },
+    { id: "building-the-thing", label: "Building it" },
     {
       id: "community-is-the-algorithm",
       label: "The community is the algorithm",

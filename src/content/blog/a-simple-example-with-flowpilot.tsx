@@ -367,7 +367,7 @@ function Body() {
 }
 
 export const flowpilot: Post = {
-  slug: "flowpilot",
+  slug: "a-simple-example-with-flowpilot",
   title: "FlowPilot: Designing and Orchestrating Intelligent AI Workflows",
   subtitle:
     "An exploration of multi-agent architecture, LLMs, MCP, task orchestration and the engineering behind reliable AI-powered products.",

@@ -9,6 +9,7 @@ import {
 import { Footer } from "@/components/footer";
 import { Nav } from "@/components/nav";
 import { PageTransition } from "@/components/page-transition";
+import Particles from "@/components/particles";
 import { getPost, posts } from "@/content/blog";
 import { Link } from "@/i18n/navigation";
 import { blogMetadata } from "@/i18n/metadata";
@@ -58,8 +59,19 @@ export default async function JournalPost({
           className="reading-progress fixed inset-x-0 top-[3.8125rem] z-40 h-1 origin-left bg-red-600 print:hidden"
         />
 
-        <header className="border-b-8 border-red-600 bg-black text-white">
-          <div className="container mx-auto px-4 pt-32 pb-12 md:px-8 md:pt-40 md:pb-16">
+        <header className="relative overflow-clip border-b-8 border-red-600 bg-black text-white">
+          <div aria-hidden className="pointer-events-none absolute inset-0">
+            <Particles
+              particleColors={["#ffffff", "#dc2626"]}
+              shape="square"
+              particleCount={120}
+              particleBaseSize={70}
+              speed={0.08}
+              opacity={0.45}
+              clickBurst={false}
+            />
+          </div>
+          <div className="relative container mx-auto px-4 pt-32 pb-12 md:px-8 md:pt-40 md:pb-16">
             <Link
               href="/journal"
               transitionTypes={["nav-back"]}

@@ -131,7 +131,7 @@ function Body() {
 }
 
 export const scope: Post = {
-  slug: "scope",
+  slug: "everything-is-within-scope",
   title: "SCOPE: A Practical Mental Model for Modern Product Engineering",
   subtitle:
     "Thinking beyond the code: problems, capabilities, orchestration, permissions and outcomes.",

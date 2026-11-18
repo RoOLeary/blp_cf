@@ -266,11 +266,11 @@ function Body() {
         wider industry.
       </P>
       <P>
-        AI-assisted development, LLM integration, agent orchestration, MCP and
+        Traditional development is giving way to agentic orchestration, LLM integration, MCP and
         modern product engineering are all areas I&apos;m actively exploring
         and applying in other projects and workflows.
       </P>
-      <P>I don&apos;t see any contradiction in that.</P>
+      <P>The nature of the industry itself is changing, and embracing new workflow and technologies where necessary and sensible is the route to long-term success. I don&apos;t see any contradiction in that.</P>
       <P>
         I can enjoy writing code for its own sake while recognising that the
         role of the engineer is evolving towards designing systems,

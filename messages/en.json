@@ -23,7 +23,7 @@
   },
   "nav": {
     "work": "What I Do",
-    "about": "About",
+    "about": "About Me",
     "blog": "Journal",
     "contact": "Contact",
     "hireMe": "Hire Me",
@@ -131,7 +131,7 @@
     "next": "Next image"
   },
   "about": {
-    "heading": "About",
+    "heading": "About Me",
     "photoAlt": "Rónán Ó Laoire",
     "p1": "<brand>Busy Little Pixels</brand> is Irish Product Engineer and Application Developer <link>Rónán Ó Laoire</link>. (Ronan O'Leary) Bringing years of hands-on experience building modern digital products to businesses that want to move forward.",
     "p2": "Ronan specialises in next-generation Product Engineering, coming from a background in web and mobile development and engineering management, delivering scalable solutions proven in production. Rónán offers the know-how and perspective of a tech lead, with the practical skills of a modern, force-multiplied developer who gets things done. In the agentic era, anyone can generate code. The edge is knowing what to build, and what's ready to ship.",

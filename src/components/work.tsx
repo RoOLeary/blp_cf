@@ -22,11 +22,13 @@ const projectData: {
   stack: string[];
   technologies?: string[];
   images: { key: string; src?: string; fit?: "contain" }[];
+  href?: string;
 }[] = [
   {
     id: "cogar",
     year: "2025/26",
     stack: ["React Native", "Expo", "TypeScript", "Supabase"],
+    href: "https://cogar.ie",
     images: [
       { key: "logo", src: "/cogar-logo.png" },
       { key: "feed", src: "/CogarIMG_6935.PNG", fit: "contain" },
@@ -108,6 +110,7 @@ export async function Work() {
         fit: image.fit,
         alt: t(key(`images.${image.key}`)),
       })),
+      link: p.href ? { href: p.href, label: t(key("linkLabel")) } : undefined,
     };
   });
 

@@ -22,7 +22,7 @@ function Body() {
         a business and somehow managed to attract a community of more than
         5,000 registered users.
       </P>
-      <P>And I&apos;ve done essentially all of it myself.</P>
+      <P>And to show what I can do...I build absolutely all of it myself.</P>
       <P>
         The project is called{" "}
         <a
@@ -43,14 +43,13 @@ function Body() {
         quite a few years now.
       </P>
       <P>
-        Like many Irish people, I grew up with the language around me. Irish is
-        taught in schools, appears on road signs, and is woven into our
-        national identity. I was always good at Irish, and strived to make it a
-        central part of my life rather than something I left behind in the
-        classroom. For a long time, I succeeded (then I moved to the
-        Netherlands&hellip;). Yet for many people, actually speaking it can
-        feel strangely intimidating.
-      </P>
+      Like many Irish people, I grew up with the language around me. Irish is taught in schools, appears on road signs, and is woven into our national identity. I was always good at Irish, and made a conscious effort to keep it central to my life rather than leave it behind in the classroom. For a long time, I managed just that (then I moved to the Netherlands…).</P>
+      <P>Yet for many people, actually speaking the language can still feel intimidating.</P>
+      <P>For generations, many Irish parents faced an awful choice: raise their children with Irish, or give them English in the hope of offering them better opportunities, often with the expectation that they would eventually have to leave Ireland to make a life for themselves.</P>
+      <P>Even if there was some truth to that thinking once, it no longer holds. We have the tools, the skills, the knowledge, and the ability to reach people on a scale that previous generations of Irish speakers could scarcely have imagined. We have opportunities and resources that simply didn&apos;t exist before.</P>
+      <P>And that&apos;s why, for me, this is about more than building an interesting project, or even a successful business. It&apos;s about a sense of responsibility. We have the means to support and promote the language, to make it accessible to everyone, and to give it a meaningful place in everyday life.</P>
+      <P>We have the means. We should be using them.</P>
+      
       <P>There&apos;s a contradiction there that has bothered me for years.</P>
       <P>
         We celebrate Irish as an important part of who we are, but often treat
@@ -192,14 +191,18 @@ function Body() {
         shared experience.
       </P>
       <P>
-        I&apos;m certainly not opposed to AI. Quite the opposite, much of my
-        professional development now involves understanding how LLMs, agentic
+        I&apos;m not opposed to AI. In the right context, it can be immensely powerful. 
+        But the term &quot;when all you have is a hammer, everything looks like a nail&quot; has never been more true.
+        In fact, much of my professional development now involves understanding how LLMs, agentic
         workflows and intelligent systems can be integrated into useful
         products.
       </P>
       <P>
         But I don&apos;t believe every product needs an AI component, or that
         every interaction needs algorithmic intervention.
+      </P>
+      <P>
+       Cogar does not need it. The community does not want it. The focus is on the language, the community and the experience. Not the latest coolkid tooling. 
       </P>
       <P>
         Sometimes the best technical decision is knowing what <em>not</em> to

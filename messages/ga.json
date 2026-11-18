@@ -22,7 +22,7 @@
     }
   },
   "nav": {
-    "work": "Obair / Seirbhísí",
+    "work": "Cad a dhéanaim",
     "about": "Fúm",
     "blog": "Dialann",
     "contact": "Teagmháil",
@@ -39,7 +39,7 @@
     "whatIDo": "Cad a dhéanaim"
   },
   "work": {
-    "heading": "Obair & Seirbhísí",
+    "heading": "Cad a dhéanaim",
     "moreInfo": "Tuilleadh eolais +",
     "projects": {
       "cogar": {
@@ -63,9 +63,9 @@
         }
       },
       "consultancy": {
-        "title": "Comhairleoireacht Theicniúil / Dearadh Corás",
-        "description": "Súil shoiléir, mhacánta ar d'aip, ar do chód agus ar do sheachadadh.",
-        "role": "Comhairleoir neamhspleách",
+        "title": "Taithí, Saineolas Teicniúil agus Dearadh Córas",
+        "description": "Breis is 16 bliana ar gach leibhéal, ó scríobh an chóid go stiúradh na foirne.",
+        "role": "Saineolas Teicniúil, Dearadh Córas agus Ailtireacht",
         "stack": {
           "architecture": "Ailtireacht",
           "performance": "Feidhmíocht",
@@ -74,11 +74,11 @@
           "roadmap": "Treochlár"
         },
         "summary": {
-          "p1": "Le breis is 16 bliana de thaithí in innealtóireacht bogearraí agus i gceannaireacht theicniúil, tugaim cúlra fairsing liom i bhforbairt phraiticiúil, ailtireacht córas, comhtháthú córas, comhordú agus uathoibriú.",
-          "p2": "Clúdaíonn mo chuid oibre gach rud ó fheidhmchláir aonair a dhearadh agus a thógáil go hailtireacht ardán casta idirnasctha, seanchórais a nuachóiriú agus bonneagar teicniúil inscálaithe a fhorbairt. Cuirim taithí phraiticiúil innealtóireachta le chéile le tuiscint níos leithne ar fhorbairt táirgí, ar riachtanais ghnó agus ar straitéis theicniúil fhadtéarmach.",
-          "p3": "Thar na blianta, d'oibrigh mé le heagraíochtaí lena n-áirítear Web Summit, The Next Web (TNW), Run Republic agus UnitOpsMedia, ag cur le dearadh, forbairt agus oibriú táirgí digiteacha, ardán foilsitheoireachta, uirlisí inmheánacha agus córas atá ríthábhachtach don ghnó.",
-          "p4": "Tá mo chur chuige bunaithe ar innealtóireacht phraiticiúil, le béim ar leith ar dhearadh pragmatach córas, comhtháthú API, comhordú sreafaí oibre, uathoibriú agus forbairt le cúnamh AI. Bím chomh compordach céanna ag obair ar leibhéal ailtireachta, ag measúnú teicneolaíochtaí agus ag dearadh córas, is a bhím i mbun an chur i bhfeidhm féin.",
-          "p5": "Dírím ar theicneolaíocht a thógáil a réitíonn fadhbanna fíora, a laghdaíonn castacht oibríochtúil agus a fhanann praiticiúil le cothabháil agus le forbairt de réir mar a athraíonn na riachtanais."
+          "p1": "Tá breis is 16 bliana caite agam i saol na mbogearraí, agus d'oibrigh mé ar bheagnach gach leibhéal de: forbróir, ceannaire foirne, bainisteoir innealtóireachta, CTO, agus anois bunaitheoir táirge beo a bhfuil na mílte úsáideoirí aige. Taispeánann gach ról na córais chéanna duit ó thaobh eile. Sin an réimse taithí a thugaim liom chuig obair chomhairleoireachta.",
+          "p2": "D'oibrigh mé ar an gcód, ar an ailtireacht, ar an bhfoireann agus ar an mbuiséad in eagraíochtaí lena n-áirítear Web Summit, The Next Web (TNW), Picnic, Run Republic agus UnitOpsMedia. Áirítear leis sin ardáin foilsitheoireachta, bonneagar imeachtaí, uirlisí inmheánacha, aipeanna móibíleacha agus na córais atá ríthábhachtach don ghnó taobh thiar díobh.",
+          "p3": "Bhí mé ar an taobh thiar den stáitse nuair a théann rudaí i gceart, agus tá a fhios agam an méid oibre nach bhfeictear a bhíonn i gceist: ailtireacht chiallmhar, eisiúintí intuartha, monatóireacht a aimsíonn fadhbanna sula dtugann úsáideoirí faoi deara iad, agus cinntí a scríobhtar síos ionas gur féidir leis an gcéad duine eile iad a leanúint. Bhí mé ann freisin nuair a théann rudaí in aimhréidh. Téann imirceanna thar am, teipeann ar chomhtháthuithe ag an nóiméad is measa, tagann bearnaí slándála chun solais agus cuirtear brú as cuimse ar fhoirne. Múnlaíonn na taithí sin an chaoi a bhféachaim ar chóras inniu.",
+          "p4": "Go praiticiúil, ciallaíonn sé sin go ndéanaim athbhreithniú ar d'aip, ar do chód agus ar do sheachadadh, agus súil agam ar na rioscaí chomh maith leis na deiseanna. Cá bhfuil an ailtireacht ag cur srian ort? Cad a bhrisfidh ar dtús agus tú ag fás? Cé na haicearraí atá ceart go leor le coinneáil, agus cé acu ar gá aghaidh a thabhairt orthu anois? Gheobhaidh tú léargas soiléir agus plean tosaíochta, ní liosta de gach rud a d'fhéadfadh a bheith níos fearr.",
+          "p5": "Bím chomh compordach céanna ag an gclár bán is a bhím sa chód. Is féidir liom cabhrú le córas a mhúnlú ón tús, athbhreithniú a dhéanamh ar cheann atá ag feidhmiú cheana féin, nó oibriú taobh le d'fhoireann chun na hathruithe a chur i bhfeidhm."
         },
         "images": {
           "audit": "Iniúchadh Teicniúil — forléargas ar na torthaí",
@@ -118,6 +118,7 @@
     "year": "Bliain",
     "role": "Ról",
     "stack": "Teicneolaíochtaí",
+    "technologies": "Teicneolaíochtaí & Ardáin",
     "next": "An chéad tionscadal eile"
   },
   "carousel": {
@@ -289,8 +290,8 @@
         "description": "Gníomhaireach, clóscríofa agus seolta. Táirgí soghluaiste agus gréasáin ó smaoineamh go dtí an App Store, Google Play agus níos faide."
       },
       "consultancy": {
-        "title": "Comhairleoireacht Theicniúil / Dearadh Córas",
-        "description": "Súil shoiléir, mhacánta ar d'aip, ar do chód agus ar do sheachadadh. Iniúchtaí, athbhreithnithe ailtireachta agus treochláir phraiticiúla."
+        "title": "Taithí, Saineolas Teicniúil agus Dearadh Córas",
+        "description": "Breis is 16 bliana ar gach leibhéal, ó scríobh an chóid go stiúradh na foirne. Iniúchtaí, athbhreithnithe ailtireachta agus treochláir phraiticiúla."
       },
       "ai": {
         "title": "Uathoibriú",

@@ -22,7 +22,7 @@
     }
   },
   "nav": {
-    "work": "Werk / Diensten",
+    "work": "Wat ik doe",
     "about": "Over mij",
     "blog": "Journal",
     "contact": "Contact",
@@ -39,7 +39,7 @@
     "whatIDo": "Wat ik doe"
   },
   "work": {
-    "heading": "Werk & Diensten",
+    "heading": "Wat ik doe",
     "moreInfo": "Meer info +",
     "projects": {
       "cogar": {
@@ -63,9 +63,9 @@
         }
       },
       "consultancy": {
-        "title": "Technisch advies / Systeemontwerp",
-        "description": "Een heldere, eerlijke blik op je app, codebase en oplevering.",
-        "role": "Onafhankelijk consultant",
+        "title": "Ervaring, technische expertise en systeemontwerp",
+        "description": "Meer dan 16 jaar op elk niveau, van de code schrijven tot het team leiden.",
+        "role": "Technische expertise, systeemontwerp en architectuur",
         "stack": {
           "architecture": "Architectuur",
           "performance": "Performance",
@@ -74,11 +74,11 @@
           "roadmap": "Roadmap"
         },
         "summary": {
-          "p1": "Met meer dan 16 jaar ervaring in software engineering en technisch leiderschap breng ik een brede achtergrond mee in hands-on development, systeemarchitectuur, systeemintegratie, orkestratie en automatisering.",
-          "p2": "Mijn werk loopt uiteen van het ontwerpen en bouwen van losse applicaties tot het opzetten van de architectuur voor complexe, onderling verbonden platformen, het moderniseren van legacysystemen en het ontwikkelen van schaalbare technische infrastructuur. Ik combineer praktische engineeringervaring met een breder begrip van productontwikkeling, bedrijfsbehoeften en technische strategie op de lange termijn.",
-          "p3": "Door de jaren heen heb ik gewerkt met organisaties als Web Summit, The Next Web (TNW), Run Republic en UnitOpsMedia, en bijgedragen aan het ontwerp, de ontwikkeling en de operatie van digitale producten, publicatieplatformen, interne tooling en bedrijfskritische systemen.",
-          "p4": "Mijn aanpak is geworteld in hands-on engineering, met bijzondere aandacht voor pragmatisch systeemontwerp, API-integraties, workflow-orkestratie, automatisering en AI-ondersteunde ontwikkeling. Ik voel me even goed thuis op architectuurniveau, bij het evalueren van technologieën en het ontwerpen van systemen, als bij de implementatie zelf.",
-          "p5": "Ik richt me op technologie die echte problemen oplost, operationele complexiteit vermindert en praktisch te onderhouden en door te ontwikkelen blijft naarmate de eisen veranderen."
+          "p1": "Ik werk al meer dan 16 jaar in software, en ik heb op bijna elk niveau gewerkt: developer, teamlead, engineering manager, CTO en nu oprichter van een live product met duizenden gebruikers. Elke rol laat dezelfde systemen van een andere kant zien. Die breedte breng ik mee in een adviestraject.",
+          "p2": "Ik heb gewerkt aan de code, de architectuur, het team en het budget bij organisaties als Web Summit, The Next Web (TNW), Picnic, Run Republic en UnitOpsMedia. Denk aan publicatieplatformen, eventinfrastructuur, interne tools, mobiele apps en de bedrijfskritische systemen daarachter.",
+          "p3": "Ik heb achter de schermen gestaan als het goed gaat, en ik weet hoeveel onzichtbaar werk daarvoor nodig is: een doordachte architectuur, voorspelbare releases, monitoring die problemen opvangt voordat gebruikers ze merken, en beslissingen die zo zijn vastgelegd dat de volgende persoon ze kan volgen. Ik ben er ook bij geweest als het misgaat. Migraties lopen uit, integraties vallen op het slechtst mogelijke moment uit, beveiligingslekken komen boven water en teams raken overbelast. Die ervaringen bepalen hoe ik vandaag naar een systeem kijk.",
+          "p4": "In de praktijk betekent dat: ik bekijk je app, codebase en oplevering met oog voor risico's én kansen. Waar houdt de architectuur je tegen? Wat breekt er als eerste als je groeit? Welke shortcuts kun je laten zitten, en welke vragen nu aandacht? Je krijgt een helder beeld en een geprioriteerd plan, geen lijst van alles wat beter kan.",
+          "p5": "Ik voel me net zo thuis aan het whiteboard als in de codebase. Ik kan helpen een systeem vanaf het begin vorm te geven, een bestaand systeem beoordelen, of samen met je team de veranderingen doorvoeren."
         },
         "images": {
           "audit": "Technische audit — overzicht van bevindingen",
@@ -118,6 +118,7 @@
     "year": "Jaar",
     "role": "Rol",
     "stack": "Stack",
+    "technologies": "Technologieën & platformen",
     "next": "Volgend project"
   },
   "carousel": {
@@ -289,8 +290,8 @@
         "description": "Agentic, getypeerd en opgeleverd. Mobiele en webproducten van idee tot de App Store, Google Play en verder."
       },
       "consultancy": {
-        "title": "Technisch advies / Systeemontwerp",
-        "description": "Een heldere, eerlijke blik op je app, codebase en oplevering. Audits, architectuurreviews en praktische roadmaps."
+        "title": "Ervaring, technische expertise en systeemontwerp",
+        "description": "Meer dan 16 jaar op elk niveau, van de code schrijven tot het team leiden. Audits, architectuurreviews en praktische roadmaps."
       },
       "ai": {
         "title": "Automatisering",

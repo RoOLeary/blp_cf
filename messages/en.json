@@ -22,7 +22,7 @@
     }
   },
   "nav": {
-    "work": "Work / Services",
+    "work": "What I Do",
     "about": "About",
     "blog": "Journal",
     "contact": "Contact",
@@ -39,7 +39,7 @@
     "whatIDo": "What I do"
   },
   "work": {
-    "heading": "Work & Services",
+    "heading": "What I Do",
     "moreInfo": "More Info +",
     "projects": {
       "cogar": {
@@ -64,10 +64,9 @@
         }
       },
       "consultancy": {
-        "title": "Technical Consulting / System Design",
-        "description": "A clear, honest look at your app, codebase and delivery.",
-        "year": "2024 — Present",
-        "role": "Independent Consultant",
+        "title": "Experience, Technical Expertise and System Design",
+        "description": "Over 16 years at every level, from writing the code to running the team.",
+        "role": "Technical Expertise, Systems Design and Architecture",
         "stack": {
           "architecture": "Architecture",
           "performance": "Performance",
@@ -76,11 +75,11 @@
           "roadmap": "Roadmap"
         },
         "summary": {
-          "p1": "With over 16 years of experience in software engineering and technical leadership, I bring an extensive background in hands-on development, system architecture, systems integration, orchestration and automation.",
-          "p2": "My work spans everything from designing and building individual applications to architecting complex, interconnected platforms, modernising legacy systems and developing scalable technical infrastructure. I combine practical engineering experience with a broader understanding of product development, business requirements and long-term technical strategy.",
-          "p3": "Over the years, I've worked with organisations including Web Summit, The Next Web (TNW), Run Republic and UnitOpsMedia, contributing to the design, development and operation of digital products, publishing platforms, internal tooling and business-critical systems.",
-          "p4": "My approach is grounded in hands-on engineering, with a particular focus on pragmatic system design, API integrations, workflow orchestration, automation and AI-assisted development. I'm equally comfortable working at an architectural level, evaluating technologies and designing systems, or getting directly involved in implementation.",
-          "p5": "I focus on building technology that solves real problems, reduces operational complexity and remains practical to maintain and evolve as requirements change."
+          "p1": "I've spent over 16 years in software, and I've worked at most levels of it: developer, team lead, engineering manager, CTO, and now founder of a live product with thousands of users. Each role shows you the same systems from a different side. That range is what I bring to a consulting engagement.",
+          "p2": "I've worked on the code, the architecture, the team and the budget at organisations including Web Summit, The Next Web (TNW), Picnic, Run Republic and UnitOpsMedia. That covers publishing platforms, event infrastructure, internal tools, mobile apps and the business-critical systems behind them.",
+          "p3": "I've been behind the scenes when things go right, and I know how much unglamorous work that takes: sensible architecture, predictable releases, monitoring that catches problems before users do, and decisions written down so the next person can follow them. I've also been there when things go wrong. Migrations run long, integrations fail at the worst moment, security gaps surface and teams get stretched too thin. Those experiences shape how I look at a system today.",
+          "p4": "In practice, that means reviewing your app, codebase and delivery with an eye on risk as well as opportunity. Where is the architecture holding you back? What will break first as you grow? Which shortcuts are fine to keep, and which need attention now? You get a clear picture and a prioritised plan, not a list of everything that could be better.",
+          "p5": "I'm as comfortable at the whiteboard as I am in the codebase. I can help shape a system from the start, review one that's already running, or work alongside your team to put the changes in place."
         },
         "images": {
           "audit": "Technical Audit — findings overview",
@@ -120,6 +119,7 @@
     "year": "Year",
     "role": "Role",
     "stack": "Stack",
+    "technologies": "Technologies & Platforms",
     "next": "Next project"
   },
   "carousel": {
@@ -291,8 +291,8 @@
         "description": "Agentic, typed and shipped. Mobile and web products taken from idea to the App Store, Google Play and beyond."
       },
       "consultancy": {
-        "title": "Technical Consulting / System Design",
-        "description": "A clear, honest look at your app, codebase and delivery. Audits, architecture reviews and practical roadmaps."
+        "title": "Experience, Technical Expertise and System Design",
+        "description": "Over 16 years at every level, from writing the code to running the team. Audits, architecture reviews and practical roadmaps."
       },
       "ai": {
         "title": "Automation",

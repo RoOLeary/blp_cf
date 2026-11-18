@@ -7,9 +7,10 @@ export type Project = {
   id: string;
   title: string;
   description: string;
-  year: string;
+  year?: string;
   role: string;
   stack: string[];
+  technologies?: string[];
   summary: string[];
   images: ProjectImage[];
   link?: { href: string; label: string };
@@ -19,6 +20,7 @@ const projectData: {
   id: string;
   year?: string;
   stack: string[];
+  technologies?: string[];
   images: { key: string; src?: string; fit?: "contain" }[];
 }[] = [
   {
@@ -65,8 +67,21 @@ const projectData: {
   // Draft copy: edit before launch.
   {
     id: "consultancy",
-    year: "2025/26",
     stack: ["architecture", "performance", "ci", "security", "roadmap"],
+    technologies: [
+      "React Native",
+      "Expo / EAS",
+      "React / Next.js",
+      "TypeScript",
+      "Node.js",
+      "PHP / Laravel",
+      "Python",
+      "Supabase / Postgres",
+      "Cloudflare",
+      "Docker",
+      "App Store",
+      "Google Play",
+    ],
     images: [{ key: "audit" }, { key: "decision" }, { key: "action" }],
   },
 ];
@@ -79,11 +94,12 @@ export async function Work() {
       id: p.id,
       title: t(key("title")),
       description: t(key("description")),
-      year: p.year ?? t(key("year")),
+      year: p.year ?? (t.has(key("year")) ? t(key("year")) : undefined),
       role: t(key("role")),
       stack: p.stack.map((item) =>
         t.has(key(`stack.${item}`)) ? t(key(`stack.${item}`)) : item,
       ),
+      technologies: p.technologies,
       summary: Array.from({ length: 10 }, (_, i) => key(`summary.p${i + 1}`))
         .filter((k) => t.has(k))
         .map((k) => t(k)),

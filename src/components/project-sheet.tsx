@@ -74,10 +74,12 @@ export function ProjectSheet({ ref, projects, index, onIndexChange }: Props) {
 
           <div className="mt-12 grid grid-cols-1 gap-y-10 md:grid-cols-12 md:gap-x-8">
             <dl className="space-y-4 border-t-2 border-black pt-6 md:col-span-4">
-              <div>
-                <dt className="mb-1 text-sm tracking-widest uppercase">{t("year")}</dt>
-                <dd>{project.year}</dd>
-              </div>
+              {project.year && (
+                <div>
+                  <dt className="mb-1 text-sm tracking-widest uppercase">{t("year")}</dt>
+                  <dd>{project.year}</dd>
+                </div>
+              )}
               <div>
                 <dt className="mb-1 text-sm tracking-widest uppercase">{t("role")}</dt>
                 <dd>{project.role}</dd>
@@ -97,6 +99,25 @@ export function ProjectSheet({ ref, projects, index, onIndexChange }: Props) {
                   </ul>
                 </dd>
               </div>
+              {project.technologies && (
+                <div>
+                  <dt className="mb-1 text-sm tracking-widest uppercase">
+                    {t("technologies")}
+                  </dt>
+                  <dd>
+                    <ul className="flex flex-wrap gap-2 pt-1">
+                      {project.technologies.map((item) => (
+                        <li
+                          key={item}
+                          className="border border-black px-2 py-0.5 text-sm"
+                        >
+                          {item}
+                        </li>
+                      ))}
+                    </ul>
+                  </dd>
+                </div>
+              )}
             </dl>
             <div className="space-y-6 md:col-span-8 md:border-t-2 md:border-black md:pt-6">
               {project.summary.map((paragraph) => (

@@ -20,7 +20,7 @@ function Body() {
         mobile social networking platform. I&apos;ve established a company,
         worked on its commercial strategy, navigated the complexities of running
         a business and somehow managed to attract a community of more than
-        5,000 registered users.
+        5,100 registered users.
       </P>
       <P>And to show what I can do...I build absolutely all of it myself.</P>
       <P>

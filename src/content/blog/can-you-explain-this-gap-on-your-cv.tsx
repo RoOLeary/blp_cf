@@ -230,7 +230,7 @@ function Body() {
         how a community-focused platform might develop a viable commercial
         model without compromising what makes it valuable.
       </P>
-      <P>It&apos;s been a steep learning curve.</P>
+      <P>Despite 16 years of active experience. Learning never stops. And this has indeed been a steep learning curve.</P>
       <P>
         After years of working in engineering and technical leadership,
         I&apos;ve found myself wearing almost every hat imaginable, often

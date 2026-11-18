@@ -22,7 +22,7 @@ function Body() {
         a business and somehow managed to attract a community of more than
         5,100 registered users.
       </P>
-      <P>And to show what I can do...I build absolutely all of it myself.</P>
+      <P>And as a love letter to the &quot;old school&quot;...I built absolutely it myself.</P>
       <P>
         The project is called{" "}
         <a

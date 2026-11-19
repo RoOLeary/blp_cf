@@ -16,13 +16,13 @@ function Body() {
       <P>
         Over the past year and a half or so, I&apos;ve been doing some of the most
         challenging, rewarding and occasionally maddening work of my career.
-        I&apos;ve conceived, designed, developed, launched and maintained a
+        I&apos;ve conceived, designed, developed, launched and maintain a
         mobile social networking platform. I&apos;ve established a company,
         worked on its commercial strategy, navigated the complexities of running
         a business and somehow managed to attract a community of more than
         5,100 registered users.
       </P>
-      <P>And as a love letter to the &quot;old school&quot;...I built absolutely it myself.</P>
+      <P>And as both a last dance with, and a love letter to &quot;old school&quot; engineering...I built it by myself. Time and effort. Energy and accuracy. Care and attention. Cylons need not apply. (Not on this one anyway).</P>
       <P>
         The project is called{" "}
         <a
@@ -342,7 +342,7 @@ export const cogar: Post = {
   slug: "can-you-explain-this-gap-on-your-cv",
   title: "“Can You Explain This Gap on Your CV?”",
   subtitle:
-    "Sure! I built a social platform, launched a company, and tried to do something useful and valuable for the Irish language and Irish speaking community.",
+    "Sure! I built a social platform, launched a company, and created something enjoyable and useful for the Irish language and Irish speaking community.",
   description:
     "On building Cogar, an Irish-language social network, and the company behind it: eighteen months spent across the entire product lifecycle.",
   date: "2026-11-09",

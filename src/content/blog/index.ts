@@ -1,3 +1,4 @@
+import { baghail } from "./baghail";
 import { flowpilot } from "./a-simple-example-with-flowpilot";
 import { gatekeeper } from "./building-agents-that-know-their-limits";
 import { cogar } from "./can-you-explain-this-gap-on-your-cv";
@@ -11,7 +12,7 @@ import type { Post } from "./types";
 
 export type { Post } from "./types";
 
-export const posts: Post[] = [scopeStudio, cogar, mnemonics, costOfIntelligence, sumOfParts, infra, flowpilot, gatekeeper, scope];
+export const posts: Post[] = [baghail, scopeStudio, cogar, mnemonics, costOfIntelligence, sumOfParts, infra, flowpilot, gatekeeper, scope];
 
 export function getPost(slug: string) {
   return posts.find((post) => post.slug === slug);

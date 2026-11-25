@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { useEffect, useRef, useState } from "react";
 import { flushSync } from "react-dom";
 import { ProjectSheet } from "@/components/project-sheet";
+import { TargetCursor } from "@/components/target-cursor";
 import type { Project } from "@/components/work";
 
 const featured = {
@@ -16,6 +17,7 @@ const featured = {
 export function WorkGrid({ projects }: { projects: Project[] }) {
   const t = useTranslations("work");
   const sheetRef = useRef<HTMLDialogElement>(null);
+  const gridRef = useRef<HTMLUListElement>(null);
   const [active, setActive] = useState(0);
   const [isOpen, setIsOpen] = useState(false);
 
@@ -43,7 +45,7 @@ export function WorkGrid({ projects }: { projects: Project[] }) {
 
   return (
     <>
-      <ul className="-mx-4 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 py-2 [scrollbar-width:none] md:-mx-8 md:scroll-px-8 md:px-8 lg:mx-0 lg:grid lg:grid-cols-3 lg:gap-y-8 lg:overflow-visible lg:px-0 lg:py-0 [&::-webkit-scrollbar]:hidden">
+      <ul ref={gridRef} className="-mx-4 flex snap-x snap-mandatory scroll-px-4 gap-4 overflow-x-auto px-4 py-2 [scrollbar-width:none] md:-mx-8 md:scroll-px-8 md:px-8 lg:mx-0 lg:grid lg:grid-cols-3 lg:gap-y-8 lg:overflow-visible lg:px-0 lg:py-0 [&::-webkit-scrollbar]:hidden">
         {projects.map((project, i) => (
           <li
             key={project.id}
@@ -55,7 +57,7 @@ export function WorkGrid({ projects }: { projects: Project[] }) {
               aria-haspopup="dialog"
               className="group block w-full cursor-pointer text-left focus-visible:outline-none"
             >
-              <div className={`relative mb-4 flex aspect-square items-center justify-center rounded-[0_15%] bg-neutral-100 transition-colors duration-300 group-hover:bg-red-600 group-focus-visible:bg-red-600 group-focus-visible:ring-4 group-focus-visible:ring-red-600 group-focus-visible:ring-offset-4 group-focus-visible:ring-offset-black ${i === 0 ? featured.tile : ""}`}>
+              <div className={`cursor-target relative mb-4 flex aspect-square items-center justify-center rounded-[0_15%] bg-neutral-100 transition-colors duration-300 group-hover:bg-red-600 group-focus-visible:bg-red-600 group-focus-visible:ring-4 group-focus-visible:ring-red-600 group-focus-visible:ring-offset-4 group-focus-visible:ring-offset-black ${i === 0 ? featured.tile : ""}`}>
                 <span className={`text-8xl font-bold tracking-tighter text-black transition-colors duration-300 group-hover:text-white group-focus-visible:text-white ${i === 0 ? featured.number : ""}`}>
                   {String(i + 1).padStart(2, "0")}
                 </span>
@@ -71,6 +73,7 @@ export function WorkGrid({ projects }: { projects: Project[] }) {
           </li>
         ))}
       </ul>
+      <TargetCursor container={gridRef} />
       <ProjectSheet
         ref={sheetRef}
         projects={projects}

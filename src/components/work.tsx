@@ -84,7 +84,11 @@ const projectData: {
       "App Store",
       "Google Play",
     ],
-    images: [{ key: "audit" }, { key: "decision" }, { key: "action" }],
+    images: [
+      { key: "whiteboard", src: "/whiteboard.jpg" },
+      { key: "phases", src: "/Phases-of-Product-engineering.webp" },
+      { key: "terminal", src: "/terminal.jpeg" },
+    ],
   },
 ];
 

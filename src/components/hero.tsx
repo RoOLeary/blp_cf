@@ -20,7 +20,7 @@ export async function Hero() {
           clickBurst={false}
         />
       </div>
-      <div className="hero-parallax relative container mx-auto px-4 pt-32 pb-12 md:px-8 md:pt-40 md:pb-16">
+      <div className="hero-parallax relative container mx-auto px-4 pt-32 pb-12 md:px-8 md:pt-32 md:pb-16">
         <div className="grid grid-cols-12 gap-y-10 md:gap-x-8">
           <div className="@container col-span-12 md:col-span-7">
             <h1 className="text-[clamp(4rem,36cqw,15rem)] leading-[0.82] font-bold tracking-tighter">

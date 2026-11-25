@@ -82,9 +82,7 @@
           "p5": "Bím chomh compordach céanna ag an gclár bán is a bhím sa chód. Is féidir liom cabhrú le córas a mhúnlú ón tús, athbhreithniú a dhéanamh ar cheann atá ag feidhmiú cheana féin, nó oibriú taobh le d'fhoireann chun na hathruithe a chur i bhfeidhm."
         },
         "images": {
-          "whiteboard": "Sceitse ar chlár bán de shreabhadh úsáideora ilchéime",
-          "phases": "Léaráid de shé chéim na hinnealtóireachta táirge, ón gcoincheapú go tacaíocht agus cothabháil",
-          "terminal": "Lámha ag clóscríobh ar chríochfort grafaice seanré de chuid Hewlett-Packard"
+          "whiteboard": "Sceitse ar chlár bán de shreabhadh úsáideora ilchéime"
         }
       },
       "engineering": {

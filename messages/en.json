@@ -83,9 +83,7 @@
           "p5": "I'm as comfortable at the whiteboard as I am in the codebase. I can help shape a system from the start, review one that's already running, or work alongside your team to put the changes in place."
         },
         "images": {
-          "whiteboard": "Whiteboard sketch mapping out a multi-step user flow",
-          "phases": "Diagram of the six phases of product engineering, from conceptualisation to support and maintenance",
-          "terminal": "Hands typing on a vintage Hewlett-Packard graphics terminal"
+          "whiteboard": "Whiteboard sketch mapping out a multi-step user flow"
         }
       },
       "engineering": {

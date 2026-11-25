@@ -82,9 +82,7 @@
           "p5": "Ik voel me net zo thuis aan het whiteboard als in de codebase. Ik kan helpen een systeem vanaf het begin vorm te geven, een bestaand systeem beoordelen, of samen met je team de veranderingen doorvoeren."
         },
         "images": {
-          "whiteboard": "Whiteboardschets van een gebruikersflow in meerdere stappen",
-          "phases": "Diagram van de zes fasen van product engineering, van concept tot support en onderhoud",
-          "terminal": "Handen die typen op een vintage grafische terminal van Hewlett-Packard"
+          "whiteboard": "Whiteboardschets van een gebruikersflow in meerdere stappen"
         }
       },
       "engineering": {

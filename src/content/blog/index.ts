@@ -2,6 +2,7 @@ import { baghail } from "./baghail";
 import { flowpilot } from "./a-simple-example-with-flowpilot";
 import { gatekeeper } from "./building-agents-that-know-their-limits";
 import { cogar } from "./can-you-explain-this-gap-on-your-cv";
+import { forceMultiplied } from "./engineering-leadership-force-multiplied-developer";
 import { scope } from "./everything-is-within-scope";
 import { mnemonics } from "./five-mnemonics-to-mneumember";
 import { scopeStudio } from "./introducing-scope-studio";
@@ -12,7 +13,7 @@ import type { Post } from "./types";
 
 export type { Post } from "./types";
 
-export const posts: Post[] = [baghail, scopeStudio, cogar, mnemonics, costOfIntelligence, sumOfParts, infra, flowpilot, gatekeeper, scope];
+export const posts: Post[] = [forceMultiplied, baghail, scopeStudio, cogar, mnemonics, costOfIntelligence, sumOfParts, infra, flowpilot, gatekeeper, scope];
 
 export function getPost(slug: string) {
   return posts.find((post) => post.slug === slug);

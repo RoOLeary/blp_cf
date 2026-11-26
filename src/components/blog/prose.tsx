@@ -16,6 +16,25 @@ export function P({ children }: { children: ReactNode }) {
   return <p className="mb-6 text-lg leading-relaxed md:text-xl">{children}</p>;
 }
 
+export function List({ items }: { items: ReactNode[] }) {
+  return (
+    <ul className="mb-8 border-t border-black">
+      {items.map((item, i) => (
+        <li
+          key={i}
+          className="flex gap-4 border-b border-black py-4 text-lg leading-relaxed md:text-xl"
+        >
+          <span
+            aria-hidden
+            className="mt-[0.6em] size-2.5 shrink-0 bg-red-600"
+          />
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 export function Lead({ children }: { children: ReactNode }) {
   return (
     <p className="mb-6 text-xl leading-relaxed font-medium md:text-2xl">

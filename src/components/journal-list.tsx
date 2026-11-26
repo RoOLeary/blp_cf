@@ -1,6 +1,7 @@
 "use client";
 
-import { type ReactNode, useState } from "react";
+import { type ReactNode, useRef, useState } from "react";
+import { TargetCursor } from "@/components/target-cursor";
 
 type Entry = { slug: string; tags: string[]; content: ReactNode };
 
@@ -14,6 +15,7 @@ export function JournalList({
   labels: { filter: string; all: string; latest: string };
 }) {
   const [active, setActive] = useState<string | null>(null);
+  const listRef = useRef<HTMLOListElement>(null);
 
   const counts = new Map<string, number>();
   for (const tag of entries.flatMap((entry) => entry.tags)) {
@@ -72,12 +74,13 @@ export function JournalList({
       <p className="mb-8 text-sm font-bold tracking-widest text-red-600 uppercase">
         {active ?? labels.latest}
       </p>
-      <ol>
+      <ol ref={listRef}>
         {visible.map((entry) => (
           <li key={entry.slug}>{entry.content}</li>
         ))}
         {after}
       </ol>
+      <TargetCursor container={listRef} cursorColor="#000000" />
     </>
   );
 }

@@ -111,7 +111,7 @@ export default async function Journal({
                         </span>
                       ))}
                     </p>
-                    <h2 className="mb-4 text-4xl leading-[0.95] font-bold tracking-tighter transition-colors group-hover:text-red-600 md:text-6xl lg:text-7xl">
+                    <h2 className="cursor-target mb-4 w-fit text-4xl leading-[0.95] font-bold tracking-tighter transition-colors group-hover:text-red-600 md:text-6xl lg:text-7xl">
                       {post.title}
                     </h2>
                     <p className="max-w-2xl text-lg text-black/70 md:text-xl">

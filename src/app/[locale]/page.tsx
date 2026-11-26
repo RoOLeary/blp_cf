@@ -34,7 +34,7 @@ export default async function Home({ params }: PageProps<"/[locale]">) {
     name: SITE_NAME,
     url: localizedUrl(locale as Locale, "/"),
     image: `${SITE_URL}/me.jpg`,
-    email: "hello@busylittlepixels.com",
+    email: "ronan@busylittlepixels.com",
     telephone: "+31618066136",
     identifier: { "@type": "PropertyValue", propertyID: "KVK", value: "96955260" },
     address: {

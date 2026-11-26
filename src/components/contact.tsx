@@ -4,7 +4,7 @@ import { ContactForm } from "@/components/contact-form";
 export async function Contact() {
   const t = await getTranslations("contact");
   const details = [
-    { label: t("email"), value: "hello@busylittlepixels.com", href: "mailto:hello@busylittlepixels.com" },
+    { label: t("email"), value: "ronan@busylittlepixels.com", href: "mailto:ronan@busylittlepixels.com" },
     { label: t("phone"), value: "+31 (0) 618 066136", href: "tel:+31618066136" },
     { label: t("location"), value: t("locationValue") },
   ];

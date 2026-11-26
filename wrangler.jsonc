@@ -23,6 +23,6 @@
   },
   "vars": {
     "TURNSTILE_HOSTNAMES": "busylittlepixels.com",
-    "CONTACT_FROM_EMAIL": "Busy Little Pixels <hello@busylittlepixels.com>"
+    "CONTACT_FROM_EMAIL": "Busy Little Pixels <ronan@busylittlepixels.com>"
   }
 }

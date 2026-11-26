@@ -24,7 +24,7 @@ npm run dev            # http://localhost:3000
 | Variable             | Required | Purpose                                                                    |
 | -------------------- | -------- | -------------------------------------------------------------------------- |
 | `RESEND_API_KEY`     | yes      | Sends contact form emails. Without it the form returns a "not configured" error. |
-| `CONTACT_FROM_EMAIL` | no       | Sender, e.g. `Busy Little Pixels <hello@busylittlepixels.com>`. Defaults to Resend's onboarding address. |
+| `CONTACT_FROM_EMAIL` | no       | Sender, e.g. `Busy Little Pixels <ronan@busylittlepixels.com>`. Defaults to Resend's onboarding address. |
 
 The recipient address is the `CONTACT_TO_EMAIL` constant in `src/actions/contact.ts`.
 

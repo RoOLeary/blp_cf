@@ -10,7 +10,7 @@ import { Footer } from "@/components/footer";
 import { Nav } from "@/components/nav";
 import { pageMetadata } from "@/i18n/metadata";
 
-const EMAIL = "hello@busylittlepixels.com";
+const EMAIL = "ronan@busylittlepixels.com";
 const KVK = "96955260";
 const LAST_UPDATED = new Date("2026-11-11");
 

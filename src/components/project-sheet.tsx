@@ -72,8 +72,8 @@ export function ProjectSheet({ ref, projects, index, onIndexChange }: Props) {
 
           <ProjectCarousel images={project.images} />
 
-          <div className="mt-12 grid grid-cols-1 gap-y-10 md:grid-cols-12 md:gap-x-8">
-            <dl className="space-y-4 border-t-2 border-black pt-6 md:col-span-4">
+          <div className="mt-12 grid grid-cols-1 gap-y-10">
+            <dl className="space-y-4 border-t-2 border-black pt-6">
               {project.year && (
                 <div>
                   <dt className="mb-1 text-sm tracking-widest uppercase">{t("year")}</dt>
@@ -119,7 +119,7 @@ export function ProjectSheet({ ref, projects, index, onIndexChange }: Props) {
                 </div>
               )}
             </dl>
-            <div className="space-y-6 md:col-span-8 md:border-t-2 md:border-black md:pt-6">
+            <div className="space-y-6">
               {project.summary.map((paragraph) => (
                 <p key={paragraph} className="first:text-xl">
                   {paragraph}

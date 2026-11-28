@@ -182,6 +182,27 @@ export function Formula({
   );
 }
 
+export function CodeBlock({
+  label,
+  children,
+}: {
+  label?: string;
+  children: string;
+}) {
+  return (
+    <figure className="my-10 border-2 border-black">
+      {label && (
+        <figcaption className="border-b-2 border-black bg-black px-4 py-2 text-xs font-bold tracking-widest text-white uppercase">
+          {label}
+        </figcaption>
+      )}
+      <pre className="overflow-x-auto px-5 py-4 font-mono text-sm leading-relaxed md:text-base">
+        <code>{children}</code>
+      </pre>
+    </figure>
+  );
+}
+
 export function Screenshot({
   src,
   alt,

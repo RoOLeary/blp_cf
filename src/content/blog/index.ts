@@ -7,13 +7,14 @@ import { scope } from "./everything-is-within-scope";
 import { mnemonics } from "./five-mnemonics-to-mneumember";
 import { scopeStudio } from "./introducing-scope-studio";
 import { costOfIntelligence } from "./managing-the-cost-of-intelligence";
+import { microfrontends } from "./microfrontends-in-the-age-of-agentic-engineering";
 import { sumOfParts } from "./the-product-is-the-sum-of-its-parts";
 import { infra } from "./we-have-infra-at-home";
 import type { Post } from "./types";
 
 export type { Post } from "./types";
 
-export const posts: Post[] = [forceMultiplied, baghail, scopeStudio, cogar, mnemonics, costOfIntelligence, sumOfParts, infra, flowpilot, gatekeeper, scope];
+export const posts: Post[] = [microfrontends, forceMultiplied, baghail, scopeStudio, cogar, mnemonics, costOfIntelligence, sumOfParts, infra, flowpilot, gatekeeper, scope];
 
 export function getPost(slug: string) {
   return posts.find((post) => post.slug === slug);
